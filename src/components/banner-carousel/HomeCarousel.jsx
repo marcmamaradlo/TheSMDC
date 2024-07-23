@@ -22,8 +22,8 @@ const HomeCarousel = () => {
           {/* <div data-aos="fade-up" data-aos-duration="1000"> */}
           <div
             className="carousel-card-body"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
+            // data-aos="zoom-in"
+            // data-aos-duration="1000"
           >
             <img src={item.logo.white} alt={item.name} />
             <p>For as low as</p>
