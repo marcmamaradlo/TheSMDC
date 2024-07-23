@@ -204,6 +204,9 @@ const About = () => {
             </div>
           </div>
         </div>
+        <p>
+          <i>*Prices are subject to change without prior notice.</i>
+        </p>
       </div>
       {/* <img src={bestSellerJSON[1].gallery[1]} alt="airport-img" />
       <img src={bestSellerJSON[1].gallery[5]} alt="airport-img" />
