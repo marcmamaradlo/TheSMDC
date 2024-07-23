@@ -563,7 +563,7 @@ form {
 }
 
 .SMDC-Referrer-img {
-  background-color: #012fff;
+  background-color: rgb(134, 134, 134);
   border-radius: 5px;
   padding: 2rem;
   color: white;
@@ -585,11 +585,11 @@ form {
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(235, 199, 0);
+  background-color: #012fff;
   height: 5rem;
   width: 15rem;
   margin-right: -2rem;
-  border-radius: 10px 0 0 10px;
+  border-radius: 5px 0 0 5px;
   padding-right: 1rem;
 }
 
@@ -622,12 +622,17 @@ form {
 .referrer-location i {
   font-size: 1.8rem;
   margin-right: 0.5rem;
-  color: rgb(235, 199, 0);
+  color: #012fff;
 }
 
 .referrer-location p {
   margin: 0;
   font-size: 1.2rem;
+}
+
+.long-text h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
 }
 
 /* // ABOUT END ////////////////////////////////////// */

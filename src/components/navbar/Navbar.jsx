@@ -21,14 +21,7 @@ const Navbar = () => {
         </div>
       </div>
       {state.hamburgerIsActive ? (
-        <div className="navbar-links-mobile">
-          {navbarLinks()}
-          {/* <Link to="/" onClick={}>Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/properties">Properties</Link>
-          <Link to="/reservation">Reservations</Link>
-          <Link to="/contact">Contact Us</Link> */}
-        </div>
+        <div className="navbar-links-mobile">{navbarLinks()}</div>
       ) : null}
     </>
   );
