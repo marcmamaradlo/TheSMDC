@@ -1,0 +1,409 @@
+[
+  {
+    "id": "prcheerr09",
+    "name": "Cheer Residences",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "McArthur Hi-Way, Brgy. Ibayo, Marilao, Bulacan",
+    "cardDiscount": "",
+    "cardPrice": "Php 13,000 / Monthly",
+    "cardDescription": "Start afresh in a home that inspires you to have the best beginning fitting for your life. Experience daily happiness and joy here at Cheer Residences, a luxurious yet affordable home for those who seek comfort and convenience.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/card.jpg",
+    "bannerAbout": "Explore and experience a full suite of amenities here at Cheer Residences. Choosing activities for rest and relaxation is made easy with a wide array of options available. The clubhouse is appointed with several features and the swimming pool is sure to become a popular place among friends and families. Have the space for fun and rest right within this complete community.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "24 Hour Security",
+      "Automatic Fire Sprinkler System",
+      "Mail Boxes in Lift lounge per Building",
+      "Centralized Garbage Collection and Disposal System",
+      "Standby Generator Set for Common Areas and Select Unit Outlets",
+      "Professional Property Management Services"
+    ],
+    "bannerAmenities": [
+      "Entrance Water Feature and Club House",
+      "Central Park",
+      "Club House",
+      "Adult Pool and Childrens Wading Pool",
+      "Flexi Suite Bedroom"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/image08.png"
+    ]
+  },
+  {
+    "id": "prcheerfulh10",
+    "name": "Cheerful Homes",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Mabalacat, Pampanga",
+    "cardDiscount": "",
+    "cardPrice": "Php 6,500 /Monthly",
+    "cardDescription": "Come home to SMDC Cheerful Homes, the sure and wise choice. It is strategically located in Mabalacat, Pampanga and has its very own commercial area and transportation hub for your convenience. Plus, get 24-hour security for the safety of the family.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/card.jpg",
+    "bannerAbout": "The modern home should give you more than just shelter; it should be your sanctuary, and where your life begins. At SMDC Cheerful Homes in Mabalacat, Pampanga, you can finally say, “I belong.” Aside from a beautiful, affordable home where you can rest and relax, this is also your ideal community—a place where you can reach out and connect with others, bring up a family, and settle down in comfort and convenience.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "2Over a hectare of amenity area means a vast space that allows residents with their families and friends to bond in endless ways. From a community clubhouse with a swimming pool, a basketball court, and a multipurpose recreational court, SMDC Cheerful Homes provides a host of amenities that let you experience the good life. Our nature park also lets you walk among the greenery and find quiet restoration on its tree-lined paths. And whether you love to take leisurely strolls or you're training for fitness, our jogging and bike trails let you enhance your physical well-being."
+    ],
+    "bannerAmenities": [
+      "Over a hectare of amenity area means a vast space that allows residents with their families and friends to bond in endless ways. From a community clubhouse with a swimming pool, a basketball court, and a multipurpose recreational court, SMDC Cheerful Homes provides a host of amenities that let you experience the good life. Our nature park also lets you walk among the greenery and find quiet restoration on its tree-lined paths. And whether you love to take leisurely strolls or you’re training for fitness, our jogging and bike trails let you enhance your physical well-being"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image02.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image03.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image04.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image05.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image06.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image07.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image08.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/image09.jpg"
+    ]
+  },
+  {
+    "id": "prgreen22",
+    "name": "Green Residences",
+    "status": "Ready for Occupancy",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Taft Ave., Malate, City of Manila",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "De La Salle University on Taft Avenue, its amenities include a study hall and a multi-purpose area that allow for its residents to focus on their studies and work towards a bright future.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/card.png",
+    "bannerAbout": "Start them young, on their way to stellar heights in SMDC's Green Residences. Located right beside De La Salle University on Taft Avenue, its amenities include a study hall and a multi-purpose area that allow for its residents to focus on their studies and work towards a bright future",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "12 Elevators",
+      "Automatic Fire Detection and Alarm System",
+      "Standby Generator Set for Common Areas & Select Unit Outlets",
+      "Sewerage Treatment Plant",
+      "Mailroom",
+      "Garbage Disposal Area on Every Floor",
+      "Commercial Area at the Ground Floor"
+    ],
+    "bannerAmenities": [
+      "Study Room",
+      "Game Room",
+      "Gym",
+      "Function Rooms",
+      "Lap Pool",
+      "Kiddie Poo"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image08.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image09.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/image10.png"
+    ]
+  },
+  {
+    "id": "prgreen223",
+    "name": "Green2 Residences",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Dasmarinas, Cavite",
+    "cardDiscount": "",
+    "cardPrice": "Php 18,000 / Monthly",
+    "cardDescription": "Green 2 Residences is located in a bustling community advantageous to students looking for a place to call their own. This three-tower development has 19 floors featuring its own commercial area and well-designed amenities that offer conducive environment for a balanced work-and-play lifestyle.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/card.jpg",
+    "bannerAbout": "Start them young, on their way to stellar heights in SMDC's green2 Residences. Located right beside De La Salle University on Taft Avenue, its amenities include a study hall and a multi-purpose area that allow for its residents to focus on their studies and work towards a bright future.",
+    "bannerFeaturesHeading": "Features",
+    "bannerFeatures": [
+      "WiFi ready Study Halls",
+      "Front Desk Doorman Services",
+      "24 Hour Security",
+      "Professional Property Management Services",
+      "Commercial Strip"
+    ],
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerAmenities": [
+      "The well-planned amenities are designed to create a nurturing, safe and secure space. Thrive in an environment that lets you focus on achieving goals while providing you with options for a much-needed leisure time. There are features that create a conducive environment for studying and downtime while other areas are dedicated for a more active routine."
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image02.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image03.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image04.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image05.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image06.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image07.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image08.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image09.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image10.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/image11.png"
+    ]
+  },
+  {
+    "id": "prhope25",
+    "name": "Hope Residences",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "SM City Trece Martires",
+    "cardDiscount": "",
+    "cardPrice": "Php 9,800 / Monthly",
+    "cardDescription": "Hope Residences is the much awaited addition to the newest lifestyle district of Trece Martires. This is the first vertical residential development in the area that offers a life of comfort and convenience.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/card.jpg",
+    "bannerAbout": "Hope Residences is the much awaited addition to the newest lifestyle district of Trece Martires. This is the first vertical residential development in the area that offers a life of comfort and convenience.",
+    "bannerFeaturesHeading": "Features",
+    "bannerFeatures": [
+      "Residents Function Room",
+      "24/7 Security Guards",
+      "CCTV at Ground Floor Lobbies, Lift Lobbies and Elevators",
+      "Centralized Garbage Disposal Room on Every Floor",
+      "Water and Waste Management System",
+      "Perimeter Fence"
+    ],
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerAmenities": [
+      "Swimming pools",
+      "Landscaped areas",
+      "Function area",
+      "Lounge",
+      "Play area",
+      "Gazebo",
+      "Picnic Area"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image01.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image08.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/image09.png"
+    ]
+  },
+  {
+    "id": "prlush33",
+    "name": "Lush Residences",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Makati, Metro Manila",
+    "cardDiscount": "",
+    "cardPrice": "Php 25,000 / Monthly",
+    "cardDescription": "Located in Makati, the country's leading financial and central business district, enjoy the city's premier shopping destination, parks, museums and art galleries, performance and cultural centers.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/card.png",
+    "bannerAbout": "Designed to inspire balance and tranquility, its plush interiors, verdant green spaces and fitness facilities makes it more than just a home, it's a retreat.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "3 Elevators",
+      "24-Hour Security and maintenance",
+      "Generator Sets for Common Areas and Selected Residential Outlets",
+      "Provision for telecom and cable lines",
+      "Mail Room"
+    ],
+    "bannerAmenities": [
+      "Residential Lobby",
+      "Porch Areal",
+      "Playground",
+      "Adult & Lap Pool",
+      "Kiddie Pool",
+      "Multi-Purpose Area",
+      "Garden"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/banner.png",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image02.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image03.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image04.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image05.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image06.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image07.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image08.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image09.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image10.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image11.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/image12.png"
+    ]
+  },
+  {
+    "id": "prshore48",
+    "name": "Shore Residences",
+    "status": "Ready for Occupancy",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Seaside blvd. cor. Sunrise Drive, MOA, Pasay City",
+    "cardDiscount": "",
+    "cardPrice": "Php 29,000 / Monthly",
+    "cardDescription": "Conveniently located at the SM Mall of Asia Complex in Pasay City, Shore Residences offers the finest in resort living, with an exclusive beach-like amenity right at the heart of the development.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/card.jpg",
+    "bannerAbout": "Conveniently located at the SM Mall of Asia Complex in Pasay City, Shore Residences offers the finest in resort living, with an exclusive beach-like amenity right at the heart of the development. Everything is within reach from the numerous shops and dining spots at SM Mall of Asia, to the thriving array of activities and attractions in the Entertainment City. Enjoy leisure at its best at Shore Residences",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "5 Elevators each for Towers A&B; 12 Elevators for Tower C; 10 Elevators for Tower D",
+      "Automatic Fire Detection and Alarm System",
+      "Standby Generator Set for Common Areas & Select Unit Outlets",
+      "24 Hour Security",
+      "CCTV System",
+      "Intercom"
+    ],
+    "bannerAmenities": [
+      "Adult Pool",
+      "Lap Pool",
+      "Great Lawn",
+      "Pavilion",
+      "Children's Play Area",
+      "Kiddie Pool",
+      "Multi-purpose Playing Field",
+      "Palm Court",
+      "Half Court Basketball",
+      "Pool Deck",
+      "Jogging Path",
+      "Amenity Lounge"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/banner.png",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image01.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/image08.png"
+    ]
+  },
+  {
+    "id": "prshore350",
+    "name": "Shore3 Residences",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Seaside blvd. cor. Sunrise Drive, MOA, Pasay City",
+    "cardDiscount": "",
+    "cardPrice": "Php 26,000 / Monthly",
+    "cardDescription": "Conveniently located at the SM Mall of Asia Complex in Pasay City, Shore Residences offers the finest in resort living, with an exclusive beach-like amenity right at the heart of the development.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/card.png",
+    "bannerAbout": "Shore Residences is the first and biggest Premier Beach Island Development of SM Prime Holdings| SMDC at the centre of the Entertainment City Manila. With a unique concept designs where Life's pleasure can be found right at your own private island called 'Home'. ​Shore Residences pampers you to enjoy a summer vibe life in the beach experience that makes you want to stay and just chill.",
+    "bannerFeaturesHeading": "Features and Amenities",
+    "bannerAmenitiesHeading": "",
+    "bannerFeatures": [
+      "Swimming pools",
+      "Gardens",
+      "Fitness gym",
+      "Function room",
+      "Grand lobbies",
+      "Jogging trail"
+    ],
+    "bannerAmenities": [""],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image01.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image08.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image09.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/image10.png"
+    ]
+  },
+  {
+    "id": "prvine60",
+    "name": "Vine Residences",
+    "status": "PRE-SELLING",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/logoBlack.png"
+    },
+    "propertyType": "rfo",
+    "cardAddress": "Brgy. San Bartolome, Novaliches, Quezon City",
+    "cardDiscount": "",
+    "cardPrice": "Php 13,050 / Monthly",
+    "cardDescription": "Vast open greenery. Secluded sunken gardens. Calm expansive pools. These are just a few of the amenities enclosed within the gated community of SMDC's Vine Residences. Located within the SM City Novaliches complex",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/card.jpg",
+    "bannerAbout": "MORE THAN JUST A HOME Vast open greenery. Secluded sunken gardens. Calm expansive pools. These are just a few of the amenities enclosed within the gated community of SMDC's Vine Residences. Located within the SM City Novaliches complex, it offers lifestyle unlike any other in the area. Here, homes lie amongst rolling grassy spaces for a quiet and relaxed ambiance. While entertainment, convenience, and a transportation hub are found in the mall next door. At Vine Residences, you get more than just a home, you get a lifestyle.",
+    "bannerFeaturesHeading": "Features",
+    "bannerFeatures": [
+      "Wi-Fi Ready Lounges",
+      "Centralized Mailroom",
+      "Stand by Generator set for Common Areas & Select Unit Outlets",
+      "Automatic Fire Sprinkler",
+      "24 Hour Security"
+    ],
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerAmenities": [
+      "Central Park with Sunken Gardens",
+      "Jogging Trail",
+      "Adult Lounge Pools",
+      "Children's Splash Pool",
+      "Children's Play Zone",
+      "Fitness Circuit Zone",
+      "Lounge Pods",
+      "Vine Nature Park",
+      "Camp Hill Site",
+      "Eco Trail",
+      "Basketball Court",
+      "Volleyball Court"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/banner.jpg",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image01.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/image08.png"
+    ]
+  }
+]
