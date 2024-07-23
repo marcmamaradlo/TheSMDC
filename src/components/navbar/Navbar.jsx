@@ -1,9 +1,11 @@
 import { useContext } from "react";
 import { MyContext } from "../../context";
 import SMDCLogo from "../../assets/NewSMDCLogo.jpg";
+
 const Navbar = () => {
   const context = useContext(MyContext);
   const handleHamburgerIcon = context.handleHamburgerIcon;
+  const navbarLinks = context.navbarLinks;
   const state = context.state;
   return (
     <>
@@ -20,11 +22,12 @@ const Navbar = () => {
       </div>
       {state.hamburgerIsActive ? (
         <div className="navbar-links-mobile">
-          <a href="*">Home</a>
-          <a href="*">About Us</a>
-          <a href="*">Properties</a>
-          <a href="*">Reservations</a>
-          <a href="*">Contact</a>
+          {navbarLinks()}
+          {/* <Link to="/" onClick={}>Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/properties">Properties</Link>
+          <Link to="/reservation">Reservations</Link>
+          <Link to="/contact">Contact Us</Link> */}
         </div>
       ) : null}
     </>
