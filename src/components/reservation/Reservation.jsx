@@ -33,7 +33,9 @@ const Reservation = () => {
     backgroundPosition: "center",
     backgroundSize: "cover",
     height: "100%",
-    width: "100%",
+    width: "auto",
+    margin: "0rem 1rem",
+    borderRadius: "3px",
   };
 
   return (
@@ -42,7 +44,7 @@ const Reservation = () => {
         style={`page-banner`}
         text={`Start your SMDC - The Good Life Journey`}
       />
-      <div className="component">
+      <div className="component reservation">
         <div className="investor">
           <div className="investor-details">
             <h3>For Investors based in the Philippines</h3>
