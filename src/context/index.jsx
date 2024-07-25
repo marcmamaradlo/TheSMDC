@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+import premierJSON from "../premier.json";
+import bestSellingJSON from "../best-sellers.json";
+import rfoJSON from "../rfo.json";
+import preSellingJSON from "../pre-selling.json";
+import Card from "../components/card/Card";
+
 const MyContext = React.createContext();
 
 class MyProvider extends Component {
@@ -18,6 +24,58 @@ class MyProvider extends Component {
     helpfulLinks: ["Home", "About Us", "How to Reserve", "Contact Us"],
     navLinks: ["home", "about", "properties", "reservation", "contact"],
     hamburgerIsActive: false,
+    premier: premierJSON,
+    bestSelling: bestSellingJSON,
+    rfo: rfoJSON,
+    preSelling: preSellingJSON,
+  };
+
+  handlePremierProperties = () => {
+    const premierProperties = this.state.premier;
+    return premierProperties.map((item) => {
+      return (
+        <Card
+          id={item.id}
+          name={item.name}
+          cardPrice={item.cardPrice}
+          cardImage={item.cardImage}
+          cardAddress={item.cardAddress}
+          cardDescription={item.cardDescription}
+        />
+      );
+    });
+  };
+
+  handleBestSellingProperties = () => {
+    const bestSellingProperties = this.state.bestSelling;
+    return bestSellingProperties.map((item) => {
+      return (
+        <Card
+          id={item.id}
+          name={item.name}
+          cardPrice={item.cardPrice}
+          cardImage={item.cardImage}
+          cardAddress={item.cardAddress}
+          cardDescription={item.cardDescription}
+        />
+      );
+    });
+  };
+
+  handleFeaturedProperties = () => {
+    const premierProperties = this.state.premier;
+    return premierProperties.map((item) => {
+      return (
+        <Card
+          id={item.id}
+          name={item.name}
+          cardPrice={item.cardPrice}
+          cardImage={item.cardImage}
+          cardAddress={item.cardAddress}
+          cardDescription={item.cardDescription}
+        />
+      );
+    });
   };
 
   navbarLinks = () => {
@@ -72,6 +130,8 @@ class MyProvider extends Component {
       locationLinks,
       handleHamburgerIcon,
       navbarLinks,
+      handleFeaturedProperties,
+      handleBestSellingProperties,
     } = this;
 
     return (
@@ -82,6 +142,8 @@ class MyProvider extends Component {
           locationLinks,
           handleHamburgerIcon,
           navbarLinks,
+          handleFeaturedProperties,
+          handleBestSellingProperties,
         }}
       >
         {this.props.children}

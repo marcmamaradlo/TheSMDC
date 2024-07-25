@@ -8,19 +8,19 @@ const Category = () => {
         </h4>
         <div className="category">
           <div className="" name="condominium">
-            <i className="fa-regular fa-building"></i>
+            <span class="material-symbols-outlined">apartment</span>
             Condo
           </div>
           <div className="" name="condominium">
-            <i className="fa-regular fa-building"></i>
+            <span class="material-symbols-outlined">home</span>
             House and Lot
           </div>
           <div className="" name="condominium">
-            <i className="fa-regular fa-building"></i>
+            <span class="material-symbols-outlined">variable_add</span>
             Lot
           </div>
           <div className="" name="condominium">
-            <i className="fa-regular fa-building"></i>
+            <span class="material-symbols-outlined">home_work</span>
             Residential Office
           </div>
         </div>

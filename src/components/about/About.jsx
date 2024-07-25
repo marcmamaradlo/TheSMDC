@@ -1,9 +1,16 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MyContext } from "../../context";
+import { CustomLink } from "../buttons/Buttons";
+
 import bestSellerJSON from "../../best-sellers.json";
 import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 import propertiesJSON from "../../properties.json";
+import StaticBanner from "../banner-carousel/StaticBanner";
 
 const About = () => {
+  const context = useContext(MyContext);
+  const handleFeaturedProperties = context.handleFeaturedProperties;
+  const universalBanner = context.universalBanner;
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "About Us | The SMDC";
@@ -25,21 +32,17 @@ const About = () => {
     height: "22rem",
   };
 
-  const staycation = {
-    backgroundImage: `url(${bestSellerJSON[2].gallery[3]})`,
-    backgroundRepear: "no-repeat",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    height: "22rem",
-  };
+  // const staycation = {
+  //   backgroundImage: `url(${bestSellerJSON[2].gallery[3]})`,
+  //   backgroundRepear: "no-repeat",
+  //   backgroundPosition: "center",
+  //   backgroundSize: "cover",
+  //   height: "22rem",
+  // };
 
   return (
     <>
-      <div style={{ ...bannerImage }}>
-        <div className="about-page-banner">
-          <h1>About Us</h1>
-        </div>
-      </div>
+      <StaticBanner style={`page-banner`} text={`About Us`} />
       <div className="widget-container">
         <div className="widget">
           <p>78k+</p>
@@ -249,6 +252,15 @@ const About = () => {
           to address your inquiries, provide guidance, and go above and beyond
           to exceed your expectations.
         </p>
+      </div>
+      <div className="component">
+        <h3>Featured Properties</h3>
+        {handleFeaturedProperties()}
+        <CustomLink
+          text="view all properties"
+          style="view-all-properties"
+          linkTo={`/properties`}
+        />
       </div>
     </>
   );
