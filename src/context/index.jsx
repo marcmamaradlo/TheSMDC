@@ -5,6 +5,7 @@ import premierJSON from "../premier.json";
 import bestSellingJSON from "../best-sellers.json";
 import rfoJSON from "../rfo.json";
 import preSellingJSON from "../pre-selling.json";
+import propertiesJSON from "../properties.json";
 import Card from "../components/card/Card";
 
 const MyContext = React.createContext();
@@ -28,6 +29,7 @@ class MyProvider extends Component {
     bestSelling: bestSellingJSON,
     rfo: rfoJSON,
     preSelling: preSellingJSON,
+    allProperties: propertiesJSON,
   };
 
   handlePremierProperties = () => {

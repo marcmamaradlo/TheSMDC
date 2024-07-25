@@ -250,6 +250,7 @@ summary,
 
 .component p {
   font-family: "Work Sans", sans-serif;
+  text-align: justify;
 }
 /* // COMPONENT END ////////////////////////////////////// */
 
@@ -259,6 +260,7 @@ summary,
   flex-wrap: wrap;
   width: 100%;
   height: 40rem;
+  gap: 0.5rem;
 }
 
 .category div {
@@ -266,11 +268,17 @@ summary,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 49%;
+  gap: 0.5rem;
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   color: #222222;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 5px;
+}
+
+.category div:hover {
   -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.11);
   -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.11);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.11);
@@ -771,10 +779,87 @@ h2 {
 }
 
 .page-banner h1 {
+  font-weight: 500;
   margin: 0;
   text-align: center;
 }
 /* // COMPONENTS END ////////////////////////////////////// */
+
+/* // RESERVATION START ////////////////////////////////////// */
+.investor-details,
+.foreign-details {
+  font-family: "Work Sans", sans-serif;
+}
+
+.investor-details li,
+.foreign-details li {
+  font-size: 1.6rem;
+  list-style: inside;
+  margin: 2rem;
+  color: #555558;
+}
+
+.investor-details li::marker,
+.foreign-details li::marker {
+  color: #012fff;
+}
+
+.bank-details {
+  font-family: "Work Sans", sans-serif;
+  color: #222222;
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(255, 255, 255, 0) 90%
+  ); */
+  background: rgba(255, 255, 255, 0.7);
+
+  height: 100%;
+  padding: 2rem 1rem;
+}
+
+.bank-details h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bank-details li {
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  list-style-type: disc;
+}
+
+.bank-details li::marker {
+  color: #012fff;
+}
+
+.employment {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+
+.employment h4 {
+  margin: 0;
+  text-align: left;
+}
+
+.employment li {
+  margin: 0 0 1rem 1rem;
+  font-size: 1.2rem;
+  color: #555558;
+  list-style: disc;
+}
+
+.employment li::marker {
+  color: #012fff;
+}
+/* // RESERVATION END ////////////////////////////////////// */
 
 /* // FOOTER START ////////////////////////////////////// */
 .footer {

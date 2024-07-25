@@ -3,6 +3,7 @@ import Home from "../components/home/Home";
 import About from "../components/about/About";
 import Contact from "../components/contact/Contact";
 import Properties from "../components/properties/Properties";
+import Reservation from "../components/reservation/Reservation";
 
 const Router = () => {
   return (
@@ -13,6 +14,7 @@ const Router = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/properties" element={<Properties />} />
+        <Route path="/reservation" element={<Reservation />} />
       </Routes>
     </>
   );

@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { MyContext } from "../../context";
 import { CustomLink } from "../buttons/Buttons";
-import Contact from "../contact/Contact";
 
 const PropertyType = () => {
   const context = useContext(MyContext);
@@ -9,19 +8,6 @@ const PropertyType = () => {
   const bestSelling = context.state.bestSelling;
   const rfo = context.state.rfo;
   const preSelling = context.state.preSelling;
-
-  // const newObj = [
-  //   { url: premier[0].cardImage, title: "Premier" },
-  //   { url: bestSelling[0].cardImage, title: "Best Selling" },
-  //   { url: rfo[0].cardImage, title: "Ready for Occupancy" },
-  //   { url: preSelling[0].cardImage, title: "Pre-Selling" },
-  // ];
-
-  // let newArr = [];
-  // newArr.push(premier[0].cardImage);
-  // newArr.push(bestSelling[0].cardImage);
-  // newArr.push(rfo[0].cardImage);
-  // newArr.push(preSelling[0].cardImage);
 
   const mapOverJSONs = () => {
     const newObj = [
@@ -37,7 +23,7 @@ const PropertyType = () => {
         backgroundRepear: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        height: "22rem",
+        height: "20rem",
         width: "49%",
       };
 
@@ -70,7 +56,6 @@ const PropertyType = () => {
           linkTo={`/properties/view-all`}
         />
       </div>
-      <Contact />
     </>
   );
 };
