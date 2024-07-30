@@ -7,7 +7,7 @@ const PremierProperties = () => {
   return (
     <>
       <div className="component">
-        <h3>Best Selling Properties</h3>
+        <h3>Premier Properties</h3>
         {handleBestSellingProperties()}
       </div>
     </>

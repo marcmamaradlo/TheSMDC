@@ -13,6 +13,8 @@ const MyContext = React.createContext();
 class MyProvider extends Component {
   state = {
     test: true, // true, false
+    contactModalIsActive: false, // true, false
+    activeModal: "contactModal", //contactModal, homeModal, null
     locations: [
       "Makati",
       "Manila",
@@ -30,6 +32,20 @@ class MyProvider extends Component {
     rfo: rfoJSON,
     preSelling: preSellingJSON,
     allProperties: propertiesJSON,
+    showMoreButtonIndex: 4,
+  };
+
+  resetShowMoreButtonIndex = () => {
+    this.setState({ showMoreButtonIndex: 4 });
+  };
+
+  handleShowMoreButton = (e) => {
+    this.setState({ showMoreButtonIndex: e });
+  };
+
+  handleContactModalState = () => {
+    const contactModalIsActive = this.state.contactModalIsActive;
+    this.setState({ contactModalIsActive: !contactModalIsActive });
   };
 
   handlePremierProperties = () => {
@@ -134,6 +150,9 @@ class MyProvider extends Component {
       navbarLinks,
       handleFeaturedProperties,
       handleBestSellingProperties,
+      handleContactModalState,
+      handleShowMoreButton,
+      resetShowMoreButtonIndex,
     } = this;
 
     return (
@@ -146,6 +165,9 @@ class MyProvider extends Component {
           navbarLinks,
           handleFeaturedProperties,
           handleBestSellingProperties,
+          handleContactModalState,
+          handleShowMoreButton,
+          resetShowMoreButtonIndex,
         }}
       >
         {this.props.children}

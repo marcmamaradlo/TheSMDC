@@ -2961,7 +2961,7 @@
     "propertyType": "rfo",
     "cardAddress": "Tagaytay City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Indulge in soothing cool breezes at Wind Residences. Found along Aguinaldo Highway, this Tagaytay condominium stands in its own complex providing convenient access to everything you need which includes shops, restaurants, and more.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/card.jpg",
     "bannerAbout": "When you live at Wind Residences, the holiday never has to stop. Just an hour south of Manila in Tagaytay City, you can treat yourself to country club amenities including the clubhouse, indoor and outdoor swimming pools, tennis court, and basketball court. Its location also lets you get to the nearby restaurants and cafes filled with delicious dishes only found here.",
@@ -3024,10 +3024,15 @@
     "cardPrice": "Php 12,000 / Monthly",
     "cardDescription": "Rising within the progressive city of General Trias is a modern garden-themed community situated right across a major mall providing future residents a seamless fusion of urban and provincial lifestyle.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/card.jpg",
-    "bannerAbout": "",
-    "bannerFeaturesHeading": "Units",
+    "bannerAbout": "Rising within the progressive city of General Trias is a modern garden-themed community situated right across a major mall providing future residents a seamless fusion of urban and provincial lifestyle. With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences.",
+    "bannerGrandLobbyImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
+    "bannerFeaturesHeading": "Features",
+    "bannerFeatures": [
+      "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences."
+    ],
+    "bannerFeaturesImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
     "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": ["Studio Unit", "Studio End Unit", "1 Bedroom Unit"],
+    "bannerAmenitiesDescription": "Experience the pleasure that comes with a complete collection of modern amenities all thoughtfully-designed to encourage activity and neighborly engagements!",
     "bannerAmenities": [
       "Lap Pool",
       "Kiddie Pool",
@@ -3039,18 +3044,20 @@
       "Commercial Strip",
       "Gate and Guardhouse"
     ],
+    "bannerAmenitiesImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg",
     "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/banner.jpg",
+    "bannerUnitHeading": "Unit",
+    "bannerUnitDescription": "Wake up to joyful mornings in your own space surrounded by lush greenery, an inviting atmosphere, and a warm, peaceful community.",
+    "bannerUnit": ["Studio Unit", "Studio End Unit", "1 Bedroom Unit"],
+    "bannerUnitImage": "",
     "gallery": [
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image01.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image02.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image03.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image04.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image08.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
@@ -3059,6 +3066,74 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image16.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image17.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image18.jpg"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Start conversations and make new friends or catch up with your existing ones at Zeal Residences’ welcoming lobby lounge.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg"
+        ]
+      },
+      "feature": {
+        "title": "Features",
+        "description": "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "",
+        "content": [
+          "Lap Pool",
+          "Kiddie Pool",
+          "Playground",
+          "Linear Park",
+          "Central Amenity Area",
+          "Clubhouse",
+          "Covered Basketball Court",
+          "Commercial Strip",
+          "Gate and Guardhouse"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image02.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image04.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Wake up to joyful mornings in your own space surrounded by lush greenery, an inviting atmosphere, and a warm, peaceful community.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "Studio End Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image16.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image17.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image18.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image14.jpg"
+        ]
+      }
+    }
   }
 ]
