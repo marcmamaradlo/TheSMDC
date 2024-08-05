@@ -1,10 +1,10 @@
 const Card = ({
+  id,
   name,
   cardImage,
+  cardPrice,
   cardAddress,
   cardDescription,
-  cardPrice,
-  id,
 }) => {
   return (
     <>

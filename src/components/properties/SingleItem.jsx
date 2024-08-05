@@ -12,9 +12,9 @@ const SingleItem = ({ data }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = data.name.charAt(0).toUpperCase() + data.name.slice(1);
-    console.log(data.singleItem.amenity);
-    console.log(data.singleItem.feature);
-    console.log(data.singleItem.unit);
+    // console.log(data.singleItem.amenity.content);
+    // console.log(data.singleItem.feature);
+    // console.log(data.singleItem.unit);
     return () => {
       resetShowMoreButtonIndex();
     };

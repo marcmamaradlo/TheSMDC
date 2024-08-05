@@ -364,7 +364,7 @@
     "propertyType": "rfo",
     "cardAddress": "Katipunan Avenue, Quezon City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Blue Residences is the go-to condominium for maximizing your student life along Katipunan, as it puts you within easy reach of Ateneo de Manila University, Miriam College",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/card.jpg",
     "bannerAbout": "Blue Residences is a 4,235-square meter property built on the corner of Katipunan Avenue and Aurora Boulevard. This gives it excellent access to the nearby schools including the noteworthy Ateneo de Manila University, Miriam College, and University of the Philippines.",
@@ -580,7 +580,7 @@
     "cardPrice": "Php 16,000 / Monthly",
     "cardDescription": "An exclusive, gated tranquil community in the midst of the highly progressive city of Sta. Rosa, Laguna. Calm Residences is a suburban walkable garden community with easy access to commercial spaces and transport hubs.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/card.png",
-    "bannerAbout": "An exclusive, gated tranquil community in the midst of the highly progressive city of Sta. Rosa, Laguna. Calm Residences is a suburban walkable garden community with easy access to commercial spaces and transport hubs. It features interconnected linear parks, complete resort styled amenities and sports facilities, hotel-like lobbies and lounges with strong Wi-Fi connections for families and working professionals who long to live in a safe, secure and tranquil home for him and his family.",
+    "bannerAbout": "Located in the bustling city of Santa Rosa, Laguna Province, Calm Residences is a tranquil garden community that offers the soothing presence of nature alongside the convenience of modern shopping.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -701,7 +701,7 @@
     "cardPrice": "Php 18,000 / Monthly",
     "cardDescription": "Live the Charmed Life filled with the peace and comfort you and your family desesrve at Charm Residences!",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/card.png",
-    "bannerAbout": "n this condominium in Cainta, Rizal, convenience is key! Charm Residences serves to bring everything within your reach, and this includes 5-star amenities, garden-inspired grounds, and a built-in commercial area. With the help of our hardworking property management specialists, you’re sure to have your own treasured and well-maintained space",
+    "bannerAbout": "Live the Charmed Life filled with the peace and comfort you and your family deserve at Charm Residences!",
     "bannerFeaturesHeading": "Units",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -832,7 +832,7 @@
     "propertyType": "rfo",
     "cardAddress": "Bicutan, Paranaque City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Chateau Residences Ready for Occupancy",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Chateau/card.jpg",
     "bannerAbout": "Inspired by French Mediterranean design, Chateau Elysee offers scenic walkways and ample space for you to explore and relax in aside from all its other modern amenities, giving you everything you could look for in a home.",
@@ -951,7 +951,7 @@
     "cardPrice": "Php 13,000 / Monthly",
     "cardDescription": "Start afresh in a home that inspires you to have the best beginning fitting for your life. Experience daily happiness and joy here at Cheer Residences, a luxurious yet affordable home for those who seek comfort and convenience.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/card.jpg",
-    "bannerAbout": "Explore and experience a full suite of amenities here at Cheer Residences. Choosing activities for rest and relaxation is made easy with a wide array of options available. The clubhouse is appointed with several features and the swimming pool is sure to become a popular place among friends and families. Have the space for fun and rest right within this complete community.",
+    "bannerAbout": "Introducing a fresh perspective to living in Marilao, Bulacan, Cheer Residences is the first vertical development of its kind in the area to have its own mall within its complex, offering convenient shopping and exciting activities.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -1148,7 +1148,7 @@
     "cardPrice": "Php 32,000 / Monthly",
     "cardDescription": "This exquisite condo development has set the standard for leisure with its choicest amenities and features.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Coast/card.jpg",
-    "bannerAbout": "New views await you at Coast Residences, the newest SMDC Premier Development. Situated in Roxas Boulevard, Coast Residences gives grand views of the Manila Bay Sunset and the Metro Manila Cityscape. With a stunning exterior design and interiors inspired by Bali's top hotels, Coast Residences gives you a new view on premier condo living.",
+    "bannerAbout": "Standing 41 stories high and adorned with a seagull-inspired design on its façade, Coast makes a striking landmark for residents and guests alike.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -1281,7 +1281,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Brgy. Maharlika West, Tagaytay City, Cavite",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "With SMDC's signature 5-star amenities, it is a perfect holiday home for those who enjoy the cool wind of Tagaytay.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/card.jpg",
     "bannerAbout": "Cool Suites is the newest garden complex in the flourishing Wind Residences estate. Nestled inside the complex is an array of lush foliage and greenery that serve as a private retreat where you can relax and recover from the busy work week. With SMDC’s signature 5-star amenities, it is a perfect holiday home for those who enjoy the cool wind of Tagaytay",
@@ -1493,7 +1493,7 @@
     "cardPrice": "Php 25,000 / Monthly",
     "cardDescription": "Designed for utmost relaxation and convenience in mind, Field Residences' strategic location, wide open spaces and generously sized amenities offers families spaces to thrive and grow.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/card.png",
-    "bannerAbout": "Field Residences offers five star sub urban living south of the metro. From young to growing families, Field Residences offers a wide array of living options suited for your needs and lifestyles. Relax and bond with your loved ones at the development’s host of excellent amenities. For convenience, SM Sucat is right in front of your home and international and local airports are right nearby. Dining and shopping options abound as the Entertainment City is a short drive away. Designed for utmost relaxation and convenience in mind, Field Residences’ strategic location, wide open spaces and generously sized amenities offers families spaces to thrive and grow.",
+    "bannerAbout": "Found along Dr. A Santos Avenue, Field Residences’ spot in Sucat, Parañaque puts it right next to the entertainment and shopping centers of Entertainment City and SM City Sucat as well as the international and domestic terminals of NAIA.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -1524,10 +1524,10 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image05.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image06.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image07.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image08.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image08.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image09.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image10.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image11.png"
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image11.jpg"
     ],
     "singleItem": {
       "grandLobby": {
@@ -1610,7 +1610,7 @@
     "cardPrice": "Php 14,000 / Monthly",
     "cardDescription": "Discover this hidden gem along C5, one of Metro Manila's most important and strategic transportation corridors. It is located in the vicinity of multiple businesses and schools, and offers easy accessibility to the nearby commercial districts of Ortigas Center, Eastwood, and BGC, as well as the NLEX and SLEX.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gem/card.jpg",
-    "bannerAbout": "Gem Residences perfectly captures your modern aspiration for work-life integration. Standing gorgeously along C-5 Pasig, the thriving center of economic activity east of Metro Manila, Gem Residences brings you world-class amenities that cater to your need for both productivity and leisure.",
+    "bannerAbout": "A gorgeous site standing proudly along C-5 Pasig, a thriving center of economic activity east of Metro Manila, Gem Residences brings you world-class amenities that cater to your need for both productivity and leisure.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -1831,7 +1831,7 @@
     "cardPrice": "Php 16,000 / Monthly",
     "cardDescription": "A high-rise residential condominium project in GMA-Kamuning, Quezon City, carrying the SMDC brand. The development promises to deliver an exclusive and distinctive living experience.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glam/card.jpg",
-    "bannerAbout": "A high-rise residential condominium project in GMA-Kamuning, Quezon City, carrying the SMDC brand. The development promises to deliver an exclusive and distinctive living experience.",
+    "bannerAbout": "Surround yourself with the spectacular at Glam Residences. Envisioned as a complete, cosmopolitan home for success-driven singles, it has been built for your utmost convenience and indulgence",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -2200,7 +2200,7 @@
     "propertyType": "rfo",
     "cardAddress": "Cayetano Boulevard, Barangay Ususan, Taguig City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Enjoy the convenience of staying within proximity of the top schools, hospitals, malls and other institutions that enable you to live the conveniences of modern life",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grace/card.jpg",
     "bannerAbout": "Grace Residences allows you to escape into your very own area of quiet. Banish stress by nesting away from it all, yet still be close to the Bonifacio Global City and Makati Central Business District. Enjoy the convenience of staying within proximity of the top schools, hospitals, malls and other institutions that enable you to live the conveniences of modern life. Cherish time with family as you unwind in a verdant setting of more than a hectare of open greens, giving you plenty of room for leisure and play",
@@ -2311,7 +2311,7 @@
     "propertyType": "rfo",
     "cardAddress": "Nueva Vizcaya cor. Misamis & Nueva Ecija Sts., Brgy. Sto. Cristo, Quezon City (beside SM North EDSA)",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Grass Residences Complex, completes the full integration of this exciting and dynamic lifestyle district in the Quezon City. Built with an exclusive bridge way connected to SM City North Edsa",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grass/card.jpg",
     "bannerAbout": "SM City North Edsa is the established lifestyle district north of Metro Manila and is the world's 3rd largest shopping mall. Grass Residences Complex, completes the full integration of this exciting and dynamic lifestyle district in the Quezon City.Built with an exclusive bridge way connected to SM City North Edsa, residents enjoy instant access to all the good things offered in the lifestyle district. Enjoy 800 retail shops, over 200 restaurant and dining options, 12 cinemas including an IMAX theatre",
@@ -2466,7 +2466,7 @@
     "propertyType": "rfo",
     "cardAddress": "Taft Ave., Malate, City of Manila",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "De La Salle University on Taft Avenue, its amenities include a study hall and a multi-purpose area that allow for its residents to focus on their studies and work towards a bright future.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/card.png",
     "bannerAbout": "Start them young, on their way to stellar heights in SMDC's Green Residences. Located right beside De La Salle University on Taft Avenue, its amenities include a study hall and a multi-purpose area that allow for its residents to focus on their studies and work towards a bright future",
@@ -2708,7 +2708,7 @@
     "cardPrice": "Php 15,000 / Monthly",
     "cardDescription": "Hill Residences is the right balance of convenience and comfort. Everything you and your family need is within reach. Located near transportation hubs, restaurants, malls, and specialty stores, all you have to think about is where to go next.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/card.png",
-    "bannerAbout": "Hill Residences is the right balance of convenience and comfort. Everything you and your family need is within reach. Located near transportation hubs, restaurants, malls, and specialty stores, all you have to think about is where to go next.",
+    "bannerAbout": "For the right balance of comfort and convenience, look no further than Hill Residences in Novaliches, Quezon City. This elevated home gives you access to topnotch amenities and must-visit restaurants, retail zones, and entertainment spots.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -2824,7 +2824,7 @@
     "cardPrice": "Php 9,800 / Monthly",
     "cardDescription": "Hope Residences is the much awaited addition to the newest lifestyle district of Trece Martires. This is the first vertical residential development in the area that offers a life of comfort and convenience.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/card.jpg",
-    "bannerAbout": "Hope Residences is the much awaited addition to the newest lifestyle district of Trece Martires. This is the first vertical residential development in the area that offers a life of comfort and convenience.",
+    "bannerAbout": "Hope Residences is a strategically-located condominium built in Trece Martires City, Cavite. Found along Governor’s Drive, it stands within the complex of the newly-opened SM City Trece, giving residents great shopping and dining options.",
     "bannerFeaturesHeading": "Features",
     "bannerFeatures": [
       "Residents Function Room",
@@ -3055,7 +3055,7 @@
     "cardPrice": "",
     "cardDescription": "SMDC situates Jazz Residences, a four-tower vertical development with its own Jazz Mall, endowed with numerous commercial spaces, food establishments and a Hypermart.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jazz/card.jpg",
-    "bannerAbout": "Known for its quaint and cozy restaurants and luxe designer shops for the home, the Reposo District in Makati is an artist's haven. In this unique setting, SMDC situates Jazz Residences, a four-tower vertical development with its own Jazz Mall, endowed with numerous commercial spaces, food establishments and a Hypermart. Enjoy all that the area has to offer, and much more, as you live in this specialized enclave",
+    "bannerAbout": "Situated in the Reposo District in Makati, SMDC’s Jazz Residences is a great place for foodies and home chefs to live in as it’s surrounded by some of the city’s best restaurants and nearby supermarkets.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -3198,7 +3198,7 @@
     "cardPrice": "Php 12,000 / Monthly",
     "cardDescription": "We welcome you and your family to the joy of life! Live within an integrated lifestyle district that combines SM City Baliwag, National University and SM City Central Terminal in one neighborhood.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/card.png",
-    "bannerAbout": "We welcome you and your family to the joy of life! Live within an integrated lifestyle district that combines SM City Baliwag, National University and SM City Central Terminal in one neighborhood.",
+    "bannerAbout": "Joy Residences is a condominium complex in Baliwag City built in an integrated lifestyle district, one where leisure and work meet thanks to SM City Baliwag, National University, and SM City Central Terminal being all in one neighborhood.",
     "bannerFeaturesHeading": "Units",
     "bannerFeatures": ["Studio Unit", "Studio End Unit", "1-Bedroom Unit"],
     "bannerAmenitiesHeading": "Amenities",
@@ -3532,7 +3532,7 @@
     "propertyType": "rfo",
     "cardAddress": "EDSA corner Madison St., Mandaluyong City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "For those who find shopping irresistible, Light Residences has its very own Light Mall. Enjoy spur-of-the-moment movie dates in any of its digital cinemas, or do a quick stop at its own Savemore Market",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/card.jpg",
     "bannerAbout": "For those who rejoice in a fast-paced lifestyle where convenience and ease are prized, Light Residences brings you to the center of the action. Located along EDSA and Madison Street, it sits at an advantageous location, linked to BONI-EDSA MRT where you can access any point of Manila. Decked out in urban conveniences, Light Residences is a joy to live in. For those who find shopping irresistible, Light Residences has its very own Light Mall. Enjoy spur-of-the-moment movie dates in any of its digital cinemas, or do a quick stop at its own Savemore Market",
@@ -3558,8 +3558,10 @@
     ],
     "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/banner.png",
     "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image01.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image02.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image03.jpg"
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image03.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image04.jpg"
     ],
     "singleItem": {
       "grandLobby": {
@@ -3789,7 +3791,7 @@
     "cardPrice": "Php 25,000 / Monthly",
     "cardDescription": "Located in Makati, the country's leading financial and central business district, enjoy the city's premier shopping destination, parks, museums and art galleries, performance and cultural centers.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/card.png",
-    "bannerAbout": "Designed to inspire balance and tranquility, its plush interiors, verdant green spaces and fitness facilities makes it more than just a home, it's a retreat.",
+    "bannerAbout": "Lush Residences is a condominium in Makati that seamlessly blends elements of nature throughout the property, offering a natural escape from the concrete jungle of the city just north of the Makati Central Business district.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -3910,7 +3912,7 @@
     "propertyType": "rfo",
     "cardAddress": "Aurora Blvd., Cor. Guirayan St., Brgy. Imelda Quezon City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Stay fit by swimming laps at the pool or by running at the jogging paths that circle the amenity deck. Welcome guests at the grand lobby, and feel right at home in a place where the good life is all under one roof.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/card.png",
     "bannerAbout": "Mezza Residences, located at the corner of Aurora Boulevard and Araneta Avenue in the heart of Sta. Mesa, offers a lifestyle that is both luxurious and easy. With SM City Sta. Mesa readily accessible, and the added convenience of having your very own Savemore Market, service shops and cozy dining places at the Mezza Strip, urban living has never been this pleasurable and convenient. Stay fit by swimming laps at the pool or by running at the jogging paths that circle the amenity deck. Welcome guests at the grand lobby, and feel right at home in a place where the good life is all under one roof.",
@@ -3972,7 +3974,9 @@
         "content": ["Children's Playground", "Swimming Pools", "M Bar"],
         "image": [
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/image01.png",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/image02.png"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/image08.png"
         ]
       },
       "unit": {
@@ -4008,7 +4012,7 @@
     "propertyType": "rfo",
     "cardAddress": "Aurora Blvd., Cor. Guirayan St., Brgy. Imelda Quezon City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Combined with the luxury of its amenities, Mezza II boasts of accessibility and convenience being nearest the LRT 2 V. Mapa Station and the neighborhood mall of the area, SM City Sta. Mesa",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza2/card.png",
     "bannerAbout": "Experience all the best at the heart of Sta. Mesa with Mezza II Residences. This 40-storey development, stands tallest in its area, providing residents with compelling views of the Metro Manila skyline. Combined with the luxury of its amenities, Mezza II boasts of accessibility and convenience being nearest the LRT 2 V. Mapa Station and the neighborhood mall of the area, SM City Sta. Mesa",
@@ -4270,7 +4274,7 @@
     "propertyType": "rfo",
     "cardAddress": "Mother Ignacia and Panay Ave. Barangay South Triangle, Quezon City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "Enjoy access to jogging paths, fitness stations and swimming pools for leisure, and feel like a star as you step in the Hollywood-star-themed lobbies.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/MPlace/card.png",
     "bannerAbout": "Nestled in the heart of 'Media City' is MPlace South Triangle, the perfect home for young professionals working in Quezon City. Near dining establishments, commercial districts, and health centers, this conveniently located condo development suits an individual on the go. Enjoy access to jogging paths, fitness stations and swimming pools for leisure, and feel like a star as you step in the Hollywood-star-themed lobbies",
@@ -4718,7 +4722,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": [""]
       }
     }
   },
@@ -4847,7 +4851,7 @@
     "cardPrice": "Php 29,000 / Monthly",
     "cardDescription": "Live in an address where business meets pleasure, where business suits and swim suits are both on-trend.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/S/card.jpg",
-    "bannerAbout": "Live in an address where business meets pleasure, where business suits and swim suits are both on-trend. At S Residences, you'll be at the center of all the action. With SMDC Premier's first development located in the middle of the MOA Complex and the Entertainment City, you will be closer to the thriving MOA business district and the hottest bars, trendiest shops, restaurants and entertainment spots this side of the metro.",
+    "bannerAbout": "With its stunning boutique hotel-styled lobbies and luxurious amenities, S Residences is a condominium in Pasay within the MoA complex that perfectly fits successful and stylish individuals. Here, business meets pleasure in the best way.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -4987,7 +4991,8 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image10.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image11.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image12.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image13.png"
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image13.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image14.png"
     ],
     "singleItem": {
       "grandLobby": {
@@ -6561,7 +6566,7 @@
     "propertyType": "rfo",
     "cardAddress": "Brgy. Pasong Putik, Novaliches, Quezon City",
     "cardDiscount": "",
-    "cardPrice": "SOLD OUT",
+    "cardPrice": "",
     "cardDescription": "Trees Residences offers the indulgence of a hushed, quiet neighborhood in the heart of Novaliches, Quezon City",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/card.jpg",
     "bannerAbout": "Trees Residences offers the indulgence of a hushed, quiet neighborhood in the heart of Novaliches, Quezon City. With its very own retail area within the complex, you never have to leave home for the basics, giving you more time with the family to enjoy its exclusive amenities",
@@ -6915,8 +6920,8 @@
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image11.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image12.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image14.png",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image16.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image15.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image16.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image17.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image13.png"
         ]
@@ -7375,21 +7380,22 @@
     "singleItem": {
       "grandLobby": {
         "title": "Grand Lobby",
-        "description": "Get away from the city stress as you walk along the opulent and refreshing lobbies.",
+        "description": "Start conversations and make new friends or catch up with your existing ones at Zeal Residences’ welcoming lobby lounge.",
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image04.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg"
         ]
       },
       "feature": {
-        "title": "A vacation that never ends",
-        "description": "When you live at Wind Residences, the holiday never has to stop. Just an hour south of Manila in Tagaytay City, you can treat yourself to country club amenities including the clubhouse, indoor and outdoor swimming pools, tennis court, and basketball court. Its location also lets you get to the nearby restaurants and cafes filled with delicious dishes only found here.",
+        "title": "Live your life with zest!",
+        "description": "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences.",
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image12.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg"
         ]
       },
       "amenity": {
         "title": "Amenities",
-        "description": "A myriad of activities await you! Should you be a sportsfan or a health buff, Wind Residences lets you enjoy life as you please",
+        "description": "",
         "content": [
           "Lap Pool",
           "Kiddie Pool",
@@ -7402,81 +7408,40 @@
           "Gate and Guardhouse"
         ],
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/card.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image09.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image10.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image11.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image08.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image02.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image04.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg"
         ]
       },
       "unit": {
         "title": "Units",
-        "description": "Choose to curl up in the bed, or relax as you gaze at the breathtaking view of Taal Lake or Manila Skyline!",
+        "description": "Wake up to joyful mornings in your own space surrounded by lush greenery, an inviting atmosphere, and a warm, peaceful community.",
         "type": [
           {
-            "name": "4-Bedroom Penthouse End Unit",
+            "name": "Studio Unit",
             "description": ""
           },
           {
-            "name": "4-Bedroom Penthouse",
+            "name": "Studio End Unit",
             "description": ""
           },
           {
-            "name": "3-Bedroom Penthouse End Unit",
-            "description": ""
-          },
-          {
-            "name": "3-Bedroom Penthouse",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom Penthouse End Unit",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom Penthouse Unit",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom End Unit",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom Unit",
-            "description": ""
-          },
-          {
-            "name": "1-Bedroom Unit with Balcony",
-            "description": ""
-          },
-          {
-            "name": "1-Bedroom End Unit",
-            "description": ""
-          },
-          {
-            "name": "1-Bedroom Unit",
-            "description": ""
-          },
-          {
-            "name": "Resort Residential Deluxe Unit",
-            "description": ""
-          },
-          {
-            "name": "Resort Residential End Unit",
-            "description": ""
-          },
-          {
-            "name": "Resort Residential Unit",
-            "description": ""
-          },
-          {
-            "name": "Deluxe Unit",
+            "name": "1 Bedroom Unit",
             "description": ""
           }
         ],
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image06.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image07.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image16.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image17.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image18.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image14.jpg"
         ]
       }
     }

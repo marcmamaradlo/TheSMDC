@@ -235,7 +235,8 @@ summary,
   border-radius: 3px;
 }
 
-.component h5 {
+.component h5,
+.featured h5 {
   font-size: 2.5rem;
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
@@ -249,16 +250,30 @@ summary,
   text-align: center;
 }
 
-.component h3 {
+.component h3,
+.featured h3 {
   font-family: "Work Sans", sans-serif;
   font-size: 2.5rem;
   text-align: center;
 }
 
-.component p {
+.component p,
+.featured p {
   font-family: "Work Sans", sans-serif;
   text-align: justify;
 }
+
+.featured {
+  color: #f5f5f5;
+  margin: 1rem 0;
+  /* border: 1px solid rgb(230, 230, 230); */
+  /* background-color: #3232317c; */
+  background-color: #555558;
+  padding: 1rem;
+  /* border-radius: 3px; */
+  overflow: hidden;
+}
+
 /* // COMPONENT END ////////////////////////////////////// */
 
 /* // CATEGORY START ////////////////////////////////////// */
@@ -787,6 +802,61 @@ h2 {
   max-height: 35.3rem;
   width: 100%;
 }
+
+.landscape-container {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* border: 1px solid red; */
+  /* overflow: hidden; */
+  /* height: 200px; */
+  /* width: auto; */
+}
+
+.landscape {
+  height: 45rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+}
+
+.landscape-body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 100%; */
+  height: 100%;
+  /* background: rgb(0, 0, 0, 0.2); */
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); */
+  /* padding: 0.5rem; */
+  margin: 1rem 0.5rem;
+}
+
+.landscape-body img {
+  /* margin: 0.5rem; */
+  height: 34rem;
+  width: 35.6rem;
+}
+
+.landscape-body h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.landscape-body p {
+  font-weight: 300;
+  margin: 0.5rem 0;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  font-display: swap;
+}
 /* // CARD END ////////////////////////////////////// */
 
 /* // PROPERTY TYPE START ////////////////////////////////////// */
@@ -881,6 +951,19 @@ h2 {
 
 .single-item-image-banner img {
   height: 15rem;
+}
+
+.featured-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f5;
+  height: 4rem;
+  border-radius: 3px;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  background-color: #0130ff;
+  font-family: "Work Sans", sans-serif;
 }
 /* // COMPONENTS END ////////////////////////////////////// */
 

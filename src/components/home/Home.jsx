@@ -1,9 +1,10 @@
 import { useEffect } from "react";
+import { CustomLink } from "../buttons/Buttons";
 import HomeCarousel from "../banner-carousel/HomeCarousel";
 import Category from "../properties/Category";
 import Contact from "../contact/Contact";
-import { CustomLink } from "../buttons/Buttons";
 import BestSellingProperties from "../properties/BestSellingProperties";
+import FeaturedProperties from "../properties/FeaturedProperties";
 
 const Home = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const Home = () => {
     <>
       <HomeCarousel />
       <Category />
+      <FeaturedProperties />
       <Contact />
       <BestSellingProperties />
       <div className="component">
