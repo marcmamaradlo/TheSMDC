@@ -260,7 +260,7 @@ summary,
 .component p,
 .featured p {
   font-family: "Work Sans", sans-serif;
-  text-align: justify;
+  text-align: unset;
 }
 
 .featured {
@@ -269,9 +269,14 @@ summary,
   /* border: 1px solid rgb(230, 230, 230); */
   /* background-color: #3232317c; */
   background-color: #555558;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* border-radius: 3px; */
   overflow: hidden;
+}
+
+.featured p,
+.featured h3 {
+  padding: 0 1rem;
 }
 
 /* // COMPONENT END ////////////////////////////////////// */
@@ -838,7 +843,7 @@ h2 {
 
 .landscape-body img {
   /* margin: 0.5rem; */
-  height: 34rem;
+  height: 25rem;
   width: 35.6rem;
 }
 
@@ -846,7 +851,7 @@ h2 {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   color: #f5f5f5;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 1rem 0;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
@@ -855,7 +860,17 @@ h2 {
   font-weight: 300;
   margin: 0.5rem 0;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
-  font-display: swap;
+  font-size: 1.4rem;
+}
+
+.landscape-body div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.landscape-body i {
+  font-size: 1.2rem;
 }
 /* // CARD END ////////////////////////////////////// */
 

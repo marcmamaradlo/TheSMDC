@@ -3041,6 +3041,142 @@
     }
   },
   {
+    "id": "fjade65",
+    "name": "Jade Residences",
+    "status": "PRE-SELLING",
+    "city": "makati",
+    "priceMax": "Php 12,264,000",
+    "priceMin": "Php 6,311,000",
+    "buildingType": "condo",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoBlack.webp"
+    },
+    "propertyType": "featured",
+    "cardAddress": "Chino Roces Avenue, Makati",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image15.webp",
+    "bannerAbout": "SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.",
+    "bannerFeaturesHeading": "Units",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [],
+    "bannerAmenities": [],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/banner.webp",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image10.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image11.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image12.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image13.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image14.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image15.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image16.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image17.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image18.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image19.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image20.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image21.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image22.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image23.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image24.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image25.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image26.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image27.webp"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Unwind and embrace tranquility at SMDC Jade Residences' Grand Lobby.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image22.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image20.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image17.webp"
+        ]
+      },
+      "feature": {
+        "title": "Make yourself at home at Makati Southwest Gateway— Chino Roces Avenue",
+        "description": "Explore eclectic designer shops and contemporary galleries. Immerse yourself in art and culture. All within Makati’s expanding business district. Welcome to Makati Southwest Gateway, the city's newest vibrant mixed-use district.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image27.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Experience an extraordinary tapestry of lavish amenities that elevate your daily routine, creating a haven of harmony and serenity in our exquisite property.",
+        "content": [
+          "Adult Pool",
+          "Kiddie Pool",
+          "Pool Lounge",
+          "Amenity Lounge",
+          "Grand Lobby",
+          "Gaming Lounge",
+          "Music Lounge",
+          "Media Lounge",
+          "Tea Room",
+          "Kid's Play Area",
+          "Gym and Yoga Studio",
+          "Entertainment Hub",
+          "His and Hers Sauna",
+          "Sky Garden"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image07.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image11.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image13.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image16.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image19.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image24.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image26.webp"
+        ]
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Immerse yourself in a serene haven that complements your lock-and-go lifestyle.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image23.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image25.webp"
+        ]
+      }
+    }
+  },
+  {
     "id": "prjazz27",
     "name": "Jazz Residences",
     "status": "Ready for Occupancy",
@@ -4617,6 +4753,168 @@
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image07.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image08.png",
           "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image09.png"
+        ]
+      }
+    }
+  },
+  {
+    "id": "fparkville66",
+    "name": "Parkville",
+    "status": "PRE-SELLING",
+    "city": "bacolod",
+    "priceMax": "Php 4,300,000",
+    "priceMin": "Php 2,700,000",
+    "buildingType": "condo",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/logoBlack.webp"
+    },
+    "propertyType": "featured",
+    "cardAddress": "Bacolod City",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Immerse yourself in a world of practical goodness as you step into Bacolod’s newest urban destination! In Parkville, you can embrace the sense of community that awaits, where every milestone you reach is a reason to celebrate.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image02.webp",
+    "bannerAbout": "Immerse yourself in a world of practical goodness as you step into Bacolod’s newest urban destination! In Parkville, you can embrace the sense of community that awaits, where every milestone you reach is a reason to celebrate.",
+    "bannerFeaturesHeading": "Units",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "Located near land, air, and sea transport hubs",
+      "Within close proximity to top-notch educational institutions",
+      "Short ride to SM City Bacolod",
+      "SMDC's first pet-friendly project"
+    ],
+    "bannerAmenities": [
+      "Gate and Guardhouse",
+      "Olympic-sized Pool",
+      "Leisure Pool",
+      "Kiddie Pool",
+      "Fitness Gym",
+      "Function Room",
+      "Library and Co-working Area",
+      "Toddler Center",
+      "Play Garden",
+      "Covered Basketball Court",
+      "Soccer Field",
+      "Vista Ground",
+      "Celebration Square",
+      "Eight Themed Nature Parks"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/banner.webp",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image10.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image11.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image12.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image13.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image14.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image15.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image16.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image17.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image18.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image19.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image20.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image21.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image22.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image23.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image24.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image25.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image26.webp"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Leisure Club",
+        "description": "Feel the warmth of a gracious welcome each time you step into our lobby, revitalizes your senses, setting the tone for your day ahead.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image25.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image09.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image17.webp"
+        ]
+      },
+      "feature": {
+        "title": "Everyday lush living",
+        "description": "Immerse yourself in the beauty of nature at Parkville! Set in a serene neighborhood in Bacolod city, this newest community designed with relaxing amenities and eight thematic nature parks lets you experience the ideal urban living retreat.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image13.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Discover a haven of wellness and recreation at Parkville with an array of relaxing parks and inviting amenities to let residents experience the joy of the outdoors.",
+        "content": [
+          "Gate and Guardhouse",
+          "Olympic-sized Pool",
+          "Leisure Pool",
+          "Kiddie Pool",
+          "Fitness Gym",
+          "Function Room",
+          "Library and Co-working Area",
+          "Toddler Center",
+          "Play Garden",
+          "Covered Basketball Court",
+          "Soccer Field",
+          "Vista Ground",
+          "Celebration Square",
+          "Eight Themed Nature Parks"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image18.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image16.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image22.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image15.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image21.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image20.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image24.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image06.webp"
+        ]
+      },
+      "unit": {
+        "title": "Parks",
+        "description": "Immerse yourself in the lush embrace of Parkville, where eight thoughtfully-crafted parks await exploration- offering residents spaces that not only invite outdoor enjoyment but also nurture genuine connection with the beauty of the surroundings.",
+        "type": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image26.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image19.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image11.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image23.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image14.webp"
         ]
       }
     }

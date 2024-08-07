@@ -7,12 +7,12 @@ const Landscape = ({ data }) => {
   var settings = {
     dots: false,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
-    // className: "center",
-    centerMode: false,
+    className: "center",
+    centerMode: true,
     infinite: true,
-    // centerPadding: "60px",
+    centerPadding: "60px",
     slidesToShow: 1,
     speed: 500,
     adaptiveHeight: true,
@@ -64,10 +64,16 @@ const Landscape = ({ data }) => {
           <div className="landscape-body">
             <img src={item.cardImage} alt={item.name} />
             <h4>{item.name}</h4>
-            <p>{`${
-              item.city.charAt(0).toUpperCase() + item.city.slice(1)
-            } City`}</p>
-            <p>Php 2,700,000 - Php 4,300,000</p>
+            <div>
+              <i className="fa-solid fa-location-dot"></i>
+              <p>{`${
+                item.city.charAt(0).toUpperCase() + item.city.slice(1)
+              } City`}</p>
+            </div>
+            <div>
+              <i className="fa-solid fa-peso-sign"></i>
+              <p>Php 2,700,000 - Php 4,300,000</p>
+            </div>
             {/* <CustomLink text={`Learn More`} style={`featured-button`} /> */}
           </div>
         </div>

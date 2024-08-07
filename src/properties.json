@@ -4,6 +4,9 @@
     "name": "Air Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "priceMax": "Php 7,100,000",
+    "priceMin": "Php 6,700,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Air/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Air/logoBlack.png"
@@ -75,7 +78,7 @@
           "Children's Play Area",
           "Sports/Yoga Terrace"
         ],
-        "image": false
+        "image": []
       },
       "unit": {
         "title": "Units",
@@ -112,10 +115,79 @@
     }
   },
   {
+    "id": "pramorrosa67",
+    "name": "Amorrosa Residences",
+    "status": "PRE-SELLING",
+    "city": "batangas",
+    "priceMax": "Php 1,650,000",
+    "priceMin": "Php 1,700,000",
+    "buildingType": "house and lot",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/logoBlack.webp"
+    },
+    "propertyType": "pre-selling",
+    "cardAddress": "Sto. Tomas, Batangas",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Nestled amidst lush landscapes, this development in Santo Tomas Batangas offers a tranquil haven where you and your loved ones can create lasting memories to cherish.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/card.webp",
+    "bannerAbout": "Nestled amidst lush landscapes, this development in Santo Tomas Batangas offers a tranquil haven where you and your loved ones can create lasting memories to cherish.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "Feel refreshed with the lush greeneries surrounding your home",
+      "Shop for your needs at a nearby outlet store"
+    ],
+    "bannerAmenities": ["Clubhouse", "Gated Community", "Guardhouse"],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/banner.webp",
+    "gallery": [],
+    "singleItem": {
+      "grandLobby": {
+        "title": "",
+        "description": "",
+        "image": []
+      },
+      "feature": {
+        "title": "A refreshing escape in Batangas",
+        "description": "Escape the hustle and bustle of city life and find solace in this serene community. Thoughtfully-crafted with peaceful pathways and a welcoming atmosphere, every moment here is certainly a breath of fresh air for the soul.",
+        "image": ""
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "",
+        "content": ["Clubhouse", "Gated Community", "Guardhouse"],
+        "image": []
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Utility meets elegance. Experience the best urban lifestyle! Choose from our meticulously-designed house model units perfect for starting couples to growing families.",
+        "type": [
+          {
+            "name": "Therese Townhouse",
+            "description": ""
+          },
+          {
+            "name": "Tiara Townhouse",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/image03.webp"
+        ]
+      }
+    }
+  },
+  {
     "id": "prberkeley02",
     "name": "Berkeley Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Berkeley/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Berkeley/logoBlack.png"
@@ -236,6 +308,9 @@
     "name": "Bloom Residences",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "priceMax": "Php 6,600,000",
+    "priceMin": "Php 4,000,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoBlack.png"
@@ -287,12 +362,12 @@
       "grandLobby": {
         "title": "Grand Lobby",
         "description": "Let our warmhearted staff tend our sprouting community so you can focus on flourishing. Expect a lush, grand welcome from Bloom Residences' luxurious hotel-like lobbies, while our generous staff will treat you like our own family.",
-        "image": false
+        "image": []
       },
       "feature": {
         "title": "Let life blossom in Parañaque",
         "description": "With its safe environment and an inviting neighborhood, Bloom Residences makes for a great place to build your budding career or start a family and raise children of your own.",
-        "image": false
+        "image": []
       },
       "amenity": {
         "title": "Amenities",
@@ -310,7 +385,7 @@
           "Pocket Gardens",
           "Landscape Areas"
         ],
-        "image": false
+        "image": []
       },
       "unit": {
         "title": "Units",
@@ -357,6 +432,9 @@
     "name": "Blue Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/logoBlack.png"
@@ -459,7 +537,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -468,6 +546,9 @@
     "name": "Breeze Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Breeze/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Breeze/logoBlack.png"
@@ -561,7 +642,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -570,6 +651,9 @@
     "name": "Calm Residences",
     "status": "PRE-SELLING",
     "city": "laguna",
+    "priceMax": "Php 3,300,000",
+    "priceMin": "Php 3,200,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/logoBlack.png"
@@ -691,6 +775,9 @@
     "name": "Charm Residences",
     "status": "PRE-SELLING",
     "city": "rizal",
+    "priceMax": "Php 5,200,000",
+    "priceMin": "Php 3,800,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/logoBlack.png"
@@ -825,6 +912,9 @@
     "name": "Chateau Residences",
     "status": "Ready for Occupancy",
     "city": "paranaque",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Chateau/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Chateau/logoBlack.png"
@@ -941,6 +1031,9 @@
     "name": "Cheer Residences",
     "status": "PRE-SELLING",
     "city": "bulacan",
+    "priceMax": "Php 4,200,000",
+    "priceMin": "Php 3,100,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/logoBlack.png"
@@ -1041,6 +1134,9 @@
     "name": "Cheerful Homes",
     "status": "PRE-SELLING",
     "city": "pampanga",
+    "priceMax": "Php 1,700,000",
+    "priceMin": "Php 1,100,000",
+    "buildingType": "house and lot",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/logoBlack.png"
@@ -1134,10 +1230,103 @@
     }
   },
   {
+    "id": "prair01",
+    "name": "Cheerful Homes 2",
+    "status": "PRE-SELLING",
+    "city": "makati",
+    "priceMax": "Php 3,600,000",
+    "priceMin": "Php 2,000,000",
+    "buildingType": "house and lot",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/logoBlack.webp"
+    },
+    "propertyType": "pre-selling",
+    "cardAddress": "Mabalacat City, Pampanga",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Live a more cheerful, brighter life at SMDC Cheerful Homes 2! This 17-hectare master-planned community in Pampanga puts an emphasis on community with spaces that are designed to empower the modern Filipino lifestyle.",
+    "cardImage": "",
+    "bannerAbout": "Live a more cheerful, brighter life at SMDC Cheerful Homes 2! This 17-hectare master-planned community in Pampanga puts an emphasis on community with spaces that are designed to empower the modern Filipino lifestyle.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "17-hectare grounds",
+      "Accessible location near major highway"
+    ],
+    "bannerAmenities": [
+      "Clubhouse",
+      "Lap Pool",
+      "Kiddie Pool",
+      "Pavillion",
+      "Covered Multi-purpose Court",
+      "Kid's Playground",
+      "Grand Lawn"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/banner.webp",
+    "gallery": [],
+    "singleItem": {
+      "grandLobby": {
+        "title": "",
+        "description": "",
+        "image": ""
+      },
+      "feature": {
+        "title": "Full of Life, Full of Fun",
+        "description": "SMDC Cheerful Homes 2 is situated near the North Luzon Expressway, transport terminals, and educational institutions making getting to and from it considerably easy. Covering 17 hectares, this master-planned community contains spaces design for the modern Filipino lifestyle as well as its own community mall.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/card.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Life at SMDC Cheerful Homes 2 is always fun with various activities you can choose from!",
+        "content": [
+          "Clubhouse",
+          "Lap Pool",
+          "Kiddie Pool",
+          "Pavillion",
+          "Covered Multi-purpose Court",
+          "Kid's Playground",
+          "Grand Lawn"
+        ],
+        "image": []
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "A flexible life! A home that you can adjust to your personal liking.",
+        "type": [
+          {
+            "name": "Loft Type Unit",
+            "description": ""
+          },
+          {
+            "name": "Shophouse Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image07.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/image09.webp"
+        ]
+      }
+    }
+  },
+  {
     "id": "prcoast11",
     "name": "Coast Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "priceMax": "Php 22,700,000",
+    "priceMin": "Php 5,100,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Coast/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Coast/logoBlack.png"
@@ -1274,6 +1463,9 @@
     "name": "Cool Suites at Wind Residences",
     "status": "PRE-SELLING",
     "city": "tagaytay",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/logoBlack.png"
@@ -1375,6 +1567,9 @@
     "name": "Fame Residences",
     "status": "R.F.O / PRE-SELLING",
     "city": "mandaluyong",
+    "priceMax": "Php",
+    "priceMin": "Php",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/logoBlack.png"
@@ -1483,6 +1678,9 @@
     "name": "Field Residences",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "priceMax": "Php 6,600,000",
+    "priceMin": "Php 4,200,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/logoBlack.png"
@@ -1600,6 +1798,9 @@
     "name": "Gem Residences",
     "status": "PRE-SELLING",
     "city": "pasig",
+    "priceMax": "Php 9,400,000",
+    "priceMin": "Php 5,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gem/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gem/logoBlack.png"
@@ -1708,6 +1909,9 @@
     "name": "Glade Residences",
     "status": "PRE-SELLING",
     "city": "iloilo",
+    "priceMax": "Php 3,200,000",
+    "priceMin": "Php 3,000,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/logoBlack.png"
@@ -1821,6 +2025,9 @@
     "name": "Glam Residences",
     "status": "PRE-SELLING",
     "city": "quezon",
+    "priceMax": "Php 13,900,000",
+    "priceMin": "Php 5,700,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glam/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glam/logoBlack.png"
@@ -1952,6 +2159,9 @@
     "name": "Gold Residences",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "priceMax": "Php 15,700,000",
+    "priceMin": "Php 6,800,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/logoBlack.png"
@@ -2073,6 +2283,9 @@
     "name": "Gold Offices",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "priceMax": "Php 9,900,000",
+    "priceMin": "Php 7,800,000",
+    "buildingType": "office",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/logoBlack.png"
@@ -2193,6 +2406,9 @@
     "name": "Grace Residences",
     "status": "Ready for Occupancy",
     "city": "taguig",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grace/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grace/logoBlack.png"
@@ -2295,7 +2511,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -2304,6 +2520,9 @@
     "name": "Grass Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grass/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grass/logoBlack.png"
@@ -2450,7 +2669,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -2459,6 +2678,9 @@
     "name": "Green Residences",
     "status": "Ready for Occupancy",
     "city": "manila",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/logoBlack.png"
@@ -2570,7 +2792,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -2579,6 +2801,9 @@
     "name": "Green2 Residences",
     "status": "PRE-SELLING",
     "city": "cavite",
+    "priceMax": "Php 6,200,000",
+    "priceMin": "Php 3,200,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/logoBlack.png"
@@ -2698,6 +2923,9 @@
     "name": "Hill Residences",
     "status": "PRE-SELLING",
     "city": "quezon",
+    "priceMax": "Php 3,800,000",
+    "priceMin": "Php 3,100,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/logoBlack.png"
@@ -2814,6 +3042,9 @@
     "name": "Hope Residences",
     "status": "PRE-SELLING",
     "city": "cavite",
+    "priceMax": "Php 4,500,000",
+    "priceMin": "Php 2,700,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/logoBlack.png"
@@ -2916,9 +3147,12 @@
   },
   {
     "id": "price26",
-    "name": "Ice Residences",
+    "name": "Ice Tower Residential Offices",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "priceMax": "Php 12,500,000",
+    "priceMin": "Php 7,500,000",
+    "buildingType": "office",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/logoBlack.png"
@@ -3041,10 +3275,149 @@
     }
   },
   {
+    "id": "fjade65",
+    "name": "Jade Residences",
+    "status": "PRE-SELLING",
+    "city": "makati",
+    "priceMax": "Php 12,264,000",
+    "priceMin": "Php 6,311,000",
+    "buildingType": "condo",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoBlack.webp"
+    },
+    "propertyType": "featured",
+    "cardAddress": "Chino Roces Avenue, Makati",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image15.webp",
+    "bannerAbout": "SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.",
+    "bannerFeaturesHeading": "Units",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [],
+    "bannerAmenities": [],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/banner.webp",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image10.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image11.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image12.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image13.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image14.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image15.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image16.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image17.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image18.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image19.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image20.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image21.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image22.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image23.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image24.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image25.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image26.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image27.webp"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Unwind and embrace tranquility at SMDC Jade Residences' Grand Lobby.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image22.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image20.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image17.webp"
+        ]
+      },
+      "feature": {
+        "title": "Make yourself at home at Makati Southwest Gateway— Chino Roces Avenue",
+        "description": "Explore eclectic designer shops and contemporary galleries. Immerse yourself in art and culture. All within Makati’s expanding business district. Welcome to Makati Southwest Gateway, the city's newest vibrant mixed-use district.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image27.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Experience an extraordinary tapestry of lavish amenities that elevate your daily routine, creating a haven of harmony and serenity in our exquisite property.",
+        "content": [
+          "Adult Pool",
+          "Kiddie Pool",
+          "Pool Lounge",
+          "Amenity Lounge",
+          "Grand Lobby",
+          "Gaming Lounge",
+          "Music Lounge",
+          "Media Lounge",
+          "Tea Room",
+          "Kid's Play Area",
+          "Gym and Yoga Studio",
+          "Entertainment Hub",
+          "His and Hers Sauna",
+          "Sky Garden"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image07.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image11.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image13.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image16.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image19.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image24.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image26.webp"
+        ]
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Immerse yourself in a serene haven that complements your lock-and-go lifestyle.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image23.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image25.webp"
+        ]
+      }
+    }
+  },
+  {
     "id": "prjazz27",
     "name": "Jazz Residences",
     "status": "Ready for Occupancy",
     "city": "makati",
+    "priceMax": "Php 9,600,000",
+    "priceMin": "Php 5,800,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jazz/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jazz/logoBlack.png"
@@ -3179,7 +3552,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -3188,6 +3561,9 @@
     "name": "Joy Residences",
     "status": "PRE-SELLING",
     "city": "bulacan",
+    "priceMax": "Php 12,500,000",
+    "priceMin": "Php 7,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/logoBlack.png"
@@ -3290,6 +3666,9 @@
     "name": "Lane Residences",
     "status": "PRE-SELLING",
     "city": "davao",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/logoBlack.png"
@@ -3394,6 +3773,9 @@
     "name": "Leaf Residences",
     "status": "PRE-SELLING",
     "city": "muntinlupa",
+    "priceMax": "Php 7,900,000",
+    "priceMin": "Php 3,200,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/logoBlack.png"
@@ -3525,6 +3907,9 @@
     "name": "Light Residences",
     "status": "Ready for Occupancy",
     "city": "mandaluyong",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/logoBlack.png"
@@ -3621,7 +4006,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -3630,6 +4015,9 @@
     "name": "Light2 Residences",
     "status": "PRE-SELLING",
     "city": "mandaluyong",
+    "priceMax": "Php 11,600,000",
+    "priceMin": "Php 5,700,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoBlack.png"
@@ -3779,6 +4167,9 @@
     "name": "Lush Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "priceMax": "Php 10,100,000",
+    "priceMin": "Php 5,800,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/logoBlack.png"
@@ -3903,6 +4294,9 @@
     "name": "Mezza Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/logoBlack.png"
@@ -3992,7 +4386,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -4001,6 +4395,9 @@
     "name": "Mezza II Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza2/logoBlack.png"
@@ -4129,7 +4526,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -4138,6 +4535,9 @@
     "name": "Mint Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "priceMax": "Php 16,900,000",
+    "priceMin": "Php 6,300,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/logoBlack.png"
@@ -4263,6 +4663,9 @@
     "name": "MPlace Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/MPlace/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/MPlace/logoBlack.png"
@@ -4393,7 +4796,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -4402,6 +4805,9 @@
     "name": "Now Residences",
     "status": "PRE-SELLING",
     "city": "pampanga",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/logoBlack.png"
@@ -4409,7 +4815,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Angeles City, Pampanga",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "SOLD OUT",
     "cardDescription": "NOW RESIDENCES is a modern and dynamic residential complex located in Angeles City, Pampanga and will be part of the Aeropolis Metro of the Pampanga Megalopolis.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/card.png",
     "bannerAbout": "NOW RESIDENCES is a modern and dynamic residential complex located in Angeles City, Pampanga and will be part of the Aeropolis Metro of the Pampanga Megalopolis. The Aeropolis Metro is envisioned to be the highest growth potential and investment area in Pampanga.",
@@ -4514,6 +4920,9 @@
     "name": "Park Residences",
     "status": "PRE-SELLING",
     "city": "laguna",
+    "priceMax": "Php 4,200,000",
+    "priceMin": "Php 2,900,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/logoBlack.png"
@@ -4618,10 +5027,235 @@
     }
   },
   {
+    "id": "fparkville66",
+    "name": "Parkville",
+    "status": "PRE-SELLING",
+    "city": "bacolod",
+    "priceMax": "Php 4,300,000",
+    "priceMin": "Php 2,700,000",
+    "buildingType": "condo",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/logoBlack.webp"
+    },
+    "propertyType": "featured",
+    "cardAddress": "Bacolod City",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Immerse yourself in a world of practical goodness as you step into Bacolod’s newest urban destination! In Parkville, you can embrace the sense of community that awaits, where every milestone you reach is a reason to celebrate.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image02.webp",
+    "bannerAbout": "Immerse yourself in a world of practical goodness as you step into Bacolod’s newest urban destination! In Parkville, you can embrace the sense of community that awaits, where every milestone you reach is a reason to celebrate.",
+    "bannerFeaturesHeading": "Units",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "Located near land, air, and sea transport hubs",
+      "Within close proximity to top-notch educational institutions",
+      "Short ride to SM City Bacolod",
+      "SMDC's first pet-friendly project"
+    ],
+    "bannerAmenities": [
+      "Gate and Guardhouse",
+      "Olympic-sized Pool",
+      "Leisure Pool",
+      "Kiddie Pool",
+      "Fitness Gym",
+      "Function Room",
+      "Library and Co-working Area",
+      "Toddler Center",
+      "Play Garden",
+      "Covered Basketball Court",
+      "Soccer Field",
+      "Vista Ground",
+      "Celebration Square",
+      "Eight Themed Nature Parks"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/banner.webp",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image10.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image11.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image12.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image13.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image14.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image15.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image16.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image17.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image18.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image19.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image20.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image21.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image22.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image23.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image24.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image25.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image26.webp"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Leisure Club",
+        "description": "Feel the warmth of a gracious welcome each time you step into our lobby, revitalizes your senses, setting the tone for your day ahead.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image25.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image09.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image17.webp"
+        ]
+      },
+      "feature": {
+        "title": "Everyday lush living",
+        "description": "Immerse yourself in the beauty of nature at Parkville! Set in a serene neighborhood in Bacolod city, this newest community designed with relaxing amenities and eight thematic nature parks lets you experience the ideal urban living retreat.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image13.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Discover a haven of wellness and recreation at Parkville with an array of relaxing parks and inviting amenities to let residents experience the joy of the outdoors.",
+        "content": [
+          "Gate and Guardhouse",
+          "Olympic-sized Pool",
+          "Leisure Pool",
+          "Kiddie Pool",
+          "Fitness Gym",
+          "Function Room",
+          "Library and Co-working Area",
+          "Toddler Center",
+          "Play Garden",
+          "Covered Basketball Court",
+          "Soccer Field",
+          "Vista Ground",
+          "Celebration Square",
+          "Eight Themed Nature Parks"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image18.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image16.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image22.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image15.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image21.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image20.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image24.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image06.webp"
+        ]
+      },
+      "unit": {
+        "title": "Parks",
+        "description": "Immerse yourself in the lush embrace of Parkville, where eight thoughtfully-crafted parks await exploration- offering residents spaces that not only invite outdoor enjoyment but also nurture genuine connection with the beauty of the surroundings.",
+        "type": [
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image26.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image19.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image11.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image23.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/image14.webp"
+        ]
+      }
+    }
+  },
+  {
+    "id": "prrimerarosa70",
+    "name": "Primerarosa Residences",
+    "status": "PRE-SELLING",
+    "city": "batangas",
+    "priceMax": "",
+    "priceMin": "",
+    "buildingType": "house and lot",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/logoBlack.webp"
+    },
+    "propertyType": "pre-selling",
+    "cardAddress": "Sto. Tomas, Batangas",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Discover serenity and nature in Primerarosa Residences, a tranquil haven situated at the heart of Santo Tomas, Batangas where you and your loved ones can grow and thrive.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/card.webp",
+    "bannerAbout": "Discover serenity and nature in Primerarosa Residences, a tranquil haven situated at the heart of Santo Tomas, Batangas where you and your loved ones can grow and thrive.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "Feel refreshed with the lush greeneries surrounding your home"
+    ],
+    "bannerAmenities": ["Clubhouse", "Gated Community", "Guardhouse"],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/banner.webp",
+    "gallery": [],
+    "singleItem": {
+      "grandLobby": {
+        "title": "",
+        "description": "",
+        "image": []
+      },
+      "feature": {
+        "title": "Discover serenity and tranquility",
+        "description": "With tranquil surroundings and breathtaking views, every moment is a peaceful retreat. Experience the harmony of luxury and nature in your own serene sanctuary situated right within a prime neighborhood in Santo Tomas, Batangas.",
+        "image": ""
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "",
+        "content": ["Clubhouse", "Gated Community", "Guardhouse"],
+        "image": []
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Utility meets elegance. Experience the best urban lifestyle! Choose from our meticulously-designed house model units perfect for starting couples to growing families.",
+        "type": [
+          {
+            "name": "Therese Townhouse",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/image02.webp"
+        ]
+      }
+    }
+  },
+  {
     "id": "prprinceton40",
     "name": "Princeton Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Princeton/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Princeton/logoBlack.png"
@@ -4718,7 +5352,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -4727,6 +5361,9 @@
     "name": "Red Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "priceMax": "Php 15,200,000",
+    "priceMin": "Php 6,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/logoBlack.png"
@@ -4837,6 +5474,9 @@
     "name": "S Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "priceMax": "Php",
+    "priceMin": "Php",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/S/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/S/logoBlack.png"
@@ -4941,6 +5581,9 @@
     "name": "Sail Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "priceMax": "Php 24,600,000",
+    "priceMin": "Php 8,600,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/logoBlack.png"
@@ -5059,6 +5702,9 @@
     "name": "Sands Residences",
     "status": "PRE-SELLING",
     "city": "manila",
+    "priceMax": "Php 17,500,000",
+    "priceMin": "Php 6,000,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/logoBlack.png"
@@ -5199,6 +5845,9 @@
     "name": "Sea Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sea/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sea/logoBlack.png"
@@ -5290,7 +5939,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -5299,6 +5948,9 @@
     "name": "Shell Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shell/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shell/logoBlack.png"
@@ -5407,7 +6059,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -5416,6 +6068,9 @@
     "name": "Shine Residences",
     "status": "Ready for Occupancy",
     "city": "pasig",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shine/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shine/logoBlack.png"
@@ -5517,7 +6172,7 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
       }
     }
   },
@@ -5526,6 +6181,9 @@
     "name": "Shore Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "priceMax": "Php 24,800,000",
+    "priceMin": "Php 6,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoBlack.png"
@@ -5680,6 +6338,9 @@
     "name": "Shore2 Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "priceMax": "Php 21,400,000",
+    "priceMin": "Php 6,000,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore2/logoBlack.png"
@@ -5785,6 +6446,9 @@
     "name": "Shore3 Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "priceMax": "Php 27,700,000",
+    "priceMin": "Php 6,700,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/logoBlack.png"
@@ -5876,6 +6540,9 @@
     "name": "Smile Residences",
     "status": "PRE-SELLING",
     "city": "bacolod",
+    "priceMax": "Php 5,200,000",
+    "priceMin": "Php 3,800,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/logoBlack.png"
@@ -5990,6 +6657,9 @@
     "name": "South Residences",
     "status": "PRE-SELLING",
     "city": "las pinas",
+    "priceMax": "Php 6,000,000",
+    "priceMin": "Php 3,400,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/logoBlack.png"
@@ -6098,6 +6768,9 @@
     "name": "South2 Residences",
     "status": "PRE-SELLING",
     "city": "las pinas",
+    "priceMax": "Php 5,300,000",
+    "priceMin": "Php 4,000,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South2/logoBlack.png"
@@ -6222,6 +6895,9 @@
     "name": "Spring Residences",
     "status": "R.F.O / PRE-SELLING",
     "city": "paranaque",
+    "priceMax": "Php 5,400,000",
+    "priceMin": "Php 4,200,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Spring/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Spring/logoBlack.png"
@@ -6314,6 +6990,9 @@
     "name": "Style Residences",
     "status": "Ready for Occupancy",
     "city": "iloilo",
+    "priceMax": "Php 5,500,000",
+    "priceMin": "Php 3,400,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/logoBlack.png"
@@ -6446,6 +7125,9 @@
     "name": "Sun Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sun/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sun/logoBlack.png"
@@ -6481,17 +7163,17 @@
       "Patio and Barbeque Area"
     ],
     "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sun/banner.jpg",
-    "gallery": false,
+    "gallery": [],
     "singleItem": {
       "grandLobby": {
         "title": "",
         "description": "",
-        "image": false
+        "image": []
       },
       "feature": {
         "title": "A Perfect Setting for Rising",
         "description": "Sun Residences offers the perfect place to pursue and accomplish the demands of everyday life. Amenities such as lounges, landscaped gardens, and swimming pools provide means of recreation while nearby schools, medical centers, and the built-in Sun Mall offer much-desired convenience, making life at this 40-story tower wonderfully comfortable.",
-        "image": false
+        "image": []
       },
       "amenity": {
         "title": "Amenities",
@@ -6506,7 +7188,7 @@
           "Multi-purpose Hall",
           "Patio and Barbeque Area"
         ],
-        "image": false
+        "image": []
       },
       "unit": {
         "title": "Units",
@@ -6545,7 +7227,217 @@
             "description": ""
           }
         ],
-        "image": false
+        "image": []
+      }
+    }
+  },
+  {
+    "id": "prsunnyhomes68",
+    "name": "Sunnyhomes",
+    "status": "PRE-SELLING",
+    "city": "batangas",
+    "priceMax": "Php 2,500,000",
+    "priceMin": "Php 2,300,000",
+    "buildingType": "house and lot",
+    "logo": {
+      "white": "",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/logoBlack.webp"
+    },
+    "propertyType": "pre-selling",
+    "cardAddress": "Padre Garcia, Batangas",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Indulge in the comfort and convenience that Sunnyhomes in Padre Garcia, Batangas has to offer! Located along a prime highway giving you access to educational institutions and shopping spots for your daily necessities.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/card.webp",
+    "bannerAbout": "Indulge in the comfort and convenience that Sunnyhomes in Padre Garcia, Batangas has to offer! Located along a prime highway giving you access to educational institutions and shopping spots for your daily necessities.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "Situated near a prime road giving access to daily essentials",
+      "A few minutes away to shopping spots",
+      "Feel refreshed with the lush greeneries surrounding your home"
+    ],
+    "bannerAmenities": [
+      "Gate and Guardhouse",
+      "Parks",
+      "Jog Path",
+      "Covered Multi-purpose Court",
+      "Clubhouse",
+      "Open Court",
+      "Gazebos"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/banner.webp",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image10.webp"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "",
+        "description": "",
+        "image": [""]
+      },
+      "feature": {
+        "title": "The ideal home where comfort and convenience thrives",
+        "description": "Meticulously-designed with amenities and green spaces, you can definitely live out a lifestyle like no other in Sunnyhomes!",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image01.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Vast open spaces and amenities give residents the freedom to engage in outdoor activities, stay active, and maintain their overall wellness in check!",
+        "content": [
+          "Gate and Guardhouse",
+          "Parks",
+          "Jog Path",
+          "Covered Multi-purpose Court",
+          "Clubhouse",
+          "Open Court",
+          "Gazebos"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image07.webp"
+        ]
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Choose among the variety of unit offerings to find the perfect home for your needs.",
+        "type": [
+          {
+            "name": "Margaret House Model",
+            "description": ""
+          },
+          {
+            "name": "Beatrice House Model",
+            "description": ""
+          },
+          {
+            "name": "Anne House Model",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image09.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/image10.webp"
+        ]
+      }
+    }
+  },
+  {
+    "id": "prsunnyvale69",
+    "name": "Sunnyvale",
+    "status": "PRE-SELLING",
+    "city": "tarlac",
+    "priceMax": "Php 2,500,000",
+    "priceMin": "Php 1,600,000",
+    "buildingType": "condo",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/logoBlack.webp"
+    },
+    "propertyType": "pre-selling",
+    "cardAddress": "Concepcion, Tarlac",
+    "cardDiscount": "",
+    "cardPrice": "",
+    "cardDescription": "Discover a space of relaxation in this charming retreat situated in Tarlac. Surrounded by serene landscapes and the gentle hum of nature, Sunnyvale offers a tranquil escape from the hustle and bustle of the city life and lets you embrace the simple joys of country living.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/card.webp",
+    "bannerAbout": "Discover a space of relaxation in this charming retreat situated in Tarlac. Surrounded by serene landscapes and the gentle hum of nature, Sunnyvale offers a tranquil escape from the hustle and bustle of the city life and lets you embrace the simple joys of country living.",
+    "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [
+      "Situated near the prime MacArthur Highway",
+      "Few minutes away from SM City Tarlac and Robinsons Mall",
+      "Feel refreshed with the lush greeneries surrounding your home"
+    ],
+    "bannerAmenities": [
+      "Gate and Guardhouse",
+      "Parks",
+      "Jog Path",
+      "Basketball Court",
+      "Multi-purpose Covered Court",
+      "Clubhouse",
+      "Terminal Hub"
+    ],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/banner.webp",
+    "gallery": [],
+    "singleItem": {
+      "grandLobby": {
+        "title": "",
+        "description": "",
+        "image": [""]
+      },
+      "feature": {
+        "title": "Your ideal address in Tarlac",
+        "description": "Surrounded by picturesque landscapes and peaceful ambiance, Sunnyvale offers residents the perfect blend of amenities and facilities to let families live their best life yet in Tarlac.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image01.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Experience the ideal vibrant community living in this development designed with an array of well-maintained amenities and facilities!",
+        "content": [
+          "Gate and Guardhouse",
+          "Parks",
+          "Jog Path",
+          "Basketball Court",
+          "Multi-purpose Covered Court",
+          "Clubhouse",
+          "Terminal Hub"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image07.webp"
+        ]
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Whether you desire a cozy nest to begin your life as a couple or a spacious home to accommodate your expanding family, our range of house model units is crafted to fulfill your needs.",
+        "type": [
+          {
+            "name": "Catherine Duplex Model",
+            "description": ""
+          },
+          {
+            "name": "Beatrice Townhomes",
+            "description": ""
+          },
+          {
+            "name": "Lara Duplex Model",
+            "description": ""
+          },
+          {
+            "name": "Diana Duplex Model",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image11.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image15.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image09.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image13.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/image14.webp"
+        ]
       }
     }
   },
@@ -6554,6 +7446,9 @@
     "name": "Trees Residences",
     "status": "R.F.O / PRE-SELLING",
     "city": "quezon",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoBlack.png"
@@ -6674,6 +7569,9 @@
     "name": "Turf Residences",
     "status": "PRE-SELLING",
     "city": "laguna",
+    "priceMax": "Php 3,300,000",
+    "priceMin": "Php 2,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoBlack.png"
@@ -6793,6 +7691,9 @@
     "name": "Twin Residences",
     "status": "PRE-SELLING",
     "city": "las pinas",
+    "priceMax": "Php 5,300,000",
+    "priceMin": "Php 3,700,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoBlack.png"
@@ -6928,6 +7829,9 @@
     "name": "Vail Residences",
     "status": "PRE-SELLING",
     "city": "cagayan de oro",
+    "priceMax": "Php 4,000,000",
+    "priceMin": "Php 3,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/logoBlack.png"
@@ -7031,6 +7935,9 @@
     "name": "Vine Residences",
     "status": "PRE-SELLING",
     "city": "quezon",
+    "priceMax": "Php 6,200,000",
+    "priceMin": "Php 3,500,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/logoBlack.png"
@@ -7150,6 +8057,9 @@
     "name": "Wind Residences",
     "status": "Ready for Occupancy",
     "city": "tagaytay",
+    "priceMax": "",
+    "priceMin": "SOLD OUT",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/logoBlack.png"
@@ -7319,6 +8229,9 @@
     "name": "Zeal Residences",
     "status": "Ready for Occupancy",
     "city": "cavite",
+    "priceMax": "Php 3,200,000",
+    "priceMin": "Php 3,100,000",
+    "buildingType": "condo",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoBlack.png"

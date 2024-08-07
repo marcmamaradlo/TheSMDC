@@ -1,10 +1,12 @@
 import propertiesJSON from "../../properties.json";
+import propertyTestJSON from "../../propertyTest.json";
 import ComponentOne from "./ComponentOne";
 const TestComponentOne = () => {
-  // const propertyType = propertiesJSON.filter(
-  //   (obj) => obj.propertyType === "best-seller"
-  // console.log(propertyType);
-  // );
+  const propertyTest = propertyTestJSON.filter(
+    (obj) => obj.id === "fparkville66"
+  );
+  console.log(propertyTest[0]);
+  console.log(propertiesJSON);
 
   // const propertyType = propertiesJSON.filter(
   //   (obj) => obj.city.toLowerCase() === "rizal"
@@ -12,7 +14,8 @@ const TestComponentOne = () => {
   // console.log(propertyType);
   return (
     <>
-      <ComponentOne data={propertiesJSON[0]} />
+      {/* <ComponentOne data={propertyTest[0]} /> */}
+      <ComponentOne data={propertiesJSON[44]} />
     </>
   );
 };
