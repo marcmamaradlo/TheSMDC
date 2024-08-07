@@ -16,13 +16,28 @@ class MyProvider extends Component {
     contactModalIsActive: false, // true, false
     activeModal: "contactModal", //contactModal, homeModal, null
     locations: [
-      "Makati",
-      "Manila",
-      "Mandaluyong",
-      "Paranaque",
-      "Cavite",
-      "Bulacan",
-      "Laguna",
+      "quezon city",
+      "manila",
+      "mandaluyong",
+      "cavite",
+      "makati",
+      "paranaque",
+      "muntinlupa",
+      "pasay",
+      "pasig",
+      "batangas",
+      "bulacan",
+      "davao",
+      "laguna",
+      "rizal",
+      "pampanga",
+      "tagaytay",
+      "iloilo",
+      "taguig",
+      "bacolod",
+      "las pinas",
+      "tarlac",
+      "cagayan de oro",
     ],
     helpfulLinks: ["Home", "About Us", "How to Reserve", "Contact Us"],
     navLinks: ["home", "about", "properties", "reservation", "contact"],
@@ -33,6 +48,13 @@ class MyProvider extends Component {
     preSelling: preSellingJSON,
     allProperties: propertiesJSON,
     showMoreButtonIndex: 4,
+  };
+
+  handleLocationLinks = () => {
+    const locations = this.state.locations;
+    return locations.map((item, index) => (
+      <Link key={item + index}>{item.toUpperCase()}</Link>
+    ));
   };
 
   resetShowMoreButtonIndex = () => {
@@ -49,6 +71,9 @@ class MyProvider extends Component {
   };
 
   handlePremierProperties = () => {
+    ///////////////////////////////////////////////////////////
+    // DO NOT USE THIS FUNCTION ///////////////////////////////
+    ///////////////////////////////////////////////////////////
     const premierProperties = this.state.premier;
     return premierProperties.map((item) => {
       return (
@@ -65,24 +90,11 @@ class MyProvider extends Component {
   };
 
   handleBestSellingProperties = () => {
+    ///////////////////////////////////////////////////////////
+    // DO NOT USE THIS FUNCTION ///////////////////////////////
+    ///////////////////////////////////////////////////////////
     const bestSellingProperties = this.state.bestSelling;
     return bestSellingProperties.map((item) => {
-      return (
-        <Card
-          id={item.id}
-          name={item.name}
-          cardPrice={item.cardPrice}
-          cardImage={item.cardImage}
-          cardAddress={item.cardAddress}
-          cardDescription={item.cardDescription}
-        />
-      );
-    });
-  };
-
-  handleFeaturedProperties = () => {
-    const premierProperties = this.state.premier;
-    return premierProperties.map((item) => {
       return (
         <Card
           id={item.id}
@@ -148,11 +160,11 @@ class MyProvider extends Component {
       locationLinks,
       handleHamburgerIcon,
       navbarLinks,
-      handleFeaturedProperties,
       handleBestSellingProperties,
       handleContactModalState,
       handleShowMoreButton,
       resetShowMoreButtonIndex,
+      handleLocationLinks,
     } = this;
 
     return (
@@ -163,11 +175,11 @@ class MyProvider extends Component {
           locationLinks,
           handleHamburgerIcon,
           navbarLinks,
-          handleFeaturedProperties,
           handleBestSellingProperties,
           handleContactModalState,
           handleShowMoreButton,
           resetShowMoreButtonIndex,
+          handleLocationLinks,
         }}
       >
         {this.props.children}

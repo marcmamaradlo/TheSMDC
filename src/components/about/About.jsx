@@ -6,10 +6,11 @@ import bestSellerJSON from "../../best-sellers.json";
 import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 import propertiesJSON from "../../properties.json";
 import StaticBanner from "../banner-carousel/StaticBanner";
+import AboutWidget from "./AboutWIdget";
+import ShowPropertyTypes from "../properties/ShowPropertyTypes";
 
 const About = () => {
   const context = useContext(MyContext);
-  const handleFeaturedProperties = context.handleFeaturedProperties;
   const universalBanner = context.universalBanner;
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -43,24 +44,7 @@ const About = () => {
   return (
     <>
       <StaticBanner style={`page-banner`} text={`About Us`} />
-      <div className="widget-container">
-        <div className="widget">
-          <p>78k+</p>
-          <p>Delivered Units</p>
-        </div>
-        <div className="widget">
-          <p>60+</p>
-          <p>Developments</p>
-        </div>
-        <div className="widget">
-          <p>24/7</p>
-          <p>Customer Service</p>
-        </div>
-        <div className="widget">
-          <p>100%</p>
-          <p>Satisfaction</p>
-        </div>
-      </div>
+      <AboutWidget />
       <div style={{ ...kts }}>
         <div className="SMDC-kts-container">
           <div className="SMDC-kts-header">
@@ -255,7 +239,7 @@ const About = () => {
       </div>
       <div className="component">
         <h3>Featured Properties</h3>
-        {handleFeaturedProperties()}
+        <ShowPropertyTypes pType={`featured`} />
         <CustomLink
           text="view all properties"
           style="view-all-properties"

@@ -3,12 +3,12 @@ import Slider from "react-slick";
 import { CustomLink } from "../buttons/Buttons";
 
 const Landscape = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   var settings = {
     dots: false,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     className: "center",
     centerMode: true,
     infinite: true,
@@ -54,13 +54,13 @@ const Landscape = ({ data }) => {
         // Height: "200px",
         // Width: "300px",
       };
-      console.log(item.bannerImage);
+      // console.log(item.bannerImage);
 
       return (
         // <div>
         //   <img src={item.bannerImage} alt={item.name} />
         // </div>
-        <div className="landscape" style={{ ...bodyBG }}>
+        <div className="landscape" style={{ ...bodyBG }} key={item.id}>
           <div className="landscape-body">
             <img src={item.cardImage} alt={item.name} />
             <h4>{item.name}</h4>
@@ -72,7 +72,7 @@ const Landscape = ({ data }) => {
             </div>
             <div>
               <i className="fa-solid fa-peso-sign"></i>
-              <p>Php 2,700,000 - Php 4,300,000</p>
+              <p>{`${item.priceMin} - ${item.priceMax}`}</p>
             </div>
             {/* <CustomLink text={`Learn More`} style={`featured-button`} /> */}
           </div>

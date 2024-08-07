@@ -5,6 +5,9 @@ import Category from "../properties/Category";
 import Contact from "../contact/Contact";
 import BestSellingProperties from "../properties/BestSellingProperties";
 import FeaturedProperties from "../properties/FeaturedProperties";
+import ExploreLocation from "../properties/ExploreLocation";
+import AboutWidget from "../about/AboutWIdget";
+import ShowPropertyTypes from "../properties/ShowPropertyTypes";
 
 const Home = () => {
   useEffect(() => {
@@ -16,8 +19,22 @@ const Home = () => {
       <HomeCarousel />
       <Category />
       <FeaturedProperties />
+      <ExploreLocation />
+      <div className="component">
+        <h4>Choose the SMDC, the leading developer in the Philippines.</h4>
+        <p>
+          If you are looking for an investment opportunity consider the SMDC.
+          With properties still currently being built and still lined-up, the
+          Philippines is still definitely enjoying the major surge of the Real
+          Estate Market.
+        </p>
+        <AboutWidget />
+      </div>
       <Contact />
-      <BestSellingProperties />
+      <div className="component">
+        <h3>Best Selling Properties</h3>
+        <ShowPropertyTypes pType={`best-seller`} />
+      </div>
       <div className="component">
         <h4>Choose the SMDC, the leading developer in the Philippines.</h4>
         <p className="text-justify">

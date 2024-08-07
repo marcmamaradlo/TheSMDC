@@ -315,7 +315,7 @@
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoBlack.png"
     },
-    "propertyType": "pre-selling",
+    "propertyType": "featured",
     "cardAddress": "Sucat Paranaque",
     "cardDiscount": "",
     "cardPrice": "Php 18,000 / Monthly",
@@ -3147,7 +3147,7 @@
   },
   {
     "id": "price26",
-    "name": "Ice Tower Residential Offices",
+    "name": "Ice Tower Offices",
     "status": "PRE-SELLING",
     "city": "pasay",
     "priceMax": "Php 12,500,000",
@@ -4022,7 +4022,7 @@
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoBlack.png"
     },
-    "propertyType": "best-seller",
+    "propertyType": "featured",
     "cardAddress": "EDSA Corner Madison Street Mandaluyong City",
     "cardDiscount": "",
     "cardPrice": "Php 18,000 / Monthly",
@@ -6188,7 +6188,7 @@
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoBlack.png"
     },
-    "propertyType": "rfo",
+    "propertyType": "featured",
     "cardAddress": "Seaside blvd. cor. Sunrise Drive, MOA, Pasay City",
     "cardDiscount": "",
     "cardPrice": "Php 29,000 / Monthly",
@@ -7576,7 +7576,7 @@
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoBlack.png"
     },
-    "propertyType": "pre-selling",
+    "propertyType": "featured",
     "cardAddress": "Biñan Laguna",
     "cardDiscount": "",
     "cardPrice": "Php 11,000 / Monthly",
@@ -8236,7 +8236,7 @@
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoBlack.png"
     },
-    "propertyType": "rfo",
+    "propertyType": "featured",
     "cardAddress": "General Trias, Cavite",
     "cardDiscount": "",
     "cardPrice": "Php 12,000 / Monthly",
