@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../components/home/Home";
 import About from "../components/about/About";
-import Contact from "../components/contact/Contact";
+import ContactUs from "../components/contact/ContactUs";
 import Properties from "../components/properties/Properties";
 import Reservation from "../components/reservation/Reservation";
 import RenderSingleItem from "../components/properties/RenderSingleItem";
@@ -14,7 +14,7 @@ const Router = () => {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/properties" element={<Properties />} />
         <Route path="/properties/:name" element={<RenderSingleItem />} />
         <Route path="/reservation" element={<Reservation />} />

@@ -5,6 +5,7 @@ import Category from "./Category";
 import PropertyType from "./PropertyType";
 // import allProperties from "../../properties.json";
 import Contact from "../contact/Contact";
+import HeadingOne from "../contact/HeadingOne";
 const Properties = () => {
   // console.log(allProperties.findIndex((item) => item.id === "prS42"));
 
@@ -20,7 +21,10 @@ const Properties = () => {
       />
       <Category />
       <PropertyType />
-      <Contact />
+      <div className="component">
+        <HeadingOne />
+        <Contact />
+      </div>
     </>
   );
 };

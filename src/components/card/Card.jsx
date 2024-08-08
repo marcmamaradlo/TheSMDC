@@ -16,9 +16,9 @@ const Card = ({
               <h2>{name}</h2>
               <p>{cardPrice}</p>
             </div>
-            <p className="card-decription">{cardDescription}</p>
+            {/* <p className="card-decription">{cardDescription}</p> */}
             <div className="card-address">
-              <i className="fa-solid fa-location-dot"></i>
+              {/* <i className="fa-solid fa-location-dot"></i> */}
               <p>{cardAddress}</p>
             </div>
           </div>

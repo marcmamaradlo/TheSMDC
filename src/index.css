@@ -246,19 +246,24 @@ summary,
 .component h4 {
   font-size: 2rem;
   font-family: "Work Sans", sans-serif;
-  font-weight: 500;
-  text-align: center;
+  font-weight: 300;
+  text-align: left;
+  color: #bb7000;
 }
 
 .component h3 {
   font-family: "Work Sans", sans-serif;
-  font-size: 2.5rem;
-  text-align: center;
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 5rem;
 }
 
 .component p {
   font-family: "Work Sans", sans-serif;
   text-align: unset;
+  font-weight: 300;
 }
 
 .featured {
@@ -293,13 +298,13 @@ summary,
 }
 
 .featured-container {
-  /* background-color: #f5f5f5; */
+  height: 85vh;
 }
 
 .featured-container div:nth-of-type(1) {
   display: flex;
   justify-content: flex-end;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   margin-bottom: 1.5rem;
 }
@@ -313,7 +318,7 @@ summary,
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   margin-bottom: 1.5rem;
 }
@@ -326,7 +331,7 @@ summary,
 .featured-container div:nth-of-type(3) {
   display: flex;
   justify-content: flex-start;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   margin-bottom: 1.5rem;
 }
@@ -361,6 +366,7 @@ summary,
   margin: 0;
   color: #323231;
   height: 10rem;
+  line-height: 4rem;
 }
 
 .featured-content p {
@@ -375,7 +381,7 @@ summary,
   justify-content: center;
   /* flex-direction: column; */
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   gap: 0.5rem;
 }
 
@@ -409,9 +415,6 @@ summary,
   font-weight: 500;
   transition: 300ms;
 }
-.px-1rem {
-  padding: 0 1rem;
-}
 
 /* // COMPONENT END ////////////////////////////////////// */
 
@@ -441,11 +444,20 @@ summary,
 .location-links {
   display: flex;
   overflow: scroll;
-  gap: 1rem;
+  gap: 3.3rem;
   height: 7rem;
 }
 
-.location-links a {
+.location-links-expanded {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  gap: 3.3rem;
+  height: 50rem;
+}
+
+.location-links a,
+.location-links-expanded a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -457,7 +469,8 @@ summary,
   font-size: 1.2rem;
 }
 
-.location-links a:hover {
+.location-links a:hover,
+.location-links-expanded a:hover {
   color: #bb7000;
   border: 1px solid #bb7000;
   transition: 300ms;
@@ -523,6 +536,7 @@ summary,
 form {
   width: 100%;
   height: 100%;
+  margin: 4rem 0;
   /* font-family: "Work Sans", sans-serif; */
 }
 
@@ -884,6 +898,8 @@ form {
 .long-text h2 {
   font-family: "Work Sans", sans-serif;
   font-size: 2.5rem;
+  font-weight: 500;
+  color: #bb7000;
 }
 
 /* // ABOUT END ////////////////////////////////////// */
@@ -902,21 +918,26 @@ form {
 
 .card-name {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .card-name p,
 h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin: 1rem 0;
 }
 
 .card-name h2 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: #222222;
+  font-weight: 500;
 }
 
 .card-name p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  color: #0130ff;
 }
 
 .card-decription {
@@ -940,13 +961,16 @@ h2 {
 
 .card-address p {
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
   color: #555558;
 }
 
 .card-s-body {
   height: 20rem;
   width: 25rem;
+}
+
+.card-details {
 }
 
 .card-s-logo-container {
@@ -1183,6 +1207,15 @@ h2 {
   margin-top: 1rem;
   background-color: #0130ff;
   font-family: "Work Sans", sans-serif;
+}
+
+.px-1rem {
+  padding: 0 1rem;
+}
+
+.py-1rem {
+  margin-bottom: 5rem;
+  margin-top: 0;
 }
 /* // COMPONENTS END ////////////////////////////////////// */
 

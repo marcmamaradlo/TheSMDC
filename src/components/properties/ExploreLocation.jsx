@@ -1,10 +1,15 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { MyContext } from "../../context";
 
 const ExploreLocation = () => {
   const context = useContext(MyContext);
   const handleLocationLinks = context.handleLocationLinks;
+  const [isExpanded, setIsExpanded] = useState(false);
 
+  const expandLocationLinks = () => {
+    setIsExpanded(!isExpanded);
+    console.log(isExpanded);
+  };
   return (
     <>
       <div className="location-container">
@@ -13,10 +18,19 @@ const ExploreLocation = () => {
           <h3>Explore properties near you</h3>
           <div>
             <p>SMDC IDEAL LOCATIONS</p>
-            <i className="fa-solid fa-arrow-right"></i>
+            <i
+              className="fa-solid fa-arrow-right"
+              onClick={expandLocationLinks}
+            ></i>
           </div>
 
-          <div className="location-links">{handleLocationLinks()}</div>
+          <div
+            className={
+              isExpanded ? "location-links" : "location-links-expanded"
+            }
+          >
+            {handleLocationLinks()}
+          </div>
         </div>
       </div>
     </>

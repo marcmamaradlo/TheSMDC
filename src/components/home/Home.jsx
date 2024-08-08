@@ -8,6 +8,7 @@ import FeaturedProperties from "../properties/FeaturedProperties";
 import ExploreLocation from "../properties/ExploreLocation";
 import AboutWidget from "../about/AboutWIdget";
 import ShowPropertyTypes from "../properties/ShowPropertyTypes";
+import HeadingOne from "../contact/HeadingOne";
 
 const Home = () => {
   useEffect(() => {
@@ -20,8 +21,8 @@ const Home = () => {
       <Category />
       <FeaturedProperties />
       <ExploreLocation />
-      <div className="component">
-        <h4>Choose the SMDC, the leading developer in the Philippines.</h4>
+      {/* <div className="component">
+        <h4>The leading developer in the Philippines.</h4>
         <p>
           If you are looking for an investment opportunity consider the SMDC.
           With properties still currently being built and still lined-up, the
@@ -29,14 +30,20 @@ const Home = () => {
           Estate Market.
         </p>
         <AboutWidget />
+      </div> */}
+      <div className="component">
+        <HeadingOne />
+        <Contact />
       </div>
-      <Contact />
       <div className="component">
         <h3>Best Selling Properties</h3>
+        <h4>CHECK OUT OUR BEST-SELLING PROPERTIES</h4>
+
         <ShowPropertyTypes pType={`best-seller`} />
       </div>
       <div className="component">
-        <h4>Choose the SMDC, the leading developer in the Philippines.</h4>
+        <h3>SMDC</h3>
+        <h4>The leading developer in the Philippines.</h4>
         <p className="text-justify">
           If you are looking for an investment opportunity consider the SMDC.
           With properties still currently being built and still lined-up, the

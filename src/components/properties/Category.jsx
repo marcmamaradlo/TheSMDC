@@ -2,10 +2,8 @@ const Category = () => {
   return (
     <>
       <div className="component">
-        <h4>
-          Hello there! It's now your time to have your own property! Refine your
-          search by categories.
-        </h4>
+        <h3>Refine your search</h3>
+        <h4>It's now your time to have your own property! </h4>
         <div className="category">
           <div className="" name="condominium">
             <span className="material-symbols-outlined">apartment</span>
