@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { CustomLink } from "../buttons/Buttons";
 import HomeCarousel from "../banner-carousel/HomeCarousel";
-import Category from "../properties/Category";
+import Category from "../property/Category";
 import Contact from "../contact/Contact";
 import BestSellingProperties from "../properties/BestSellingProperties";
 import FeaturedProperties from "../properties/FeaturedProperties";

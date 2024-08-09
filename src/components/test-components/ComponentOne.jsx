@@ -2,11 +2,11 @@ import React from "react";
 import { useEffect } from "react";
 
 const ComponentOne = ({ data }) => {
-  // console.log(data);
+  console.log(data.name);
 
   const feature = data.singleItem.feature;
   const amenity = data.singleItem.amenity;
-  // amenity.content.map((item) => console.log(item));
+
   const unit = data.singleItem.unit;
   const grandLobby = data.singleItem.grandLobby;
   const blackLogo = data.logo.black;

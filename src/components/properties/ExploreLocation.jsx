@@ -26,7 +26,7 @@ const ExploreLocation = () => {
 
           <div
             className={
-              isExpanded ? "location-links" : "location-links-expanded"
+              isExpanded ? "location-links-expanded" : "location-links"
             }
           >
             {handleLocationLinks()}

@@ -4,9 +4,10 @@
     "name": "Air Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "shortAddress": "Makati",
     "priceMax": "Php 7,100,000",
     "priceMin": "Php 6,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Air/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Air/logoBlack.png"
@@ -119,9 +120,10 @@
     "name": "Amorrosa Residences",
     "status": "PRE-SELLING",
     "city": "batangas",
+    "shortAddress": "Batangas",
     "priceMax": "Php 1,650,000",
     "priceMin": "Php 1,700,000",
-    "buildingType": "house and lot",
+    "buildingType": "house-and-lot",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/logoWhite.webp",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Amorrosa/logoBlack.webp"
@@ -185,9 +187,10 @@
     "name": "Berkeley Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Berkeley/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Berkeley/logoBlack.png"
@@ -307,10 +310,11 @@
     "id": "prbloom03",
     "name": "Bloom Residences",
     "status": "PRE-SELLING",
-    "city": "paranaque",
+    "city": "pararaque",
+    "shortAddress": "Parañaque City",
     "priceMax": "Php 6,600,000",
     "priceMin": "Php 4,000,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoBlack.png"
@@ -432,9 +436,10 @@
     "name": "Blue Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Parañaque City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/logoBlack.png"
@@ -546,9 +551,10 @@
     "name": "Breeze Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "shortAddress": "Pasay City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Breeze/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Breeze/logoBlack.png"
@@ -651,9 +657,10 @@
     "name": "Calm Residences",
     "status": "PRE-SELLING",
     "city": "laguna",
+    "shortAddress": "Laguna",
     "priceMax": "Php 3,300,000",
     "priceMin": "Php 3,200,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/logoBlack.png"
@@ -775,9 +782,10 @@
     "name": "Charm Residences",
     "status": "PRE-SELLING",
     "city": "rizal",
+    "shortAddress": "Rizal",
     "priceMax": "Php 5,200,000",
     "priceMin": "Php 3,800,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/logoBlack.png"
@@ -912,9 +920,10 @@
     "name": "Chateau Residences",
     "status": "Ready for Occupancy",
     "city": "paranaque",
+    "shortAddress": "Parañaque City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Chateau/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Chateau/logoBlack.png"
@@ -1031,9 +1040,10 @@
     "name": "Cheer Residences",
     "status": "PRE-SELLING",
     "city": "bulacan",
+    "shortAddress": "Bulacan",
     "priceMax": "Php 4,200,000",
     "priceMin": "Php 3,100,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheer/logoBlack.png"
@@ -1134,9 +1144,10 @@
     "name": "Cheerful Homes",
     "status": "PRE-SELLING",
     "city": "pampanga",
+    "shortAddress": "Pampanga",
     "priceMax": "Php 1,700,000",
     "priceMin": "Php 1,100,000",
-    "buildingType": "house and lot",
+    "buildingType": "house-and-lot",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful/logoBlack.png"
@@ -1234,9 +1245,10 @@
     "name": "Cheerful Homes 2",
     "status": "PRE-SELLING",
     "city": "makati",
+    "shortAddress": "Pampanga",
     "priceMax": "Php 3,600,000",
     "priceMin": "Php 2,000,000",
-    "buildingType": "house and lot",
+    "buildingType": "house-and-lot",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/logoWhite.webp",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/logoBlack.webp"
@@ -1246,7 +1258,7 @@
     "cardDiscount": "",
     "cardPrice": "",
     "cardDescription": "Live a more cheerful, brighter life at SMDC Cheerful Homes 2! This 17-hectare master-planned community in Pampanga puts an emphasis on community with spaces that are designed to empower the modern Filipino lifestyle.",
-    "cardImage": "",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cheerful2/card.webp",
     "bannerAbout": "Live a more cheerful, brighter life at SMDC Cheerful Homes 2! This 17-hectare master-planned community in Pampanga puts an emphasis on community with spaces that are designed to empower the modern Filipino lifestyle.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
@@ -1324,9 +1336,10 @@
     "name": "Coast Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "shortAddress": "Pasay City",
     "priceMax": "Php 22,700,000",
     "priceMin": "Php 5,100,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Coast/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Coast/logoBlack.png"
@@ -1463,9 +1476,10 @@
     "name": "Cool Suites at Wind Residences",
     "status": "PRE-SELLING",
     "city": "tagaytay",
+    "shortAddress": "Tagaytay City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/logoBlack.png"
@@ -1567,9 +1581,10 @@
     "name": "Fame Residences",
     "status": "R.F.O / PRE-SELLING",
     "city": "mandaluyong",
+    "shortAddress": "Mandaluyong City",
     "priceMax": "Php",
     "priceMin": "Php",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/logoBlack.png"
@@ -1678,9 +1693,10 @@
     "name": "Field Residences",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "shortAddress": "Paranaque City",
     "priceMax": "Php 6,600,000",
     "priceMin": "Php 4,200,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/logoBlack.png"
@@ -1798,9 +1814,10 @@
     "name": "Gem Residences",
     "status": "PRE-SELLING",
     "city": "pasig",
+    "shortAddress": "Pasig City",
     "priceMax": "Php 9,400,000",
     "priceMin": "Php 5,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gem/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gem/logoBlack.png"
@@ -1909,9 +1926,10 @@
     "name": "Glade Residences",
     "status": "PRE-SELLING",
     "city": "iloilo",
+    "shortAddress": "Iloilo City",
     "priceMax": "Php 3,200,000",
     "priceMin": "Php 3,000,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/logoBlack.png"
@@ -2025,9 +2043,10 @@
     "name": "Glam Residences",
     "status": "PRE-SELLING",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "Php 13,900,000",
     "priceMin": "Php 5,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glam/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glam/logoBlack.png"
@@ -2159,9 +2178,10 @@
     "name": "Gold Residences",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "shortAddress": "Parañaque City",
     "priceMax": "Php 15,700,000",
     "priceMin": "Php 6,800,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/logoBlack.png"
@@ -2283,9 +2303,10 @@
     "name": "Gold Offices",
     "status": "PRE-SELLING",
     "city": "paranaque",
+    "shortAddress": "Parañaque City",
     "priceMax": "Php 9,900,000",
     "priceMin": "Php 7,800,000",
-    "buildingType": "office",
+    "buildingType": "residential-office",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/logoBlack.png"
@@ -2406,9 +2427,10 @@
     "name": "Grace Residences",
     "status": "Ready for Occupancy",
     "city": "taguig",
+    "shortAddress": "Taguig City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grace/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grace/logoBlack.png"
@@ -2520,9 +2542,10 @@
     "name": "Grass Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "SM North EDSA",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grass/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Grass/logoBlack.png"
@@ -2678,9 +2701,10 @@
     "name": "Green Residences",
     "status": "Ready for Occupancy",
     "city": "manila",
+    "shortAddress": "City of Manila",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green/logoBlack.png"
@@ -2801,9 +2825,10 @@
     "name": "Green2 Residences",
     "status": "PRE-SELLING",
     "city": "cavite",
+    "shortAddress": "Cavite",
     "priceMax": "Php 6,200,000",
     "priceMin": "Php 3,200,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Green2/logoBlack.png"
@@ -2923,9 +2948,10 @@
     "name": "Hill Residences",
     "status": "PRE-SELLING",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "Php 3,800,000",
     "priceMin": "Php 3,100,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/logoBlack.png"
@@ -3042,9 +3068,10 @@
     "name": "Hope Residences",
     "status": "PRE-SELLING",
     "city": "cavite",
+    "shortAddress": "SM City Trece Martires",
     "priceMax": "Php 4,500,000",
     "priceMin": "Php 2,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hope/logoBlack.png"
@@ -3150,9 +3177,10 @@
     "name": "Ice Tower Offices",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "shortAddress": "Mall of Asia Complex",
     "priceMax": "Php 12,500,000",
     "priceMin": "Php 7,500,000",
-    "buildingType": "office",
+    "buildingType": "residential-office",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/logoBlack.png"
@@ -3279,9 +3307,10 @@
     "name": "Jade Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "shortAddress": "Makati City",
     "priceMax": "Php 12,264,000",
     "priceMin": "Php 6,311,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoWhite.webp",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoBlack.webp"
@@ -3415,9 +3444,10 @@
     "name": "Jazz Residences",
     "status": "Ready for Occupancy",
     "city": "makati",
+    "shortAddress": "Makati City",
     "priceMax": "Php 9,600,000",
     "priceMin": "Php 5,800,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jazz/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jazz/logoBlack.png"
@@ -3561,9 +3591,10 @@
     "name": "Joy Residences",
     "status": "PRE-SELLING",
     "city": "bulacan",
+    "shortAddress": "Bulacan",
     "priceMax": "Php 12,500,000",
     "priceMin": "Php 7,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/logoBlack.png"
@@ -3666,9 +3697,10 @@
     "name": "Lane Residences",
     "status": "PRE-SELLING",
     "city": "davao",
+    "shortAddress": "Davao City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/logoBlack.png"
@@ -3773,9 +3805,10 @@
     "name": "Leaf Residences",
     "status": "PRE-SELLING",
     "city": "muntinlupa",
+    "shortAddress": "Muntinlupa",
     "priceMax": "Php 7,900,000",
     "priceMin": "Php 3,200,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/logoBlack.png"
@@ -3907,9 +3940,10 @@
     "name": "Light Residences",
     "status": "Ready for Occupancy",
     "city": "mandaluyong",
+    "shortAddress": "Mandaluyong City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/logoBlack.png"
@@ -4015,9 +4049,10 @@
     "name": "Light2 Residences",
     "status": "PRE-SELLING",
     "city": "mandaluyong",
+    "shortAddress": "Mandaluyong City",
     "priceMax": "Php 11,600,000",
     "priceMin": "Php 5,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoBlack.png"
@@ -4167,9 +4202,10 @@
     "name": "Lush Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "shortAddress": "Makati City",
     "priceMax": "Php 10,100,000",
     "priceMin": "Php 5,800,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lush/logoBlack.png"
@@ -4294,9 +4330,10 @@
     "name": "Mezza Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza/logoBlack.png"
@@ -4395,9 +4432,10 @@
     "name": "Mezza II Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mezza2/logoBlack.png"
@@ -4535,9 +4573,10 @@
     "name": "Mint Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "shortAddress": "Makati City",
     "priceMax": "Php 16,900,000",
     "priceMin": "Php 6,300,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/logoBlack.png"
@@ -4663,9 +4702,10 @@
     "name": "MPlace Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/MPlace/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/MPlace/logoBlack.png"
@@ -4805,9 +4845,10 @@
     "name": "Now Residences",
     "status": "PRE-SELLING",
     "city": "pampanga",
+    "shortAddress": "Pampanga",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/logoBlack.png"
@@ -4920,9 +4961,10 @@
     "name": "Park Residences",
     "status": "PRE-SELLING",
     "city": "laguna",
+    "shortAddress": "Laguna",
     "priceMax": "Php 4,200,000",
     "priceMin": "Php 2,900,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/logoBlack.png"
@@ -5031,9 +5073,10 @@
     "name": "Parkville",
     "status": "PRE-SELLING",
     "city": "bacolod",
+    "shortAddress": "Bacolod City",
     "priceMax": "Php 4,300,000",
     "priceMin": "Php 2,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/logoWhite.webp",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Parkville/logoBlack.webp"
@@ -5193,9 +5236,10 @@
     "name": "Primerarosa Residences",
     "status": "PRE-SELLING",
     "city": "batangas",
+    "shortAddress": "Batangas City",
     "priceMax": "",
     "priceMin": "",
-    "buildingType": "house and lot",
+    "buildingType": "house-and-lot",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/logoWhite.webp",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Primerarosa/logoBlack.webp"
@@ -5253,9 +5297,10 @@
     "name": "Princeton Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Princeton/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Princeton/logoBlack.png"
@@ -5361,9 +5406,10 @@
     "name": "Red Residences",
     "status": "PRE-SELLING",
     "city": "makati",
+    "shortAddress": "Makati City",
     "priceMax": "Php 15,200,000",
     "priceMin": "Php 6,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/logoBlack.png"
@@ -5474,9 +5520,10 @@
     "name": "S Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "shortAddress": "Pasay City",
     "priceMax": "Php",
     "priceMin": "Php",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/S/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/S/logoBlack.png"
@@ -5581,9 +5628,10 @@
     "name": "Sail Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "shortAddress": "Mall of Asia Complex",
     "priceMax": "Php 24,600,000",
     "priceMin": "Php 8,600,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/logoBlack.png"
@@ -5702,9 +5750,10 @@
     "name": "Sands Residences",
     "status": "PRE-SELLING",
     "city": "manila",
+    "shortAddress": "Manila",
     "priceMax": "Php 17,500,000",
     "priceMin": "Php 6,000,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/logoBlack.png"
@@ -5845,9 +5894,10 @@
     "name": "Sea Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "shortAddress": "Mall of Asia Complex",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sea/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sea/logoBlack.png"
@@ -5948,9 +5998,10 @@
     "name": "Shell Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "shortAddress": "Pasay City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shell/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shell/logoBlack.png"
@@ -6068,9 +6119,10 @@
     "name": "Shine Residences",
     "status": "Ready for Occupancy",
     "city": "pasig",
+    "shortAddress": "Pasay City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shine/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shine/logoBlack.png"
@@ -6181,9 +6233,10 @@
     "name": "Shore Residences",
     "status": "Ready for Occupancy",
     "city": "pasay",
+    "shortAddress": "Mall of Asia",
     "priceMax": "Php 24,800,000",
     "priceMin": "Php 6,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore/logoBlack.png"
@@ -6338,9 +6391,10 @@
     "name": "Shore2 Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "shortAddress": "Mall of Asia",
     "priceMax": "Php 21,400,000",
     "priceMin": "Php 6,000,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore2/logoBlack.png"
@@ -6446,9 +6500,10 @@
     "name": "Shore3 Residences",
     "status": "PRE-SELLING",
     "city": "pasay",
+    "shortAddress": "Mall of Asia",
     "priceMax": "Php 27,700,000",
     "priceMin": "Php 6,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Shore3/logoBlack.png"
@@ -6540,9 +6595,10 @@
     "name": "Smile Residences",
     "status": "PRE-SELLING",
     "city": "bacolod",
+    "shortAddress": "Bacolod City",
     "priceMax": "Php 5,200,000",
     "priceMin": "Php 3,800,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/logoBlack.png"
@@ -6657,9 +6713,10 @@
     "name": "South Residences",
     "status": "PRE-SELLING",
     "city": "las pinas",
+    "shortAddress": "Las Piñas City",
     "priceMax": "Php 6,000,000",
     "priceMin": "Php 3,400,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/logoBlack.png"
@@ -6768,9 +6825,10 @@
     "name": "South2 Residences",
     "status": "PRE-SELLING",
     "city": "las pinas",
+    "shortAddress": "Las Piñas City",
     "priceMax": "Php 5,300,000",
     "priceMin": "Php 4,000,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South2/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South2/logoBlack.png"
@@ -6895,9 +6953,10 @@
     "name": "Spring Residences",
     "status": "R.F.O / PRE-SELLING",
     "city": "paranaque",
+    "shortAddress": "Parañaque City",
     "priceMax": "Php 5,400,000",
     "priceMin": "Php 4,200,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Spring/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Spring/logoBlack.png"
@@ -6990,9 +7049,10 @@
     "name": "Style Residences",
     "status": "Ready for Occupancy",
     "city": "iloilo",
+    "shortAddress": "SM City Iloilo",
     "priceMax": "Php 5,500,000",
     "priceMin": "Php 3,400,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/logoBlack.png"
@@ -7125,9 +7185,10 @@
     "name": "Sun Residences",
     "status": "Ready for Occupancy",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sun/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sun/logoBlack.png"
@@ -7236,9 +7297,10 @@
     "name": "Sunnyhomes",
     "status": "PRE-SELLING",
     "city": "batangas",
+    "shortAddress": "Batangas City",
     "priceMax": "Php 2,500,000",
     "priceMin": "Php 2,300,000",
-    "buildingType": "house and lot",
+    "buildingType": "house-and-lot",
     "logo": {
       "white": "",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyhomes/logoBlack.webp"
@@ -7343,9 +7405,10 @@
     "name": "Sunnyvale",
     "status": "PRE-SELLING",
     "city": "tarlac",
+    "shortAddress": "Tarlac",
     "priceMax": "Php 2,500,000",
     "priceMin": "Php 1,600,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/logoWhite.webp",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sunnyvale/logoBlack.webp"
@@ -7446,9 +7509,10 @@
     "name": "Trees Residences",
     "status": "R.F.O / PRE-SELLING",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoBlack.png"
@@ -7569,9 +7633,10 @@
     "name": "Turf Residences",
     "status": "PRE-SELLING",
     "city": "laguna",
+    "shortAddress": "Laguna",
     "priceMax": "Php 3,300,000",
     "priceMin": "Php 2,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoBlack.png"
@@ -7691,9 +7756,10 @@
     "name": "Twin Residences",
     "status": "PRE-SELLING",
     "city": "las pinas",
+    "shortAddress": "Las Piñas City",
     "priceMax": "Php 5,300,000",
     "priceMin": "Php 3,700,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoBlack.png"
@@ -7829,9 +7895,10 @@
     "name": "Vail Residences",
     "status": "PRE-SELLING",
     "city": "cagayan de oro",
+    "shortAddress": "Cagayan De Oro",
     "priceMax": "Php 4,000,000",
     "priceMin": "Php 3,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/logoBlack.png"
@@ -7935,9 +8002,10 @@
     "name": "Vine Residences",
     "status": "PRE-SELLING",
     "city": "quezon",
+    "shortAddress": "Quezon City",
     "priceMax": "Php 6,200,000",
     "priceMin": "Php 3,500,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vine/logoBlack.png"
@@ -8057,9 +8125,10 @@
     "name": "Wind Residences",
     "status": "Ready for Occupancy",
     "city": "tagaytay",
+    "shortAddress": "Tagaytay City",
     "priceMax": "",
     "priceMin": "SOLD OUT",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/logoBlack.png"
@@ -8229,9 +8298,10 @@
     "name": "Zeal Residences",
     "status": "Ready for Occupancy",
     "city": "cavite",
+    "shortAddress": "Cavite",
     "priceMax": "Php 3,200,000",
     "priceMin": "Php 3,100,000",
-    "buildingType": "condo",
+    "buildingType": "condominium",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoBlack.png"

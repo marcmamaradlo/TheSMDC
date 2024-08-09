@@ -1,5 +1,5 @@
 import premierJSON from "../../premier.json";
-const StaticBanner = ({ style, text }) => {
+const StaticBanner = ({ style, text, page }) => {
   console.log();
   const bannerImage = {
     backgroundImage: `url(${premierJSON[0].bannerImage})`,

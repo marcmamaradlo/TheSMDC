@@ -41,6 +41,20 @@ class MyProvider extends Component {
     ],
     helpfulLinks: ["Home", "About Us", "How to Reserve", "Contact Us"],
     navLinks: ["home", "about", "properties", "reservation", "contact"],
+    propertySortitems: [
+      { linkTo: "featured", name: "Featured" },
+      { linkTo: "pre-selling", name: "Pre-Selling" },
+      { linkTo: "best-seller", name: "Best-Selling" },
+      { linkTo: "premier", name: "Premier" },
+      { linkTo: "rfo", name: "Ready for Occupancy" },
+      { linkTo: "all-properties", name: "All Properties" },
+      { linkTo: "condominium", name: "Condominium" },
+      { linkTo: "house-and-lot", name: "House and Lot" },
+      { linkTo: "residential-office", name: "Residential-Office" },
+      { linkTo: "lot", name: "Lot" },
+    ],
+
+    sortItemActive: "featured",
     hamburgerIsActive: false,
     premier: premierJSON,
     bestSelling: bestSellingJSON,
@@ -48,6 +62,142 @@ class MyProvider extends Component {
     preSelling: preSellingJSON,
     allProperties: propertiesJSON,
     showMoreButtonIndex: 4,
+  };
+
+  handleSortByItems = () => {
+    const propertySortitems = this.state.propertySortitems;
+    const sortItemActive = this.state.sortItemActive;
+    return propertySortitems.map((item, index) => (
+      <Link
+        key={item.linkTo + index}
+        name={item.linkTo}
+        className="notActive"
+        to={`/property/type/${item.linkTo}`}
+      >
+        {item.name}
+      </Link>
+    ));
+  };
+
+  propertyCategory = (e) => {
+    const getBuildingType = () => {
+      const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
+      console.log(newObj);
+      return newObj.map((item) => (
+        <Link to={`/properties/${item.name.toLowerCase()}`} key={item.id}>
+          <Card
+            id={item.id}
+            name={item.name}
+            priceMax={item.priceMax}
+            priceMin={item.priceMin}
+            cardImage={item.cardImage}
+            shortAddress={item.shortAddress}
+          />
+        </Link>
+      ));
+    };
+
+    const getPropertyType = () => {
+      const newObj = propertiesJSON.filter((obj) => obj.propertyType === e);
+      console.log(newObj);
+      return newObj.map((item) => (
+        <Link to={`/properties/${item.name}`} key={item.id}>
+          <Card
+            id={item.id}
+            name={item.name}
+            priceMax={item.priceMax}
+            priceMin={item.priceMin}
+            cardImage={item.cardImage}
+            shortAddress={item.shortAddress}
+          />
+        </Link>
+      ));
+    };
+
+    if (
+      e === "condominium" ||
+      e === "house-and-lot" ||
+      e === "lot" ||
+      e === "residential-office"
+    ) {
+      console.log(e);
+      return getBuildingType();
+    }
+    if (
+      e === "premier" ||
+      e === "best-seller" ||
+      e === "rfo" ||
+      e === "pre-selling"
+    ) {
+      console.log(e);
+      return getPropertyType();
+    } else {
+      console.log("Property Names");
+    }
+
+    // e === "condominium" ||
+    // e === "house-and-lot" ||
+    // e === "lot" ||
+    // e === "residential-office"
+    //   ? getBuildingType()
+    //   : e === "premier" ||
+    //     e === "best-seller" ||
+    //     e === "rfo" ||
+    //     e === "pre-selling"
+    //   ? getPropertyType()
+    //   : console.log("Property Names");
+    // const newObj = propertiesJSON.filter((obj) => obj.buildingType === e)
+    // console.log(newObj);
+  };
+
+  handlePropertySort = () => {
+    console.log("Property Sort Function");
+  };
+
+  handlePropertyTypes = () => {
+    const newObj = [
+      {
+        url: this.state.premier[0].cardImage,
+        title: "Premier",
+        name: "premier",
+      },
+      {
+        url: this.state.bestSelling[0].cardImage,
+        title: "Best Selling",
+        name: "best-seller",
+      },
+      {
+        url: this.state.rfo[0].cardImage,
+        title: "Ready for Occupancy",
+        name: "rfo",
+      },
+      {
+        url: this.state.preSelling[0].cardImage,
+        title: "Pre-Selling",
+        name: "pre-selling",
+      },
+    ];
+
+    return newObj.map((item, index) => {
+      const bg = {
+        backgroundImage: `url(${item.url})`,
+        backgroundRepear: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        // height: "20rem",
+        // width: "49%",
+      };
+
+      return (
+        <Link to={`/property/type/${item.name}`} key={item.title + index}>
+          <div style={bg}>
+            <div className="property-icon-image">
+              <p>{item.title}</p>
+            </div>
+          </div>
+        </Link>
+      );
+    });
   };
 
   handleLocationLinks = () => {
@@ -77,14 +227,16 @@ class MyProvider extends Component {
     const premierProperties = this.state.premier;
     return premierProperties.map((item) => {
       return (
-        <Card
-          id={item.id}
-          name={item.name}
-          cardPrice={item.cardPrice}
-          cardImage={item.cardImage}
-          cardAddress={item.cardAddress}
-          cardDescription={item.cardDescription}
-        />
+        <Link key={item.id}>
+          <Card
+            id={item.id}
+            name={item.name}
+            priceMax={item.priceMax}
+            priceMin={item.priceMin}
+            cardImage={item.cardImage}
+            shortAddress={item.shortAddress}
+          />
+        </Link>
       );
     });
   };
@@ -165,6 +317,10 @@ class MyProvider extends Component {
       handleShowMoreButton,
       resetShowMoreButtonIndex,
       handleLocationLinks,
+      propertyCategory,
+      handlePropertyTypes,
+      handlePropertySort,
+      handleSortByItems,
     } = this;
 
     return (
@@ -180,6 +336,10 @@ class MyProvider extends Component {
           handleShowMoreButton,
           resetShowMoreButtonIndex,
           handleLocationLinks,
+          propertyCategory,
+          handlePropertyTypes,
+          handlePropertySort,
+          handleSortByItems,
         }}
       >
         {this.props.children}
