@@ -6,9 +6,13 @@ import ExploreLocation from "../properties/ExploreLocation";
 
 const Category = () => {
   const context = useContext(MyContext);
+  const state = context.state;
   const handlePropertyTypes = context.handlePropertyTypes;
   const handlePropertySort = context.handlePropertySort;
   const handleSortByItems = context.handleSortByItems;
+  const handlePropertySearch = context.handlePropertySearch;
+  const handlePropertySearchInput = context.handlePropertySearchInput;
+  const handleClearInput = context.handleClearInput;
   return (
     <>
       <div className="component">
@@ -50,10 +54,17 @@ const Category = () => {
           {/* {handlePropertySort()} */}
           <h5>SEARCH</h5>
           <div className="property-sort">
-            <form>
+            <form onSubmit={handlePropertySearch}>
               <div>
                 <i className="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="SMDC Jade Residences" />
+                <input
+                  type="text"
+                  placeholder="SMDC Jade Residences"
+                  onChange={handlePropertySearchInput}
+                  onClick={handleClearInput}
+                  name={state.propertySearchInput}
+                />
+                <button type="submit">SEARCH</button>
               </div>
             </form>
           </div>

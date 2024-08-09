@@ -62,7 +62,33 @@ class MyProvider extends Component {
     preSelling: preSellingJSON,
     allProperties: propertiesJSON,
     showMoreButtonIndex: 4,
+    propertySearchInput: "",
   };
+
+  handleClearInput = (e) => {
+    e.target.value = "";
+  };
+
+  handlePropertySearchInput = (e) => {
+    this.setState({ propertySearchInput: e.target.value });
+  };
+
+  handlePropertySearch = (e) => {
+    e.preventDefault();
+    const propertySearchInput = this.state.propertySearchInput;
+    const newName = propertySearchInput.split(" ")[0];
+    console.log(newName);
+    const newObj = propertiesJSON.filter(
+      (item) =>
+        item.name.toLowerCase() === `${newName.toLowerCase()} residences`
+    );
+    console.log(newObj);
+    const itemName = newObj[0].name;
+    const itemAddress = newObj[0].shortAddress;
+    alert(`Test Result: ${itemName} | Address: ${itemAddress}`);
+  };
+
+  renderPropertySearchResult = () => {};
 
   handleSortByItems = () => {
     const propertySortitems = this.state.propertySortitems;
@@ -124,6 +150,7 @@ class MyProvider extends Component {
       return getBuildingType();
     }
     if (
+      e === "featured" ||
       e === "premier" ||
       e === "best-seller" ||
       e === "rfo" ||
@@ -321,6 +348,9 @@ class MyProvider extends Component {
       handlePropertyTypes,
       handlePropertySort,
       handleSortByItems,
+      handlePropertySearch,
+      handlePropertySearchInput,
+      handleClearInput,
     } = this;
 
     return (
@@ -340,6 +370,9 @@ class MyProvider extends Component {
           handlePropertyTypes,
           handlePropertySort,
           handleSortByItems,
+          handlePropertySearch,
+          handlePropertySearchInput,
+          handleClearInput,
         }}
       >
         {this.props.children}
