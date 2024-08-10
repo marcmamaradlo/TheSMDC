@@ -272,11 +272,16 @@ summary,
   /* border: 1px solid rgb(230, 230, 230); */
   /* background-color: #3232317c; */
   background-color: #323231;
-  /* padding: 1rem; */
+  padding-bottom: 2rem;
   /* border-radius: 3px; */
   overflow: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
+.featured::-webkit-scrollbar {
+  display: none;
+}
 .featured h3 {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
@@ -446,6 +451,12 @@ summary,
   overflow: scroll;
   gap: 3.3rem;
   height: 7rem;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.location-links::-webkit-scrollbar {
+  display: none;
 }
 
 .location-links-expanded {
@@ -982,8 +993,8 @@ h2 {
   width: 25rem;
 }
 
-.card-details {
-}
+/* .card-details {
+} */
 
 .card-s-logo-container {
   display: flex;

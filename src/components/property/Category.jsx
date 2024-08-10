@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CustomLink } from "../buttons/Buttons";
 import { MyContext } from "../../context";
@@ -13,6 +13,17 @@ const Category = () => {
   const handlePropertySearch = context.handlePropertySearch;
   const handlePropertySearchInput = context.handlePropertySearchInput;
   const handleClearInput = context.handleClearInput;
+
+  const searchResult = context.state.searchResult;
+  const renderSearchResult = context.renderSearchResult;
+  const unMountRenderSearchResult = context.unMountRenderSearchResult;
+
+  useEffect(() => {
+    return () => {
+      unMountRenderSearchResult;
+    };
+  }, [searchResult]);
+
   return (
     <>
       <div className="component">
@@ -68,6 +79,9 @@ const Category = () => {
               </div>
             </form>
           </div>
+
+          {renderSearchResult()}
+
           <h5>SORT BY:</h5>
           <div className="property-sort-items">
             {/* <Link className="active">Featured</Link>

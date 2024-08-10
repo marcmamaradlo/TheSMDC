@@ -63,6 +63,28 @@ class MyProvider extends Component {
     allProperties: propertiesJSON,
     showMoreButtonIndex: 4,
     propertySearchInput: "",
+    searchResult: "",
+  };
+
+  unMountRenderSearchResult = () => {
+    this.setState({ searchResult: "" });
+  };
+
+  renderSearchResult = () => {
+    const item = this.state.searchResult;
+
+    return item ? (
+      <Link to={`/properties/${item.name.toLowerCase()}`} key={item.id}>
+        <Card
+          id={item.id}
+          name={item.name}
+          priceMax={item.priceMax}
+          priceMin={item.priceMin}
+          cardImage={item.cardImage}
+          shortAddress={item.shortAddress}
+        />
+      </Link>
+    ) : null;
   };
 
   handleClearInput = (e) => {
@@ -82,10 +104,11 @@ class MyProvider extends Component {
       (item) =>
         item.name.toLowerCase() === `${newName.toLowerCase()} residences`
     );
-    console.log(newObj);
-    const itemName = newObj[0].name;
-    const itemAddress = newObj[0].shortAddress;
-    alert(`Test Result: ${itemName} | Address: ${itemAddress}`);
+
+    // return newObj
+    //   ? this.setState({ searchResult: `No Result for ${propertySearchInput}` })
+    //   :
+    this.setState({ searchResult: newObj[0] });
   };
 
   renderPropertySearchResult = () => {};
@@ -351,6 +374,8 @@ class MyProvider extends Component {
       handlePropertySearch,
       handlePropertySearchInput,
       handleClearInput,
+      renderSearchResult,
+      unMountRenderSearchResult,
     } = this;
 
     return (
@@ -373,6 +398,8 @@ class MyProvider extends Component {
           handlePropertySearch,
           handlePropertySearchInput,
           handleClearInput,
+          renderSearchResult,
+          unMountRenderSearchResult,
         }}
       >
         {this.props.children}

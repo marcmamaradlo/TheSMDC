@@ -9,6 +9,7 @@ import ExploreLocation from "../properties/ExploreLocation";
 import AboutWidget from "../about/AboutWIdget";
 import ShowPropertyTypes from "../properties/ShowPropertyTypes";
 import HeadingOne from "../contact/HeadingOne";
+import CategoryBuildingType from "../property/CategoryBuildingType";
 
 const Home = () => {
   useEffect(() => {
@@ -18,7 +19,8 @@ const Home = () => {
   return (
     <>
       <HomeCarousel />
-      <Category />
+      <CategoryBuildingType />
+      {/* <Category /> */}
       <FeaturedProperties />
       <ExploreLocation />
       {/* <div className="component">
