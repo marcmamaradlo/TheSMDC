@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { MyContext } from "../../context";
 import SMDCLogo from "../../assets/NewSMDCLogo.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const context = useContext(MyContext);
@@ -9,9 +10,11 @@ const Navbar = () => {
   const state = context.state;
   return (
     <>
-      <div className="navbar">
+      <div className="navbar box-shadow">
         <div className="navbar-logo">
-          <img src={SMDCLogo} alt="SMDC Logo" />
+          <Link to="/">
+            <img src={SMDCLogo} alt="SMDC Logo" />
+          </Link>
         </div>
         <div className="navbar-links">
           {/* <a href="*">Home</a>

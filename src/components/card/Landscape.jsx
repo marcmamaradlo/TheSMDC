@@ -63,10 +63,10 @@ const Landscape = ({ data }) => {
         <div className="landscape" style={{ ...bodyBG }} key={item.id}>
           <div className="landscape-body">
             <img src={item.cardImage} alt={item.name} />
-            <h4>{item.name}</h4>
+            <h4 className="text-shadow">{item.name}</h4>
             <div>
               <i className="fa-solid fa-location-dot"></i>
-              <p>{`${
+              <p className="text-shadow">{`${
                 item.city.charAt(0).toUpperCase() + item.city.slice(1)
               } City`}</p>
             </div>

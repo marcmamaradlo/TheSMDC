@@ -5,7 +5,7 @@ import Category from "../property/Category";
 import Contact from "../contact/Contact";
 import BestSellingProperties from "../properties/BestSellingProperties";
 import FeaturedProperties from "../properties/FeaturedProperties";
-import ExploreLocation from "../properties/ExploreLocation";
+import ExploreLocation from "../property/ExploreLocation";
 import AboutWidget from "../about/AboutWIdget";
 import ShowPropertyTypes from "../properties/ShowPropertyTypes";
 import HeadingOne from "../contact/HeadingOne";
@@ -54,12 +54,12 @@ const Home = () => {
         </p>
         <CustomLink
           text="view all properties"
-          style="view-all-properties"
+          style="button-call-to-action"
           linkTo={`/properties`}
         />
         <CustomLink
           text="About Us"
-          style="view-all-properties"
+          style="button-call-to-action"
           linkTo={`/about`}
         />
       </div>

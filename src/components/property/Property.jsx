@@ -13,21 +13,14 @@ const Properties = () => {
   const renderSearchResult = context.renderSearchResult;
   const unMountRenderSearchResult = context.unMountRenderSearchResult;
 
-  useEffect(() => {
-    return () => {
-      unMountRenderSearchResult;
-    };
-  }, [searchResult]);
-
   return (
     <>
-      <StaticBanner
+      {/* <StaticBanner
         style={`page-banner`}
         text={`Helping you find the property of you dreams`}
         page={`property`}
-      />
+      /> */}
       <Category />
-      {renderSearchResult()}
       <div className="component">
         <HeadingOne />
         <Contact />

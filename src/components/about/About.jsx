@@ -49,13 +49,17 @@ const About = () => {
         <div className="SMDC-kts-container">
           <div className="SMDC-kts-header">
             <img src={SMDCWhiteBG} alt="SMDC Logo" />
-            <h4>KEYS TO SUCCESS</h4>
+            <h4 className="text-shadow">KEYS TO SUCCESS</h4>
           </div>
           <div className="SMDC-kts-body">
-            <p>Properties should be in prime location</p>
-            <p>Must be nearby the mall</p>
-            <p>With hotel-like amenities</p>
-            <p>With Professional Properties Management</p>
+            <p className="text-shadow">
+              Properties should be in prime location
+            </p>
+            <p className="text-shadow">Must be nearby the mall</p>
+            <p className="text-shadow">With hotel-like amenities</p>
+            <p className="text-shadow">
+              With Professional Properties Management
+            </p>
           </div>
         </div>
       </div>
@@ -67,7 +71,7 @@ const About = () => {
           <p>AIRPORT</p>
         </div>
       </div>
-      <div className="component"></div>
+      {/* <div className="component"></div> */}
       <div className="dyn-container">
         <div className="dyn-text">
           <p>Did you know that all</p>
@@ -242,7 +246,7 @@ const About = () => {
         <ShowPropertyTypes pType={`featured`} />
         <CustomLink
           text="view all properties"
-          style="view-all-properties"
+          style="button-call-to-action"
           linkTo={`/properties`}
         />
       </div>

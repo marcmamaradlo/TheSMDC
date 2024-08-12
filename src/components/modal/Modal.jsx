@@ -1,4 +1,4 @@
-import { useEffect, useContext } from "react";
+import { useEffect } from "react";
 import ContactModal from "./ContactModal";
 
 const Modal = () => {

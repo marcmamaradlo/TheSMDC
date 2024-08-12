@@ -8,7 +8,7 @@ const Card = ({ id, name, cardImage, priceMax, priceMin, shortAddress }) => {
   return (
     <>
       <div className="card" key={id} style={{ ...cardBG }}>
-        <div className="card-body">
+        <div className="card-body gradiant-black">
           {/* <img src={cardImage} alt={name} /> */}
           <div className="card-details">
             <div className="card-name">

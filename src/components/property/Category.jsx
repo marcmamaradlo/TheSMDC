@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CustomLink } from "../buttons/Buttons";
 import { MyContext } from "../../context";
-import ExploreLocation from "../properties/ExploreLocation";
+import ExploreLocation from "./ExploreLocation";
 
 const Category = () => {
   const context = useContext(MyContext);

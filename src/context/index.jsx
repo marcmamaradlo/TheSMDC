@@ -14,9 +14,9 @@ class MyProvider extends Component {
   state = {
     test: true, // true, false
     contactModalIsActive: false, // true, false
-    activeModal: "contactModal", //contactModal, homeModal, null
+    activeModal: true, //contactModal, homeModal, null
     locations: [
-      "quezon city",
+      "quezon",
       "manila",
       "mandaluyong",
       "cavite",
@@ -40,7 +40,7 @@ class MyProvider extends Component {
       "cagayan de oro",
     ],
     helpfulLinks: ["Home", "About Us", "How to Reserve", "Contact Us"],
-    navLinks: ["home", "about", "properties", "reservation", "contact"],
+    navLinks: ["home", "about", "property", "reservation", "contact"],
     propertySortitems: [
       { linkTo: "featured", name: "Featured" },
       { linkTo: "pre-selling", name: "Pre-Selling" },
@@ -163,13 +163,30 @@ class MyProvider extends Component {
       ));
     };
 
+    const getPropertLocation = () => {
+      const newObj = propertiesJSON.filter((obj) => obj.city === e);
+      console.log("getPropertLocation", newObj);
+      return newObj.map((item) => (
+        <Link to={`/properties/${item.name}`} key={item.id}>
+          <Card
+            id={item.id}
+            name={item.name}
+            priceMax={item.priceMax}
+            priceMin={item.priceMin}
+            cardImage={item.cardImage}
+            shortAddress={item.shortAddress}
+          />
+        </Link>
+      ));
+    };
+
     if (
       e === "condominium" ||
       e === "house-and-lot" ||
       e === "lot" ||
       e === "residential-office"
     ) {
-      console.log(e);
+      // console.log(e);
       return getBuildingType();
     }
     if (
@@ -179,10 +196,11 @@ class MyProvider extends Component {
       e === "rfo" ||
       e === "pre-selling"
     ) {
-      console.log(e);
+      // console.log(e);
       return getPropertyType();
     } else {
-      console.log("Property Names");
+      // console.log(e);
+      return getPropertLocation();
     }
 
     // e === "condominium" ||
@@ -253,7 +271,9 @@ class MyProvider extends Component {
   handleLocationLinks = () => {
     const locations = this.state.locations;
     return locations.map((item, index) => (
-      <Link key={item + index}>{item.toUpperCase()}</Link>
+      <Link to={`/property/type/${item}`} key={item + index}>
+        {item === "quezon" ? "QUEZON CITY" : item.toUpperCase()}
+      </Link>
     ));
   };
 
@@ -267,7 +287,11 @@ class MyProvider extends Component {
 
   handleContactModalState = () => {
     const contactModalIsActive = this.state.contactModalIsActive;
-    this.setState({ contactModalIsActive: !contactModalIsActive });
+    const activeModal = this.state.activeModal;
+    this.setState({
+      contactModalIsActive: !contactModalIsActive,
+      activeModal: !activeModal,
+    });
   };
 
   handlePremierProperties = () => {
@@ -355,6 +379,21 @@ class MyProvider extends Component {
     });
   };
 
+  modalEmailOnClick = () => {
+    this.setState({
+      contactModalIsActive: !this.state.contactModalIsActive,
+      activeModal: !this.state.activeModal,
+    });
+  };
+
+  scrollDocumentToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
   render() {
     const {
       state,
@@ -376,6 +415,8 @@ class MyProvider extends Component {
       handleClearInput,
       renderSearchResult,
       unMountRenderSearchResult,
+      modalEmailOnClick,
+      scrollDocumentToTop,
     } = this;
 
     return (
@@ -400,6 +441,8 @@ class MyProvider extends Component {
           handleClearInput,
           renderSearchResult,
           unMountRenderSearchResult,
+          modalEmailOnClick,
+          scrollDocumentToTop,
         }}
       >
         {this.props.children}

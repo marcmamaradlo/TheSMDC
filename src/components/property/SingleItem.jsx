@@ -1,73 +1,36 @@
-import { useEffect, useState, useContext } from "react";
-import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
-import { Buttons } from "../buttons/Buttons";
+import { useEffect, useContext } from "react";
+import { CustomLink } from "../buttons/Buttons";
 import { MyContext } from "../../context";
+import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 
 const SingleItem = ({ data }) => {
+  console.log(data);
   const context = useContext(MyContext);
   const handleShowMoreButton = context.handleShowMoreButton;
   const showMoreButtonIndex = context.state.showMoreButtonIndex;
   const resetShowMoreButtonIndex = context.resetShowMoreButtonIndex;
 
-  const feature = data.singleItem.feature;
-  const amenity = data.singleItem.amenity;
-
-  const unit = data.singleItem.unit;
-  const grandLobby = data.singleItem.grandLobby;
-  const blackLogo = data.logo.black;
-
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = data.name.charAt(0).toUpperCase() + data.name.slice(1);
-    // console.log(data.singleItem.amenity.content);
-    // console.log(data.singleItem.feature);
-    // console.log(data.singleItem.unit);
     return () => {
       resetShowMoreButtonIndex();
     };
   }, []);
 
   const showSingleItem = () => {
-    // const getBannerFeatures = () => {
-    //   return data.bannerFeatures.map((item) => (
-    //     <p key={item.split(" ").join("").toLowerCase()}>{item}</p>
-    //   ));
-    // };
-
-    // const getBannerAmenities = () => {
-    //   return data.bannerAmenities.map((item) => (
-    //     <p key={item.split(" ").join("").toLowerCase()}>{item}</p>
-    //   ));
-    // };
-
-    // const getBannerUnit = () => {
-    //   return data.bannerUnit.map((item) => <p key={item}>{item}</p>);
-    // };
-
-    // const getImages = () => {
-    //   return data.gallery
-    //     .slice(0, showMoreButtonIndex)
-    //     .map((item, index) => (
-    //       <img
-    //         src={item}
-    //         alt={`image-gallery-${index}`}
-    //         key={`image-gallery${index}`}
-    //       />
-    //     ));
-    // };
-
-    // const showMoreOnClick = () => {
-    //   handleShowMoreButton(data.gallery.length);
-    // };
-
+    const feature = data.singleItem.feature;
+    const amenity = data.singleItem.amenity;
+    const unit = data.singleItem.unit;
+    const grandLobby = data.singleItem.grandLobby;
+    const blackLogo = data.logo.black;
     const banner = {
       backgroundImage: `url('${data.bannerImage}')`,
       backgroundPosition: "center",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
-      height: "40rem",
-      width: "100%",
     };
+
     return data ? (
       <>
         <div style={{ ...banner }}>
@@ -87,11 +50,12 @@ const SingleItem = ({ data }) => {
           <h5>{feature.title}</h5>
           <p>{feature.description}</p>
           {/* <div className="card-s-unit-image-container"> */}
-          {feature.image ? (
-            <img src={feature.image} alt={feature.title} />
-          ) : (
-            <img src={blackLogo} alt={feature.title} />
-          )}
+          {
+            (feature.image = [] ? null : (
+              <img src={feature.image} alt={feature.title} />
+            ))
+            // <img src={blackLogo} alt={feature.title} />
+          }
 
           {/* </div> */}
         </div>
@@ -145,6 +109,11 @@ const SingleItem = ({ data }) => {
               ))}
             </div>
           ) : null}
+          <CustomLink
+            style="button-call-to-action"
+            text="More Properties"
+            linkTo="/property"
+          />
         </div>
 
         <div className="card-s-logo-container">

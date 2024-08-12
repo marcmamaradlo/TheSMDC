@@ -3,6 +3,8 @@ import { MyContext } from "../../context";
 
 import StaticBanner from "../banner-carousel/StaticBanner";
 import Contact from "../contact/Contact";
+import HeadingTwo from "../contact/HeadingTwo";
+import HeadingOne from "../contact/HeadingOne";
 
 const Reservation = () => {
   const context = useContext(MyContext);
@@ -40,10 +42,10 @@ const Reservation = () => {
 
   return (
     <>
-      <StaticBanner
+      {/* <StaticBanner
         style={`page-banner`}
         text={`Start your SMDC - The Good Life Journey`}
-      />
+      /> */}
       <div className="component reservation">
         <div className="investor">
           <div className="investor-details">
@@ -212,7 +214,10 @@ const Reservation = () => {
           </ol>
         </div>
       </div>
-      <Contact />
+      <div className="component">
+        <HeadingOne />
+        <Contact />
+      </div>
     </>
   );
 };
