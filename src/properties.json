@@ -8316,7 +8316,8 @@
     "bannerGrandLobbyImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
     "bannerFeaturesHeading": "Features",
     "bannerFeatures": [
-      "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences."
+      "Varied amenities for multiple interests",
+      "Integrated retail strip for convenient shopping"
     ],
     "bannerFeaturesImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
     "bannerAmenitiesHeading": "Amenities",
@@ -8346,6 +8347,8 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image08.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
@@ -8358,21 +8361,23 @@
     "singleItem": {
       "grandLobby": {
         "title": "Grand Lobby",
-        "description": "Get away from the city stress as you walk along the opulent and refreshing lobbies.",
+        "description": "Start conversations and make new friends or catch up with your existing ones at Zeal Residences’ welcoming lobby lounge.",
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image04.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg"
         ]
       },
       "feature": {
-        "title": "A vacation that never ends",
-        "description": "When you live at Wind Residences, the holiday never has to stop. Just an hour south of Manila in Tagaytay City, you can treat yourself to country club amenities including the clubhouse, indoor and outdoor swimming pools, tennis court, and basketball court. Its location also lets you get to the nearby restaurants and cafes filled with delicious dishes only found here.",
+        "title": "Live your life with zest!",
+        "description": "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences.",
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image12.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image01.jpg"
         ]
       },
       "amenity": {
         "title": "Amenities",
-        "description": "A myriad of activities await you! Should you be a sportsfan or a health buff, Wind Residences lets you enjoy life as you please",
+        "description": "Experience the pleasure that comes with a complete collection of modern amenities all thoughtfully-designed to encourage activity and neighborly engagements!",
         "content": [
           "Lap Pool",
           "Kiddie Pool",
@@ -8385,81 +8390,39 @@
           "Gate and Guardhouse"
         ],
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/card.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image09.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image10.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image11.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image08.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image02.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image04.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image08.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg"
         ]
       },
       "unit": {
         "title": "Units",
-        "description": "Choose to curl up in the bed, or relax as you gaze at the breathtaking view of Taal Lake or Manila Skyline!",
+        "description": "Wake up to joyful mornings in your own space surrounded by lush greenery, an inviting atmosphere, and a warm, peaceful community.",
         "type": [
           {
-            "name": "4-Bedroom Penthouse End Unit",
+            "name": "Studio Unit",
             "description": ""
           },
           {
-            "name": "4-Bedroom Penthouse",
+            "name": "Studio End Unit",
             "description": ""
           },
           {
-            "name": "3-Bedroom Penthouse End Unit",
-            "description": ""
-          },
-          {
-            "name": "3-Bedroom Penthouse",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom Penthouse End Unit",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom Penthouse Unit",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom End Unit",
-            "description": ""
-          },
-          {
-            "name": "2-Bedroom Unit",
-            "description": ""
-          },
-          {
-            "name": "1-Bedroom Unit with Balcony",
-            "description": ""
-          },
-          {
-            "name": "1-Bedroom End Unit",
-            "description": ""
-          },
-          {
-            "name": "1-Bedroom Unit",
-            "description": ""
-          },
-          {
-            "name": "Resort Residential Deluxe Unit",
-            "description": ""
-          },
-          {
-            "name": "Resort Residential End Unit",
-            "description": ""
-          },
-          {
-            "name": "Resort Residential Unit",
-            "description": ""
-          },
-          {
-            "name": "Deluxe Unit",
+            "name": "1 Bedroom Unit",
             "description": ""
           }
         ],
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image06.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Wind/image07.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image14.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image15.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image16.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image17.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image18.jpg"
         ]
       }
     }

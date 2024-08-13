@@ -2,12 +2,10 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 const Featured = ({ data }) => {
-  // console.log(data);
-
   var settings = {
     dots: false,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     // className: "center",
     // centerMode: true,
@@ -29,8 +27,8 @@ const Featured = ({ data }) => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -46,6 +44,7 @@ const Featured = ({ data }) => {
 
   const showFeatured = () => {
     return data.map((item) => {
+      let itemName = item.name.split(" ").join("-");
       return (
         <div className="featured-container" key={item.id}>
           <div>
@@ -64,8 +63,8 @@ const Featured = ({ data }) => {
             <p>{item.cardDescription}</p>
           </div>
           <div className="featured-links">
-            <Link to="/properties">VIEW ALL PROPERTY</Link>
-            <Link to={`/properties/${item.name.toLowerCase()}`}>
+            <Link to="/property">VIEW ALL PROPERTY</Link>
+            <Link to={`/property/${itemName.toLowerCase()}`}>
               VIEW PROPERTY
             </Link>
           </div>

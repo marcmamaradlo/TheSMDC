@@ -6,14 +6,15 @@ const RenderCategory = () => {
   const context = useContext(MyContext);
   const propertyCategory = context.propertyCategory;
   const params = useParams();
-  const propertyType = params.selector.split("-").join(" ").toUpperCase();
+  const propertyType = params.selector.split("-").join(" ");
+  console.log(propertyType);
 
   return (
     <>
       <div className="component">
         <h4>PROPERTY</h4>
-        <h3>{propertyType}</h3>
-        {propertyCategory(params.selector)}
+        <h3>{propertyType.toUpperCase()}</h3>
+        {propertyCategory(propertyType)}
       </div>
     </>
   );

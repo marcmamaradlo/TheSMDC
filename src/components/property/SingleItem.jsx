@@ -1,10 +1,10 @@
 import { useEffect, useContext } from "react";
 import { CustomLink } from "../buttons/Buttons";
 import { MyContext } from "../../context";
+import Slider from "react-slick";
 import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 
 const SingleItem = ({ data }) => {
-  console.log(data);
   const context = useContext(MyContext);
   const handleShowMoreButton = context.handleShowMoreButton;
   const showMoreButtonIndex = context.state.showMoreButtonIndex;
@@ -17,6 +17,14 @@ const SingleItem = ({ data }) => {
       resetShowMoreButtonIndex();
     };
   }, []);
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   const showSingleItem = () => {
     const feature = data.singleItem.feature;
@@ -51,9 +59,9 @@ const SingleItem = ({ data }) => {
           <p>{feature.description}</p>
           {/* <div className="card-s-unit-image-container"> */}
           {
-            (feature.image = [] ? null : (
+            feature.image ? (
               <img src={feature.image} alt={feature.title} />
-            ))
+            ) : null
             // <img src={blackLogo} alt={feature.title} />
           }
 
@@ -64,11 +72,13 @@ const SingleItem = ({ data }) => {
             <h5>{grandLobby.title}</h5>
             <p>{grandLobby.description}</p>
             <div className="card-s-unit-image-container">
+              {/* <Slider {...settings}> */}
               {grandLobby.image
                 ? grandLobby.image.map((item, index) => (
                     <img src={item} alt="Grand Lobby" key={index} />
                   ))
                 : null}
+              {/* </Slider> */}
             </div>
           </div>
         ) : null}

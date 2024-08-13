@@ -64,6 +64,7 @@ class MyProvider extends Component {
     showMoreButtonIndex: 4,
     propertySearchInput: "",
     searchResult: "",
+    heroImage: propertiesJSON[3].cardImage,
   };
 
   unMountRenderSearchResult = () => {
@@ -72,9 +73,10 @@ class MyProvider extends Component {
 
   renderSearchResult = () => {
     const item = this.state.searchResult;
-
+    console.log(item);
+    const newName = item ? item.name.split(" ").join("-") : null;
     return item ? (
-      <Link to={`/properties/${item.name.toLowerCase()}`} key={item.id}>
+      <Link to={`/property/${newName.toLowerCase()}`} key={item.id}>
         <Card
           id={item.id}
           name={item.name}
@@ -104,10 +106,6 @@ class MyProvider extends Component {
       (item) =>
         item.name.toLowerCase() === `${newName.toLowerCase()} residences`
     );
-
-    // return newObj
-    //   ? this.setState({ searchResult: `No Result for ${propertySearchInput}` })
-    //   :
     this.setState({ searchResult: newObj[0] });
   };
 
@@ -131,9 +129,11 @@ class MyProvider extends Component {
   propertyCategory = (e) => {
     const getBuildingType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
-      console.log(newObj);
       return newObj.map((item) => (
-        <Link to={`/properties/${item.name.toLowerCase()}`} key={item.id}>
+        <Link
+          to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
+          key={item.id}
+        >
           <Card
             id={item.id}
             name={item.name}
@@ -148,9 +148,11 @@ class MyProvider extends Component {
 
     const getPropertyType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.propertyType === e);
-      console.log(newObj);
       return newObj.map((item) => (
-        <Link to={`/properties/${item.name}`} key={item.id}>
+        <Link
+          to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
+          key={item.id}
+        >
           <Card
             id={item.id}
             name={item.name}
@@ -163,11 +165,13 @@ class MyProvider extends Component {
       ));
     };
 
-    const getPropertLocation = () => {
+    const getPropertyLocation = () => {
       const newObj = propertiesJSON.filter((obj) => obj.city === e);
-      console.log("getPropertLocation", newObj);
       return newObj.map((item) => (
-        <Link to={`/properties/${item.name}`} key={item.id}>
+        <Link
+          to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
+          key={item.id}
+        >
           <Card
             id={item.id}
             name={item.name}
@@ -200,22 +204,8 @@ class MyProvider extends Component {
       return getPropertyType();
     } else {
       // console.log(e);
-      return getPropertLocation();
+      return getPropertyLocation();
     }
-
-    // e === "condominium" ||
-    // e === "house-and-lot" ||
-    // e === "lot" ||
-    // e === "residential-office"
-    //   ? getBuildingType()
-    //   : e === "premier" ||
-    //     e === "best-seller" ||
-    //     e === "rfo" ||
-    //     e === "pre-selling"
-    //   ? getPropertyType()
-    //   : console.log("Property Names");
-    // const newObj = propertiesJSON.filter((obj) => obj.buildingType === e)
-    // console.log(newObj);
   };
 
   handlePropertySort = () => {
@@ -271,7 +261,10 @@ class MyProvider extends Component {
   handleLocationLinks = () => {
     const locations = this.state.locations;
     return locations.map((item, index) => (
-      <Link to={`/property/type/${item}`} key={item + index}>
+      <Link
+        to={`/property/type/${item.split(" ").join("-")}`}
+        key={item + index}
+      >
         {item === "quezon" ? "QUEZON CITY" : item.toUpperCase()}
       </Link>
     ));

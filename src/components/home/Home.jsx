@@ -4,12 +4,13 @@ import HomeCarousel from "../banner-carousel/HomeCarousel";
 import Category from "../property/Category";
 import Contact from "../contact/Contact";
 import BestSellingProperties from "../properties/BestSellingProperties";
-import FeaturedProperties from "../properties/FeaturedProperties";
+import FeaturedProperties from "../property/FeaturedProperties";
 import ExploreLocation from "../property/ExploreLocation";
 import AboutWidget from "../about/AboutWIdget";
 import ShowPropertyTypes from "../properties/ShowPropertyTypes";
 import HeadingOne from "../contact/HeadingOne";
 import CategoryBuildingType from "../property/CategoryBuildingType";
+import Hero from "./Hero";
 
 const Home = () => {
   useEffect(() => {
@@ -18,8 +19,9 @@ const Home = () => {
 
   return (
     <>
-      <HomeCarousel />
-      <CategoryBuildingType />
+      {/* <HomeCarousel /> */}
+      <Hero />
+      {/* <CategoryBuildingType /> */}
       {/* <Category /> */}
       <FeaturedProperties />
       <ExploreLocation />

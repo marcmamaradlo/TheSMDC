@@ -1,6 +1,6 @@
 import propertiesJSON from "../../properties.json";
 import Landscape from "../card/Landscape";
-import Featured from "./Featured";
+import Featured from "../property/Featured";
 
 const FeaturedProperties = () => {
   const propertyType = propertiesJSON.filter(
