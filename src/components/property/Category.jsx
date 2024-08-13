@@ -26,12 +26,9 @@ const Category = () => {
 
   return (
     <>
-      <div className="component">
-        <h3>SMDC Properties</h3>
-        <h4>We have the makings of your next dream home</h4>
-        {/* <h3>Refine your search</h3>
+      {/* <h3>Refine your search</h3>
         <h4>It's now your time to have your own property! </h4> */}
-        {/* <div className="category">
+      {/* <div className="category">
           <Link to="/property/type/condominium">
             <span className="material-symbols-outlined">apartment</span>
             <p>Condo</p>
@@ -53,38 +50,38 @@ const Category = () => {
           </Link>
         </div> */}
 
-        {/* <h4>Don’t wait to buy real estate. Buy real estate and wait.</h4>
+      {/* <h4>Don’t wait to buy real estate. Buy real estate and wait.</h4>
         <p>
           Embrace the power of real estate investment and seize the opportunity
           to secure your financial future by making the wise decision to buy
           real estate now, knowing that time will enhance its value and reward
           your patience.
         </p> */}
-        {/* <div className="property-type">{handlePropertyTypes()}</div> */}
-        <div className="property-sort-container">
-          {/* {handlePropertySort()} */}
-          <h5>SEARCH</h5>
-          <div className="property-sort">
-            <form onSubmit={handlePropertySearch}>
-              <div>
-                <i className="fa-solid fa-magnifying-glass"></i>
-                <input
-                  type="text"
-                  placeholder="SMDC Jade Residences"
-                  onChange={handlePropertySearchInput}
-                  onClick={handleClearInput}
-                  name={state.propertySearchInput}
-                />
-                <button type="submit">SEARCH</button>
-              </div>
-            </form>
-          </div>
+      {/* <div className="property-type">{handlePropertyTypes()}</div> */}
+      <div className="property-sort-container">
+        {/* {handlePropertySort()} */}
+        {/* <h5>SEARCH</h5> */}
+        <div className="property-sort">
+          <form onSubmit={handlePropertySearch}>
+            <div>
+              <i className="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                placeholder="SMDC Jade Residences"
+                onChange={handlePropertySearchInput}
+                onClick={handleClearInput}
+                name={state.propertySearchInput}
+              />
+              <button type="submit">SEARCH</button>
+            </div>
+          </form>
+        </div>
 
-          {renderSearchResult()}
+        {renderSearchResult()}
 
-          <h5>SORT BY:</h5>
-          <div className="property-sort-items">
-            {/* <Link className="active">Featured</Link>
+        <h5>SORT BY:</h5>
+        <div className="property-sort-items">
+          {/* <Link className="active">Featured</Link>
             <Link className="notActive">Pre-Selling</Link>
             <Link className="notActive">Best-Selling</Link>
             <Link className="notActive">Premier</Link>
@@ -94,16 +91,14 @@ const Category = () => {
             <Link className="notActive">House and Lot</Link>
             <Link className="notActive">Residential Office</Link>
             <Link className="notActive">Lot</Link> */}
-            {handleSortByItems()}
-          </div>
+          {handleSortByItems()}
         </div>
-        {/* <CustomLink
+      </div>
+      {/* <CustomLink
           text="view all properties"
           style="view-all-properties"
           linkTo={`/properties/type/all-properties`}
           /> */}
-      </div>
-      <ExploreLocation />
     </>
   );
 };

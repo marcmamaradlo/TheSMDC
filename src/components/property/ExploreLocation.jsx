@@ -8,7 +8,7 @@ const ExploreLocation = () => {
 
   const expandLocationLinks = () => {
     setIsExpanded(!isExpanded);
-    console.log(isExpanded);
+    // console.log(isExpanded);
   };
   return (
     <>

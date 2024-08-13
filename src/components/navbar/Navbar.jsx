@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { MyContext } from "../../context";
-import SMDCLogo from "../../assets/NewSMDCLogo.jpg";
+import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,13 +13,11 @@ const Navbar = () => {
       <div className="navbar box-shadow">
         <div className="navbar-logo">
           <Link to="/">
-            <img src={SMDCLogo} alt="SMDC Logo" />
+            <img src={SMDCWhiteBG} alt="SMDC Logo" />
           </Link>
         </div>
         <div className="navbar-links">
-          {/* <a href="*">Home</a>
-          <a href="*">Properties</a>
-          <a href="*">Contact</a> */}
+          {navbarLinks()}
           <i className="fa-solid fa-bars" onClick={handleHamburgerIcon}></i>
         </div>
       </div>

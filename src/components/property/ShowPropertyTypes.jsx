@@ -23,7 +23,11 @@ const ShowPropertyTypes = ({ pType }) => {
   //   (item) => item.propertyType.toLowerCase() === pType
   // );
 
-  return <>{showItem()}</>;
+  return (
+    <>
+      <div className="card-container">{showItem()}</div>
+    </>
+  );
 };
 
 export default ShowPropertyTypes;

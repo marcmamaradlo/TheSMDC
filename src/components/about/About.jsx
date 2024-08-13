@@ -7,7 +7,8 @@ import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 import propertiesJSON from "../../properties.json";
 import StaticBanner from "../banner-carousel/StaticBanner";
 import AboutWidget from "./AboutWIdget";
-import ShowPropertyTypes from "../properties/ShowPropertyTypes";
+import ShowPropertyTypes from "../property/ShowPropertyTypes";
+import SMDCNoBG from "../../assets/SMDCNoGB.png";
 
 const About = () => {
   const context = useContext(MyContext);
@@ -30,7 +31,6 @@ const About = () => {
     backgroundRepear: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "22rem",
   };
 
   // const staycation = {
@@ -43,8 +43,7 @@ const About = () => {
 
   return (
     <>
-      <StaticBanner style={`page-banner`} text={`About Us`} />
-      <AboutWidget />
+      {/* <StaticBanner style={`page-banner`} text={`About Us`} /> */}
       <div style={{ ...kts }}>
         <div className="SMDC-kts-container">
           <div className="SMDC-kts-header">
@@ -63,6 +62,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <AboutWidget />
       <div className="airport-container">
         <img src={bestSellerJSON[2].gallery[3]} alt="airport-img" />
         <div className="airport-text">
@@ -201,45 +201,53 @@ const About = () => {
           <i>*Prices are subject to change without prior notice.</i>
         </p>
       </div>
-      <div className="long-text component">
-        <h2>
+      <div className="component">
+        <h3>
           Discover the difference of working with a trusted real estate partner.
-        </h2>
-        <p>
-          Welcome to SMDC, where we are passionate about providing exceptional
-          real estate services to our valued clients. As a leading real estate
-          company, we pride ourselves on our commitment to integrity,
-          professionalism, and personalized attention.
-        </p>
-        <p>
-          With years of industry experience, our team of dedicated experts
-          possesses in-depth knowledge of the local market trends and a keen eye
-          for identifying lucrative investment opportunities. We understand that
-          buying or selling a property is a significant decision, and our
-          mission is to guide you every step of the way, ensuring a smooth and
-          rewarding experience.
-        </p>
-        <p>
-          At SMDC, we prioritize building strong and lasting relationships with
-          our clients. We take the time to listen to your unique needs,
-          preferences, and goals, tailoring our approach to match your specific
-          requirements. Our transparent and honest communication ensures that
-          you are well-informed and empowered to make informed decisions.
-        </p>
-        <p>
-          We leverage cutting-edge technology and innovative marketing
-          strategies to maximize exposure for your property listing, ensuring
-          that it reaches the widest audience of potential buyers. Whether
-          you’re a first-time homebuyer, seasoned investor, or looking to sell
-          your property, we have the expertise and resources to help you achieve
-          your real estate objectives.
-        </p>
-        <p>
-          Above all, we take pride in our unwavering commitment to delivering
-          exceptional customer service. Our dedicated team is always available
-          to address your inquiries, provide guidance, and go above and beyond
-          to exceed your expectations.
-        </p>
+        </h3>
+        <div className="long-text">
+          <p>
+            <i class="fa-solid fa-circle"></i>
+            Welcome to SMDC, where we are passionate about providing exceptional
+            real estate services to our valued clients. As a leading real estate
+            company, we pride ourselves on our commitment to integrity,
+            professionalism, and personalized attention.
+          </p>
+          <p>
+            <i class="fa-solid fa-circle"></i>
+            With years of industry experience, our team of dedicated experts
+            possesses in-depth knowledge of the local market trends and a keen
+            eye for identifying lucrative investment opportunities. We
+            understand that buying or selling a property is a significant
+            decision, and our mission is to guide you every step of the way,
+            ensuring a smooth and rewarding experience.
+          </p>
+          <p>
+            <i class="fa-solid fa-circle"></i>
+            At SMDC, we prioritize building strong and lasting relationships
+            with our clients. We take the time to listen to your unique needs,
+            preferences, and goals, tailoring our approach to match your
+            specific requirements. Our transparent and honest communication
+            ensures that you are well-informed and empowered to make informed
+            decisions.
+          </p>
+          <p>
+            <i class="fa-solid fa-circle"></i>
+            We leverage cutting-edge technology and innovative marketing
+            strategies to maximize exposure for your property listing, ensuring
+            that it reaches the widest audience of potential buyers. Whether
+            you’re a first-time homebuyer, seasoned investor, or looking to sell
+            your property, we have the expertise and resources to help you
+            achieve your real estate objectives.
+          </p>
+          <p>
+            <i class="fa-solid fa-circle"></i>
+            Above all, we take pride in our unwavering commitment to delivering
+            exceptional customer service. Our dedicated team is always available
+            to address your inquiries, provide guidance, and go above and beyond
+            to exceed your expectations.
+          </p>
+        </div>
       </div>
       <div className="component">
         <h3>Featured Properties</h3>

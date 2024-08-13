@@ -7,7 +7,7 @@ import BestSellingProperties from "../properties/BestSellingProperties";
 import FeaturedProperties from "../property/FeaturedProperties";
 import ExploreLocation from "../property/ExploreLocation";
 import AboutWidget from "../about/AboutWIdget";
-import ShowPropertyTypes from "../properties/ShowPropertyTypes";
+import ShowPropertyTypes from "../property/ShowPropertyTypes";
 import HeadingOne from "../contact/HeadingOne";
 import CategoryBuildingType from "../property/CategoryBuildingType";
 import Hero from "./Hero";
@@ -21,9 +21,9 @@ const Home = () => {
     <>
       {/* <HomeCarousel /> */}
       <Hero />
-      {/* <CategoryBuildingType /> */}
+      <CategoryBuildingType />
       {/* <Category /> */}
-      <FeaturedProperties />
+      {/* <FeaturedProperties /> */}
       <ExploreLocation />
       {/* <div className="component">
         <h4>The leading developer in the Philippines.</h4>

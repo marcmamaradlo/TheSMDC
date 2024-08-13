@@ -65,6 +65,7 @@ class MyProvider extends Component {
     propertySearchInput: "",
     searchResult: "",
     heroImage: propertiesJSON[3].cardImage,
+    navbarActiveLink: "home",
   };
 
   unMountRenderSearchResult = () => {
@@ -127,8 +128,10 @@ class MyProvider extends Component {
   };
 
   propertyCategory = (e) => {
+    console.log(e);
     const getBuildingType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
+      console.log(newObj);
       return newObj.map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
@@ -148,6 +151,7 @@ class MyProvider extends Component {
 
     const getPropertyType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.propertyType === e);
+      console.log(newObj);
       return newObj.map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
@@ -167,6 +171,7 @@ class MyProvider extends Component {
 
     const getPropertyLocation = () => {
       const newObj = propertiesJSON.filter((obj) => obj.city === e);
+      console.log(newObj);
       return newObj.map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
@@ -330,20 +335,31 @@ class MyProvider extends Component {
   navbarLinks = () => {
     // map over navLinks to display in Navbar
     const handleHamburgerIcon = this.handleHamburgerIcon;
+    const navbarActiveLink = this.state.navbarActiveLink;
+    const urlName = document.URL.split("/")[3];
     return this.state.navLinks.map((item, index) => {
       const newItem = item.charAt(0).toUpperCase() + item.slice(1);
       return (
-        <Link to={`/${item}`} onClick={handleHamburgerIcon} key={item + index}>
+        <Link
+          to={`/${item}`}
+          onClick={handleHamburgerIcon}
+          key={item + index}
+          name={item}
+          className={item === urlName ? "active-link" : "inActive-link"}
+        >
           {newItem}
         </Link>
       );
     });
   };
 
-  handleHamburgerIcon = () => {
+  handleHamburgerIcon = (e) => {
     // toggle hamburger icon
     const hamburgerIsActive = this.state.hamburgerIsActive;
-    this.setState({ hamburgerIsActive: !hamburgerIsActive });
+    this.setState({
+      hamburgerIsActive: !hamburgerIsActive,
+      navbarActiveLink: e.target.name,
+    });
   };
 
   helpfulLinks = () => {

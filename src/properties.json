@@ -316,15 +316,15 @@
     "priceMin": "Php 4,000,000",
     "buildingType": "condominium",
     "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoBlack.png"
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoBlack.webp"
     },
     "propertyType": "featured",
     "cardAddress": "Sucat Paranaque",
     "cardDiscount": "",
     "cardPrice": "Php 18,000 / Monthly",
     "cardDescription": "Bloom Residences in Paranaque is home-sweet home that's luxuriously comfortable. Strategically located in Sucat, everything you'll ever need is right within your reach.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/card.png",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/card.webp",
     "bannerAbout": "Have a glimpse of the life lived in glitz and glamour, with gold curtain walls that surround this luminescent development. Inspired by the entertainment industry's zest for recognition, Fame Residences stands proud as the crowning glory of Central EDSA. A trophy providing a true sense of prominence to its residents.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
@@ -353,25 +353,43 @@
       "Playground",
       "Lawn Area"
     ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/banner.jpg",
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/banner.webp",
     "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image02.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image03.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image04.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image06.jpg"
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image10.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image11.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image12.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image13.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image14.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image15.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image16.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image17.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image18.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image19.webp"
     ],
     "singleItem": {
       "grandLobby": {
         "title": "Grand Lobby",
         "description": "Let our warmhearted staff tend our sprouting community so you can focus on flourishing. Expect a lush, grand welcome from Bloom Residences' luxurious hotel-like lobbies, while our generous staff will treat you like our own family.",
-        "image": []
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image11.webp"
+        ]
       },
       "feature": {
         "title": "Let life blossom in Parañaque",
         "description": "With its safe environment and an inviting neighborhood, Bloom Residences makes for a great place to build your budding career or start a family and raise children of your own.",
-        "image": []
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image01.webp"
+        ]
       },
       "amenity": {
         "title": "Amenities",
@@ -389,7 +407,16 @@
           "Pocket Gardens",
           "Landscape Areas"
         ],
-        "image": []
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image07.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image09.webp"
+        ]
       },
       "unit": {
         "title": "Units",
@@ -421,12 +448,14 @@
           }
         ],
         "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image01.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image02.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image03.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image04.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image05.jpg",
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image06.jpg"
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image13.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image14.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image15.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image16.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image17.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image18.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image19.webp"
         ]
       }
     }
