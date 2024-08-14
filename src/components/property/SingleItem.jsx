@@ -3,6 +3,7 @@ import { CustomLink } from "../buttons/Buttons";
 import { MyContext } from "../../context";
 import Slider from "react-slick";
 import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
+import GoogleMap from "../googleMap/GoogleMap";
 
 const SingleItem = ({ data }) => {
   const context = useContext(MyContext);
@@ -48,10 +49,17 @@ const SingleItem = ({ data }) => {
         </div>
 
         <div className="component">
-          <h5>{data.name}</h5>
-          <p>{data.cardPrice}</p>
-          <p>{data.bannerAbout}</p>
-          <p>{data.cardAddress}</p>
+          <div className="heading-with-map">
+            <div className="content">
+              <h5>{data.name}</h5>
+              <p>{data.cardPrice}</p>
+              <p>{data.bannerAbout}</p>
+              <p>{data.cardAddress}</p>
+            </div>
+            <div className="map">
+              <GoogleMap mapURL={data.mapURL} />
+            </div>
+          </div>
         </div>
 
         <div className="component">

@@ -8,7 +8,6 @@ const RenderSingleItem = () => {
   const property = propertiesJSON.filter(
     (item) => item.name.toLowerCase() === propertyName
   );
-  console.log(params);
 
   return (
     <>

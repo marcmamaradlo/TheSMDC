@@ -1394,6 +1394,25 @@ h2 {
 .w600 {
   font-weight: 600;
 }
+
+.google-map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  outline: 0;
+  border: 0;
+}
+
+.google-map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  outline: 0;
+}
 /* // COMPONENTS END ////////////////////////////////////// */
 
 /* // SEARCH COMPONENT START ////////////////////////////// */

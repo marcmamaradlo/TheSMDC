@@ -11,6 +11,7 @@ import ShowPropertyTypes from "../property/ShowPropertyTypes";
 import HeadingOne from "../contact/HeadingOne";
 import CategoryBuildingType from "../property/CategoryBuildingType";
 import Hero from "./Hero";
+import DropDownMenu from "../features/DropDownMenu";
 
 const Home = () => {
   useEffect(() => {
@@ -20,6 +21,9 @@ const Home = () => {
   return (
     <>
       {/* <HomeCarousel /> */}
+      {/* <div className="component">
+        <DropDownMenu />
+      </div> */}
       <Hero />
       <CategoryBuildingType />
       {/* <Category /> */}

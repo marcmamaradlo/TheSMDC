@@ -66,6 +66,8 @@ class MyProvider extends Component {
     searchResult: "",
     heroImage: propertiesJSON[3].cardImage,
     navbarActiveLink: "home",
+    mapID:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.7446528735936!2d121.09909318885498!3d14.613616800000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b86ab8f5d367%3A0x9a15125fec9e5867!2sSMDC%20Charm%20Residences!5e0!3m2!1sen!2sph!4v1723622584774!5m2!1sen!2sph",
   };
 
   unMountRenderSearchResult = () => {
