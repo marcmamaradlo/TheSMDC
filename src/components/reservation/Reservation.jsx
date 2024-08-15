@@ -36,8 +36,7 @@ const Reservation = () => {
     backgroundSize: "cover",
     height: "100%",
     width: "auto",
-    margin: "0rem 1rem",
-    borderRadius: "3px",
+    // margin: "0rem 1rem",
   };
 
   return (
@@ -157,61 +156,67 @@ const Reservation = () => {
           For your reference, your application form will be provided and the
           list of requirements for employed and self-employed clients.
         </p>
-        <div className="employment">
-          <h4>Employed</h4>
-          <ol>
-            <li>Application Form</li>
-            <li>COE with compensation</li>
-            <li>Income Tax Return / 2316</li>
-            <li>Valid IDs</li>
-            <li>Married Certificate (if married)</li>
-            <li>Bank Statements / Payslips</li>
-          </ol>
-        </div>
-        <div className="employment">
-          <h4>Employed Abroad</h4>
-          <ol>
-            <li>Proof of Billing (electric, water or phone bill)</li>
-            <li>Photocopy of Passport and Working Visa</li>
-            <li>Certificate of Employment (OFW)</li>
-            <li>Latest 2 successive Payslip if applicable</li>
-            <li>Married Certificate (if married)</li>
-            <li>Retirement Funding Documents</li>
-            <li>Proof of Remittance</li>
-          </ol>
-        </div>
-        <div className="employment">
-          <h4>Self-employed / Business</h4>
-          <ol>
-            <li>Application Form</li>
-            <li>
-              Photocopy of Audited financial for the last 2 years with BIR stamp
-            </li>
-            <li>
-              Single Proprietorship - Certificate of Business Registration (DTI)
-            </li>
-            <li>Bank Statement or photocopy for the last 3 months</li>
-            <li>Proof of income</li>
-            <li>
-              Lease contract and Copy of title (for income derived from rental)
-            </li>
-            <li>Articles of Incorporation and By-laws</li>
-            <li>Company profile</li>
-            <li>
-              Photocopy of 2 government issued IDs (signatories) affix 3
-              specimen signatures
-            </li>
-          </ol>
-        </div>
-        <div className="employment">
-          <h4>Self-employed Abroad / Business</h4>
-          <ol>
-            <li>Latest 2 year comparative Financial Statements</li>
-            <li>Latest Tax Declaration Overseas</li>
-            <li>
-              Latest Bank Statement or Certificate of Deposit stating 6 mos. ADB
-            </li>
-          </ol>
+        <div className="employment-container">
+          <div className="employment">
+            <h4>Employed</h4>
+            <ol>
+              <li>Application Form</li>
+              <li>COE with compensation</li>
+              <li>Income Tax Return / 2316</li>
+              <li>Valid IDs</li>
+              <li>Married Certificate (if married)</li>
+              <li>Bank Statements / Payslips</li>
+            </ol>
+          </div>
+          <div className="employment">
+            <h4>Employed Abroad</h4>
+            <ol>
+              <li>Proof of Billing (electric, water or phone bill)</li>
+              <li>Photocopy of Passport and Working Visa</li>
+              <li>Certificate of Employment (OFW)</li>
+              <li>Latest 2 successive Payslip if applicable</li>
+              <li>Married Certificate (if married)</li>
+              <li>Retirement Funding Documents</li>
+              <li>Proof of Remittance</li>
+            </ol>
+          </div>
+          <div className="employment">
+            <h4>Self-employed / Business</h4>
+            <ol>
+              <li>Application Form</li>
+              <li>
+                Photocopy of Audited financial for the last 2 years with BIR
+                stamp
+              </li>
+              <li>
+                Single Proprietorship - Certificate of Business Registration
+                (DTI)
+              </li>
+              <li>Bank Statement or photocopy for the last 3 months</li>
+              <li>Proof of income</li>
+              <li>
+                Lease contract and Copy of title (for income derived from
+                rental)
+              </li>
+              <li>Articles of Incorporation and By-laws</li>
+              <li>Company profile</li>
+              <li>
+                Photocopy of 2 government issued IDs (signatories) affix 3
+                specimen signatures
+              </li>
+            </ol>
+          </div>
+          <div className="employment">
+            <h4>Self-employed Abroad / Business</h4>
+            <ol>
+              <li>Latest 2 year comparative Financial Statements</li>
+              <li>Latest Tax Declaration Overseas</li>
+              <li>
+                Latest Bank Statement or Certificate of Deposit stating 6 mos.
+                ADB
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
       <div className="component">

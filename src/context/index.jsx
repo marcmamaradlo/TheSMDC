@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import premierJSON from "../premier.json";
 import bestSellingJSON from "../best-sellers.json";
@@ -65,9 +65,14 @@ class MyProvider extends Component {
     propertySearchInput: "",
     searchResult: "",
     heroImage: propertiesJSON[3].cardImage,
+    heroIcon: propertiesJSON[3].logo.white,
     navbarActiveLink: "home",
-    mapID:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.7446528735936!2d121.09909318885498!3d14.613616800000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b86ab8f5d367%3A0x9a15125fec9e5867!2sSMDC%20Charm%20Residences!5e0!3m2!1sen!2sph!4v1723622584774!5m2!1sen!2sph",
+  };
+
+  handleSelectOption = (e) => {
+    // console.log(e);
+    // const navigate = useNavigate();
+    // navigate("/property");
   };
 
   unMountRenderSearchResult = () => {
@@ -76,7 +81,7 @@ class MyProvider extends Component {
 
   renderSearchResult = () => {
     const item = this.state.searchResult;
-    console.log(item);
+    // console.log(item);
     const newName = item ? item.name.split(" ").join("-") : null;
     return item ? (
       <Link to={`/property/${newName.toLowerCase()}`} key={item.id}>
@@ -130,7 +135,7 @@ class MyProvider extends Component {
   };
 
   propertyCategory = (e) => {
-    console.log(e);
+    // console.log(e);
     const getBuildingType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
       console.log(newObj);
@@ -173,7 +178,7 @@ class MyProvider extends Component {
 
     const getPropertyLocation = () => {
       const newObj = propertiesJSON.filter((obj) => obj.city === e);
-      console.log(newObj);
+      // console.log(newObj);
       return newObj.map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
@@ -428,6 +433,7 @@ class MyProvider extends Component {
       unMountRenderSearchResult,
       modalEmailOnClick,
       scrollDocumentToTop,
+      handleSelectOption,
     } = this;
 
     return (
@@ -454,6 +460,7 @@ class MyProvider extends Component {
           unMountRenderSearchResult,
           modalEmailOnClick,
           scrollDocumentToTop,
+          handleSelectOption,
         }}
       >
         {this.props.children}

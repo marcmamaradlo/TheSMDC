@@ -20,6 +20,10 @@ const Router = () => {
         <Route path="/property/:name" element={<RenderSingleItem />} />
         <Route path="/property/search" element={<Search />} />
         <Route path="/property/type/:selector" element={<RenderCategory />} />
+        <Route
+          path="/property/location/:selector"
+          element={<RenderCategory />}
+        />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/test" element={<TestComponentOne />} />
       </Routes>

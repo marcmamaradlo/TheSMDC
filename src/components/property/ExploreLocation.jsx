@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import { MyContext } from "../../context";
+import DropDownMenu from "../features/DropDownMenu";
 
 const ExploreLocation = () => {
   const context = useContext(MyContext);
@@ -18,19 +19,22 @@ const ExploreLocation = () => {
           <h3>Explore properties near you</h3>
           <div>
             <p>SMDC IDEAL LOCATIONS</p>
-            <i
+            {/* <i
               className="fa-solid fa-arrow-right"
               onClick={expandLocationLinks}
-            ></i>
+            ></i> */}
+            <div className="drop-down-menu">
+              <DropDownMenu />
+            </div>
           </div>
 
-          <div
+          {/* <div
             className={
               isExpanded ? "location-links-expanded" : "location-links"
             }
           >
             {handleLocationLinks()}
-          </div>
+          </div> */}
         </div>
       </div>
     </>

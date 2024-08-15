@@ -103,96 +103,99 @@ const About = () => {
           </p>
           <p>See potential earnings below.</p>
         </div>
-        <div className="SMDC-Referrer-img">
-          <div className="referrer-body">
-            <div className="referrer-logo">
-              <img src={propertiesJSON[50].logo.white} alt="Shore 3 Logo" />
-              <div className="referrer-price">
-                <p>EARN UP TO</p>
-                <p>PHP 194,000</p>
+        <div className="SMDC-Referrer-img-container">
+          <div className="SMDC-Referrer-img">
+            <div className="referrer-body">
+              <div className="referrer-logo">
+                <img src={propertiesJSON[50].logo.white} alt="Shore 3 Logo" />
+                <div className="referrer-price">
+                  <p>EARN UP TO</p>
+                  <p>PHP 194,000</p>
+                </div>
               </div>
-            </div>
-            <div className="referrer-details">
-              <p>Shore 3 Residences</p>
-              <p>
-                Taking inspiration from wharf-front lifestyle, Shore 3
-                Residences' district personality makes it an undeniable marina
-                haven
-              </p>
-              <p>Price Range: PHP 6.2M to 9.7M</p>
-              <div className="referrer-location">
-                <i className="fa-solid fa-location-dot"></i>
-                <p>MALL OF ASIA, PASAY CITY</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="SMDC-Referrer-img">
-          <div className="referrer-body">
-            <div className="referrer-logo">
-              <img src={propertiesJSON[35].logo.white} alt="Mint Logo" />
-              <div className="referrer-price">
-                <p>EARN UP TO</p>
-                <p>PHP 174,000</p>
-              </div>
-            </div>
-            <div className="referrer-details">
-              <p>Mint Residences</p>
-              <p>
-                A nearby respite striking the perfecet balance between modern
-                city convinience and a natural environment.
-              </p>
-              <p>Price Range: PHP 5.6M to 8.7M</p>
-              <div className="referrer-location">
-                <i className="fa-solid fa-location-dot"></i>
-                <p>CHINO ROCES, MAKATI CITY</p>
+              <div className="referrer-details">
+                <p>Shore 3 Residences</p>
+                <p>
+                  Taking inspiration from wharf-front lifestyle, Shore 3
+                  Residences' district personality makes it an undeniable marina
+                  haven
+                </p>
+                <p>Price Range: PHP 6.2M to 9.7M</p>
+                <div className="referrer-location">
+                  <i className="fa-solid fa-location-dot"></i>
+                  <p>MALL OF ASIA, PASAY CITY</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="SMDC-Referrer-img">
-          <div className="referrer-body">
-            <div className="referrer-logo">
-              <img src={propertiesJSON[31].logo.white} alt="Light 2 Logo" />
-              <div className="referrer-price">
-                <p>EARN UP TO</p>
-                <p>PHP 144,000</p>
+          <div className="SMDC-Referrer-img">
+            <div className="referrer-body">
+              <div className="referrer-logo">
+                <img src={propertiesJSON[35].logo.white} alt="Mint Logo" />
+                <div className="referrer-price">
+                  <p>EARN UP TO</p>
+                  <p>PHP 174,000</p>
+                </div>
               </div>
-            </div>
-            <div className="referrer-details">
-              <p>Light 2 Residences</p>
-              <p>
-                Spacious, Inviting, and throughtfully planned. A place that
-                provides you with everything you need to create a beautiful home
-                for you and your family.
-              </p>
-              <p>Price Range: PHP 5.6M to 7.2M</p>
-              <div className="referrer-location">
-                <i className="fa-solid fa-location-dot"></i>
-                <p>EDSA-BONI MRT STATION</p>
+              <div className="referrer-details">
+                <p>Mint Residences</p>
+                <p>
+                  A nearby respite striking the perfecet balance between modern
+                  city convinience and a natural environment.
+                </p>
+                <p>Price Range: PHP 5.6M to 8.7M</p>
+                <div className="referrer-location">
+                  <i className="fa-solid fa-location-dot"></i>
+                  <p>CHINO ROCES, MAKATI CITY</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="SMDC-Referrer-img">
-          <div className="referrer-body">
-            <div className="referrer-logo">
-              <img src={propertiesJSON[16].logo.white} alt="Glam Logo" />
-              <div className="referrer-price">
-                <p>EARN UP TO</p>
-                <p>PHP 196,000</p>
+          <div className="SMDC-Referrer-img">
+            <div className="referrer-body">
+              <div className="referrer-logo">
+                <img src={propertiesJSON[31].logo.white} alt="Light 2 Logo" />
+                <div className="referrer-price">
+                  <p>EARN UP TO</p>
+                  <p>PHP 144,000</p>
+                </div>
+              </div>
+              <div className="referrer-details">
+                <p>Light 2 Residences</p>
+                <p>
+                  Spacious, Inviting, and throughtfully planned. A place that
+                  provides you with everything you need to create a beautiful
+                  home for you and your family.
+                </p>
+                <p>Price Range: PHP 5.6M to 7.2M</p>
+                <div className="referrer-location">
+                  <i className="fa-solid fa-location-dot"></i>
+                  <p>EDSA-BONI MRT STATION</p>
+                </div>
               </div>
             </div>
-            <div className="referrer-details">
-              <p>Glam Residences</p>
-              <p>
-                Envisioned as a complete, cosmopilitan home for success-driven
-                singles, it is built for your utmost convinience and indulgence.
-              </p>
-              <p>Price Range: PHP 5.6M to 9.8M</p>
-              <div className="referrer-location">
-                <i className="fa-solid fa-location-dot"></i>
-                <p>EDSA, QUEZON CITY</p>
+          </div>
+          <div className="SMDC-Referrer-img">
+            <div className="referrer-body">
+              <div className="referrer-logo">
+                <img src={propertiesJSON[16].logo.white} alt="Glam Logo" />
+                <div className="referrer-price">
+                  <p>EARN UP TO</p>
+                  <p>PHP 196,000</p>
+                </div>
+              </div>
+              <div className="referrer-details">
+                <p>Glam Residences</p>
+                <p>
+                  Envisioned as a complete, cosmopilitan home for success-driven
+                  singles, it is built for your utmost convinience and
+                  indulgence.
+                </p>
+                <p>Price Range: PHP 5.6M to 9.8M</p>
+                <div className="referrer-location">
+                  <i className="fa-solid fa-location-dot"></i>
+                  <p>EDSA, QUEZON CITY</p>
+                </div>
               </div>
             </div>
           </div>
@@ -207,14 +210,14 @@ const About = () => {
         </h3>
         <div className="long-text">
           <p>
-            <i class="fa-solid fa-circle"></i>
+            {/* <i class="fa-solid fa-circle"></i> */}
             Welcome to SMDC, where we are passionate about providing exceptional
             real estate services to our valued clients. As a leading real estate
             company, we pride ourselves on our commitment to integrity,
             professionalism, and personalized attention.
           </p>
           <p>
-            <i class="fa-solid fa-circle"></i>
+            {/* <i class="fa-solid fa-circle"></i> */}
             With years of industry experience, our team of dedicated experts
             possesses in-depth knowledge of the local market trends and a keen
             eye for identifying lucrative investment opportunities. We
@@ -223,7 +226,7 @@ const About = () => {
             ensuring a smooth and rewarding experience.
           </p>
           <p>
-            <i class="fa-solid fa-circle"></i>
+            {/* <i class="fa-solid fa-circle"></i> */}
             At SMDC, we prioritize building strong and lasting relationships
             with our clients. We take the time to listen to your unique needs,
             preferences, and goals, tailoring our approach to match your
@@ -232,7 +235,7 @@ const About = () => {
             decisions.
           </p>
           <p>
-            <i class="fa-solid fa-circle"></i>
+            {/* <i class="fa-solid fa-circle"></i> */}
             We leverage cutting-edge technology and innovative marketing
             strategies to maximize exposure for your property listing, ensuring
             that it reaches the widest audience of potential buyers. Whether
@@ -241,7 +244,7 @@ const About = () => {
             achieve your real estate objectives.
           </p>
           <p>
-            <i class="fa-solid fa-circle"></i>
+            {/* <i class="fa-solid fa-circle"></i> */}
             Above all, we take pride in our unwavering commitment to delivering
             exceptional customer service. Our dedicated team is always available
             to address your inquiries, provide guidance, and go above and beyond
