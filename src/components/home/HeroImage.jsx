@@ -1,14 +1,11 @@
 import { useContext } from "react";
 import { MyContext } from "../../context";
 import { CustomLink } from "../buttons/Buttons";
-import SMDCNoGB from "../../assets/SMDCNoGB.png";
 
 const HeroImage = () => {
   const context = useContext(MyContext);
   const heroImage = context.state.heroImage;
   const heroIcon = context.state.heroIcon;
-  console.log(heroImage);
-  console.log(heroIcon);
   const heroBG = {
     backgroundImage: `url('${heroImage}')`,
     backgroundSize: "cover",

@@ -215,10 +215,7 @@ summary,
 .hero-header h1 {
   font-size: 5rem;
   font-weight: 400;
-}
-
-.hero-content {
-  /* border: 1px solid blue; */
+  margin: 0;
 }
 
 .hero-overlay {
@@ -351,15 +348,17 @@ summary,
   text-align: unset;
   font-weight: 300;
 }
+/* // COMPONENT END ////////////////////////////////////// */
 
-.featured {
+/* // FEATURED COMPONENT START ////////////////////////////*/
+/* .featured {
   color: var(--offWhite);
   margin: 0 0 1rem 0;
   background-color: #323231;
   padding-bottom: 2rem;
   overflow: hidden;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .featured::-webkit-scrollbar {
@@ -486,15 +485,72 @@ summary,
 .featured-links a:nth-of-type(2):hover {
   font-weight: 500;
   transition: 300ms;
+} */
+
+.featured-property {
+  position: relative;
+  /* width: 50vh; */
+  width: 100%;
 }
 
-/* // COMPONENT END ////////////////////////////////////// */
+.featured-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  padding: 0 2rem;
+}
+
+.featured-content p:nth-of-type(1) {
+  font-size: 1.8rem;
+}
+
+.featured-content p:nth-of-type(2) {
+  font-size: 4rem;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.featured-content p:nth-of-type(3) {
+  /* margin-top: 1rem; */
+}
+
+.featured-content h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.featured-content a {
+  padding: 2rem 3rem;
+  color: var(--white);
+  background-color: #00000034;
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+}
+
+.featured-content a:hover {
+  background-color: var(--blue);
+  transition: all var(--trans300ms);
+}
+/* // FEATURED COMPONENT END //////////////////////////////*/
 
 /* // EXPLORE START ////////////////////////////////////// */
 .location-container {
   background-color: var(--black);
-  margin-top: 1rem;
-  padding: 1rem;
+  /* margin-top: 1rem; */
+  padding: 3rem 1rem;
   height: 100%;
 }
 
@@ -1891,6 +1947,10 @@ h2 {
     margin: 0;
     padding: 3rem;
   }
+
+  .featured-content {
+    padding: 0 50% 0 2rem;
+  }
 }
 
 /* Larger than desktop */
@@ -2010,6 +2070,11 @@ h2 {
   .drop-down-menu {
     width: 50%;
   }
+
+  .featured-image img {
+    width: 100%;
+    height: 50vh;
+  }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
@@ -2095,6 +2160,18 @@ h2 {
 
   .footer {
     padding: 2rem 20%;
+  }
+
+  .featured-content {
+    padding: 0 20%;
+  }
+
+  .featured-content a {
+    width: 50%;
+  }
+
+  .featured-content p:nth-of-type(3) {
+    width: 70%;
   }
 }
 

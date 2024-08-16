@@ -1,19 +1,12 @@
 import { useEffect } from "react";
 import { CustomLink } from "../buttons/Buttons";
-import HomeCarousel from "../banner-carousel/HomeCarousel";
-import Category from "../property/Category";
 import Contact from "../contact/Contact";
-import BestSellingProperties from "../properties/BestSellingProperties";
-import FeaturedProperties from "../property/FeaturedProperties";
 import ExploreLocation from "../property/ExploreLocation";
-import AboutWidget from "../about/AboutWIdget";
 import ShowPropertyTypes from "../property/ShowPropertyTypes";
 import HeadingOne from "../contact/HeadingOne";
 import CategoryBuildingType from "../property/CategoryBuildingType";
-import Hero from "./Hero";
 import HeroImage from "./HeroImage";
-// import DropDownMenu from "../features/DropDownMenu";
-// import Select from "../features/Select";
+import FeaturedProperty from "../features/FeaturedProperty";
 
 const Home = () => {
   useEffect(() => {
@@ -42,6 +35,7 @@ const Home = () => {
         </p>
         <AboutWidget />
       </div> */}
+      <FeaturedProperty />
       <div className="component">
         <HeadingOne />
         <Contact />

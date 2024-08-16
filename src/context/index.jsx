@@ -67,6 +67,7 @@ class MyProvider extends Component {
     heroImage: propertiesJSON[3].cardImage,
     heroIcon: propertiesJSON[3].logo.white,
     navbarActiveLink: "home",
+    featuredPropertyDetails: propertiesJSON[42],
   };
 
   handleSelectOption = (e) => {
