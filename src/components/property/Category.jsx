@@ -50,17 +50,16 @@ const Category = () => {
           </Link>
         </div> */}
 
-      {/* <h4>Don’t wait to buy real estate. Buy real estate and wait.</h4>
-        <p>
-          Embrace the power of real estate investment and seize the opportunity
-          to secure your financial future by making the wise decision to buy
-          real estate now, knowing that time will enhance its value and reward
-          your patience.
-        </p> */}
+      <h4>Don’t wait to buy real estate. Buy real estate and wait.</h4>
+      <p>
+        Embrace the power of real estate investment and seize the opportunity to
+        secure your financial future by making the wise decision to buy real
+        estate now, knowing that time will enhance its value and reward your
+        patience.
+      </p>
       {/* <div className="property-type">{handlePropertyTypes()}</div> */}
+      {/* <h5>SEARCH</h5> */}
       <div className="property-sort-container">
-        {/* {handlePropertySort()} */}
-        {/* <h5>SEARCH</h5> */}
         <div className="property-sort">
           <form onSubmit={handlePropertySearch}>
             <div>
@@ -76,29 +75,10 @@ const Category = () => {
             </div>
           </form>
         </div>
-
         {renderSearchResult()}
-
-        <h5>SORT BY:</h5>
-        <div className="property-sort-items">
-          {/* <Link className="active">Featured</Link>
-            <Link className="notActive">Pre-Selling</Link>
-            <Link className="notActive">Best-Selling</Link>
-            <Link className="notActive">Premier</Link>
-            <Link className="notActive">Ready for Occupancy</Link>
-            <Link className="notActive">All Properties</Link>
-            <Link className="notActive">Condominium</Link>
-            <Link className="notActive">House and Lot</Link>
-            <Link className="notActive">Residential Office</Link>
-            <Link className="notActive">Lot</Link> */}
-          {handleSortByItems()}
-        </div>
+        <h5>SORT BY</h5>
+        <div className="property-sort-items">{handleSortByItems()}</div>
       </div>
-      {/* <CustomLink
-          text="view all properties"
-          style="view-all-properties"
-          linkTo={`/properties/type/all-properties`}
-          /> */}
     </>
   );
 };

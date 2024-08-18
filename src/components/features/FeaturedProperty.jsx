@@ -13,18 +13,25 @@ const FeaturedProperty = () => {
     featuredPropertyDetails.singleItem.feature.description.split("!")[1];
   const title = featuredPropertyDetails.singleItem.feature.title;
 
+  const bgImg = {
+    backgroundImage: `url('${background}')`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepear: "no-repeat",
+  };
+
   return (
     <>
-      <div className="featured-property">
-        <div className="featured-image">
+      <div className="featured-property" style={bgImg}>
+        {/* <div className="featured-image">
           <img src={background} alt="Featured Background" />
-        </div>
+        </div> */}
         <div className="featured-content">
           <p>THE LATEST IN SMDC</p>
           <p>{name}</p>
           <h3>{title}</h3>
           <p>{headerTwo}</p>
-          <CustomLink linkTo="/property" text="Explore More" />
+          <CustomLink linkTo="/property/parkville" text="Explore More" />
         </div>
       </div>
     </>

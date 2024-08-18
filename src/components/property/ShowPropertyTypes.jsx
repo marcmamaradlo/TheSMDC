@@ -6,7 +6,7 @@ const ShowPropertyTypes = ({ pType }) => {
   const showItem = () => {
     const newArr = propertiesJSON.filter((obj) => obj.propertyType === pType);
     return newArr.map((item) => (
-      <Link key={item.id}>
+      <Link key={item.id} to={`/property/${item.name.toLowerCase()}`}>
         <Card
           id={item.id}
           name={item.name}
@@ -18,10 +18,6 @@ const ShowPropertyTypes = ({ pType }) => {
       </Link>
     ));
   };
-
-  // const newArr = propertiesJSON.findIndex(
-  //   (item) => item.propertyType.toLowerCase() === pType
-  // );
 
   return (
     <>

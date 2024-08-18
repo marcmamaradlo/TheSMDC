@@ -1,8 +1,9 @@
 import { useEffect, useContext } from "react";
 import { CustomLink } from "../buttons/Buttons";
 import { MyContext } from "../../context";
+import { Buttons } from "../buttons/Buttons";
+
 import Slider from "react-slick";
-import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 import GoogleMap from "../googleMap/GoogleMap";
 
 const SingleItem = ({ data }) => {
@@ -10,6 +11,7 @@ const SingleItem = ({ data }) => {
   const handleShowMoreButton = context.handleShowMoreButton;
   const showMoreButtonIndex = context.state.showMoreButtonIndex;
   const resetShowMoreButtonIndex = context.resetShowMoreButtonIndex;
+  console.log(data);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,20 +19,28 @@ const SingleItem = ({ data }) => {
     return () => {
       resetShowMoreButtonIndex();
     };
-  }, []);
+  }, [data]);
 
-  var settings = {
-    dots: true,
+  const settings = {
+    dots: false,
+    fade: true,
+    arrows: false,
+    autoplaySpeed: 5000,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    waitForAnimate: false,
+    adaptiveHeight: true,
+    draggable: true,
   };
 
   const showSingleItem = () => {
     const feature = data.singleItem.feature;
     const amenity = data.singleItem.amenity;
     const unit = data.singleItem.unit;
+
     const grandLobby = data.singleItem.grandLobby;
     const blackLogo = data.logo.black;
     const banner = {
@@ -38,6 +48,40 @@ const SingleItem = ({ data }) => {
       backgroundPosition: "center",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
+    };
+
+    const showImages = (e) => {
+      return e.image.map((item, index) => {
+        return (
+          <div>
+            <img src={item} alt={`${e.title}-${index}`} key={index} />;
+          </div>
+        );
+      });
+    };
+
+    const getBlackLogo = () => {
+      return blackLogo ? blackLogo : null;
+    };
+
+    const getUnits = () => {
+      return unit
+        ? unit.type.map((item, index) => {
+            return (
+              <p key={item.name.split(" ").join("").toLowerCase() + item.name}>
+                {item.name}
+              </p>
+            );
+          })
+        : null;
+    };
+
+    const getAmenities = () => {
+      return amenity
+        ? amenity.content.map((item) => {
+            return <p>{item}</p>;
+          })
+        : null;
     };
 
     return data ? (
@@ -48,98 +92,76 @@ const SingleItem = ({ data }) => {
           </div>
         </div>
 
-        <div className="component">
-          <div className="heading-with-map">
-            <div className="content">
-              <h5>{data.name}</h5>
-              <p>{data.cardPrice}</p>
+        <div className="single-item-container">
+          <div className="single-item-section">
+            <div className="single-item-heading">
+              <img src={getBlackLogo()} alt="property logo" />
+              <h1>{data.name}</h1>
               <p>{data.bannerAbout}</p>
-              <p>{data.cardAddress}</p>
             </div>
-            <div className="map">
-              <GoogleMap mapURL={data.mapURL} />
-            </div>
-          </div>
-        </div>
-
-        <div className="component">
-          <h5>{feature.title}</h5>
-          <p>{feature.description}</p>
-          {/* <div className="card-s-unit-image-container"> */}
-          {
-            feature.image ? (
-              <img src={feature.image} alt={feature.title} />
-            ) : null
-            // <img src={blackLogo} alt={feature.title} />
-          }
-
-          {/* </div> */}
-        </div>
-        {grandLobby.title ? (
-          <div className="component">
-            <h5>{grandLobby.title}</h5>
-            <p>{grandLobby.description}</p>
-            <div className="card-s-unit-image-container">
-              {/* <Slider {...settings}> */}
-              {grandLobby.image
-                ? grandLobby.image.map((item, index) => (
-                    <img src={item} alt="Grand Lobby" key={index} />
-                  ))
-                : null}
-              {/* </Slider> */}
+            <div className="single-item-details">
+              <div className="details-section">
+                <h5>LOCATION</h5>
+                <p>{data.cardPrice}</p>
+              </div>
+              <div className="details-section">
+                <h5>PRICE RANGE</h5>
+                <p>{`Php ${parseInt(
+                  data.priceMin
+                ).toLocaleString()} - Php ${parseInt(
+                  data.priceMax
+                ).toLocaleString()}`}</p>
+              </div>
+              <div className="details-section">
+                <h5>UNITS</h5>
+                {getUnits()}
+              </div>
+              <div className="details-section">
+                <h5>AMENITIES</h5>
+                {getAmenities()}
+              </div>
             </div>
           </div>
-        ) : null}
-
-        <div className="component">
-          <h5>{amenity.title}</h5>
-          <p>{amenity.description}</p>
-          {amenity.content.map((item, index) => (
-            <p key={item + index}>{item}</p>
-          ))}
-          {amenity.image ? (
-            <div className="card-s-unit-image-container">
-              {amenity.image.map((item, index) => (
-                <img
-                  src={item}
-                  alt={`amenity-image-${index}`}
-                  key={`amenity-image-${index}`}
+          <div className="single-item-section">
+            <div className="gallery-container">
+              <div className="gallery-button-container">
+                <Buttons style="" onclick={``} text="AMENITY" name="amenity" />
+                <Buttons
+                  style=""
+                  onclick={``}
+                  text="GRAND LOBBY"
+                  name="grand-lobby"
                 />
-              ))}
-            </div>
-          ) : null}
-        </div>
-
-        <div className="component">
-          <h5>{unit.title}</h5>
-          <p>{unit.description}</p>
-          {unit.type.map((item, index) => (
-            <p key={item.name + index}>{item.name}</p>
-          ))}
-          {unit.image ? (
-            <div className="card-s-unit-image-container">
-              {data.singleItem.unit.image.map((item, index) => (
-                <img
-                  src={item}
-                  alt={`unit-image-${index}`}
-                  key={`unitImage${index}`}
+                <Buttons
+                  style=""
+                  onclick={``}
+                  text="MODEL UNIT"
+                  name="model-unit"
                 />
-              ))}
+              </div>
+              <div className="image-container">
+                <div className="slider-container">
+                  <Slider {...settings}>{showImages(grandLobby)}</Slider>
+                </div>
+                <div className="gallery-description">
+                  <h4>Amenity</h4>
+                  <p>{amenity.description}</p>
+                </div>
+              </div>
             </div>
-          ) : null}
+          </div>
+          {/* <div className="map box-shadow">
+            <GoogleMap mapURL={data.mapURL} />
+          </div> */}
+
+          <div className="slider-container">
+            <Slider {...settings}>{showImages(grandLobby)}</Slider>
+          </div>
+
           <CustomLink
             style="button-call-to-action"
             text="More Properties"
             linkTo="/property"
-          />
-        </div>
-
-        <div className="card-s-logo-container">
-          <img className="card-s-logo" src={SMDCWhiteBG} alt="SMDC White BG" />
-          <img
-            className="card-s-logo"
-            src={data.logo ? data.logo.black : null}
-            alt="Logo Black"
           />
         </div>
       </>

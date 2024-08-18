@@ -39,12 +39,16 @@ const Reservation = () => {
     // margin: "0rem 1rem",
   };
 
+  const bgImg = {
+    backgroundImage: `url('https://images.unsplash.com/photo-1508780709619-79562169bc64?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  };
+
   return (
     <>
-      {/* <StaticBanner
-        style={`page-banner`}
-        text={`Start your SMDC - The Good Life Journey`}
-      /> */}
+      <div className="banner-hero" style={bgImg}></div>
       <div className="component reservation">
         <div className="investor">
           <div className="investor-details">
