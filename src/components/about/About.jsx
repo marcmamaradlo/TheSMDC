@@ -1,5 +1,4 @@
-import { useEffect, useContext } from "react";
-import { MyContext } from "../../context";
+import { useEffect } from "react";
 import { CustomLink } from "../buttons/Buttons";
 
 import bestSellerJSON from "../../best-sellers.json";
@@ -9,20 +8,10 @@ import AboutWidget from "./AboutWIdget";
 import ShowPropertyTypes from "../property/ShowPropertyTypes";
 
 const About = () => {
-  const context = useContext(MyContext);
-  // const universalBanner = context.universalBanner;
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "About Us | The SMDC";
   }, []);
-
-  // const bannerImage = {
-  //   backgroundImage: `url(${bestSellerJSON[0].cardImage})`,
-  //   backgroundRepear: "no-repeat",
-  //   backgroundPosition: "center",
-  //   backgroundSize: "cover",
-  //   height: "20vh",
-  // };
 
   const kts = {
     backgroundImage: `url(${bestSellerJSON[2].gallery[2]})`,

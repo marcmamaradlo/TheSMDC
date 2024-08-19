@@ -1,16 +1,24 @@
 import { useContext } from "react";
 import { MyContext } from "../../context";
-import { CustomLink } from "../buttons/Buttons";
+import Slider from "react-slick";
 
 const HeroImage = () => {
   const context = useContext(MyContext);
-  const heroImage = context.state.heroImage;
-  const heroIcon = context.state.heroIcon;
-  const heroBG = {
-    backgroundImage: `url('${heroImage}')`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
+  const handleHomeHero = context.handleHomeHero;
+
+  const settings = {
+    dots: false,
+    fade: true,
+    arrows: false,
+    autoplaySpeed: 3000,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false,
+    adaptiveHeight: true,
+    draggable: true,
   };
 
   return (
@@ -19,17 +27,8 @@ const HeroImage = () => {
         <div className="hero-header">
           <h1>The Leading Developer in the Philippines</h1>
         </div>
-        <div className="hero-content" style={{ ...heroBG }}>
-          <div className="hero-overlay">
-            {/* <img className="hero-smdc-logo" src={SMDCNoGB} alt="" /> */}
-            <img src={heroIcon} alt="Property Icon" />
-            <CustomLink
-              text="EXPLORE PROPERTIES"
-              linkTo="/property"
-              style="hero-button"
-            />
-          </div>
-          <div className="hero-background-img"></div>
+        <div className="slider-container">
+          <Slider {...settings}>{handleHomeHero()}</Slider>
         </div>
       </div>
     </>

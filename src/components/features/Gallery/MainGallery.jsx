@@ -9,7 +9,7 @@ const MainGallery = ({ data }) => {
   const getMainGalleryData = context.getMainGalleryData;
   const galleryButtons = context.state.galleryButtons;
   const galleryImage = context.state.galleryImage;
-  const galleryDefaultState = context.state.galleryDefaultState;
+  const galleryDefaultState = context.galleryDefaultState;
 
   useEffect(() => {
     getMainGalleryData(data);
@@ -29,8 +29,10 @@ const MainGallery = ({ data }) => {
             </div>
             <div className="image-container">
               {Array.isArray(galleryImage) ? (
-                <div className="slider-container">
-                  <GalleryImage />
+                <div className="gallery">
+                  <div className="slider-container">
+                    <GalleryImage />
+                  </div>
                 </div>
               ) : null}
 

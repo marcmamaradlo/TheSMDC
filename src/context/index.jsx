@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { CustomLink } from "../components/buttons/Buttons";
+import Slider from "react-slick";
 
 import premierJSON from "../premier.json";
 import bestSellingJSON from "../best-sellers.json";
@@ -14,7 +16,7 @@ class MyProvider extends Component {
   state = {
     test: true, // true, false
     contactModalIsActive: false, // true, false
-    activeModal: true, //contactModal, homeModal, null
+    activeModal: false, //contactModal, homeModal, null
     locations: [
       "quezon",
       "manila",
@@ -73,6 +75,34 @@ class MyProvider extends Component {
     galleryImage: [],
     galleryDescription: "",
     galleryTitle: "",
+  };
+
+  handleHomeHero = () => {
+    return propertiesJSON.map((item, index) => {
+      const heroBG = {
+        backgroundImage: `url('${item.cardImage}')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      };
+
+      const heroIcon = item.logo.white;
+      return (
+        <div key={item.id + index}>
+          <div className="hero-content" style={{ ...heroBG }}>
+            <div className="hero-overlay">
+              <img src={heroIcon} alt="Property Icon" />
+              <CustomLink
+                text="EXPLORE PROPERTIES"
+                linkTo="/property"
+                style="hero-button"
+              />
+            </div>
+            <div className="hero-background-img"></div>
+          </div>
+        </div>
+      );
+    });
   };
 
   galleryDefaultState = () => {
@@ -485,6 +515,7 @@ class MyProvider extends Component {
       getMainGalleryData,
       handleGalleryButtonClick,
       galleryDefaultState,
+      handleHomeHero,
     } = this;
 
     return (
@@ -514,6 +545,7 @@ class MyProvider extends Component {
           getMainGalleryData,
           handleGalleryButtonClick,
           galleryDefaultState,
+          handleHomeHero,
         }}
       >
         {this.props.children}

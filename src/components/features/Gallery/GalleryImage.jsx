@@ -12,7 +12,7 @@ const GalleryImage = () => {
     dots: false,
     fade: true,
     arrows: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     autoplay: true,
     infinite: true,
     speed: 500,
