@@ -14,7 +14,12 @@ const Contact = () => {
           <label htmlFor="mobile">Number</label>
           <div className="form-number">
             <input type="text" placeholder="+63" />
-            <input type="number" placeholder="9665839308" id="mobile" />
+            <input
+              type="number"
+              placeholder="9665839308"
+              id="mobile"
+              className="no-spinner"
+            />
           </div>
         </div>
         <div className="label-input">

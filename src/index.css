@@ -34,6 +34,12 @@
   font-size: 5rem;
 }
 
+input[type="number"].no-spinner::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* ////////////////Fonts Ends//////////////////////////////////////////////////////// */
 
 :root {
@@ -1394,7 +1400,7 @@ h2 {
   height: 5rem;
 }
 
-.gallery-button-container button {
+.gallery-button-default {
   background-color: transparent;
   color: var(--black);
   font-weight: 600;
@@ -1404,14 +1410,16 @@ h2 {
   letter-spacing: 0.2rem;
 }
 
-.gallery-button-container button:hover {
+.gallery-button--active {
+  background-color: transparent;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-bottom: 4px solid transparent;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.2rem;
   border-bottom: 4px solid var(--black);
   transition: all var(--trans300ms);
-}
-
-.gallery-description {
-  /* border: 1px solid red; */
-  /* padding: 0 1rem; */
 }
 
 .gallery-description h4 {
@@ -1434,7 +1442,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
 }
 
 .map-description img {
@@ -1458,6 +1466,21 @@ h2 {
 
 .map {
   height: 100%;
+}
+
+.feature-description h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.feature-description p {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.feature-content {
+  font-style: italic;
+  font-weight: 300;
 }
 
 /* // SINGLE-ITEM END ////////////////////////////////////// */
@@ -1725,6 +1748,17 @@ h2 {
     max-height: 40rem;
     min-width: 100%;
   }
+
+  .feature-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-image img {
+    width: 100%;
+    height: 35rem;
+  }
 }
 
 /* Larger than phablet */
@@ -1979,6 +2013,10 @@ h2 {
     padding: 4rem 1rem;
   }
 
+  .gallery-description {
+    padding: 0 2rem;
+  }
+
   .image-container {
     display: flex;
     /* border: 1px solid var(--black); */
@@ -2210,6 +2248,30 @@ h2 {
   .gallery-button-container {
     border-bottom: 1px solid var(--lightGray);
   }
+
+  .feature-container {
+    height: 60rem;
+    display: flex;
+  }
+
+  .feature-description,
+  .feature-image {
+    padding: 2rem 0;
+    width: 50%;
+  }
+
+  .feature-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+
+  .feature-description h3,
+  .feature-description p {
+    text-align: center;
+  }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
@@ -2340,6 +2402,10 @@ h2 {
 
   .details-section:nth-of-type(1) {
     padding-right: 2rem;
+  }
+
+  .single-item-heading {
+    padding: 5rem 0;
   }
 
   /* .content,

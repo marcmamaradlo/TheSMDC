@@ -6,12 +6,15 @@ const ShowPropertyTypes = ({ pType }) => {
   const showItem = () => {
     const newArr = propertiesJSON.filter((obj) => obj.propertyType === pType);
     return newArr.map((item) => (
-      <Link key={item.id} to={`/property/${item.name.toLowerCase()}`}>
+      <Link
+        key={item.id}
+        to={`/property/${item.name.toLowerCase().split(" ").join("-")}`}
+      >
         <Card
           id={item.id}
           name={item.name}
-          priceMax={item.priceMax}
-          priceMin={item.priceMin}
+          priceMax={parseInt(item.priceMax).toLocaleString()}
+          priceMin={parseInt(item.priceMin).toLocaleString()}
           cardImage={item.cardImage}
           shortAddress={item.shortAddress}
         />

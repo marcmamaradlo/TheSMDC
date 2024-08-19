@@ -68,12 +68,60 @@ class MyProvider extends Component {
     heroIcon: propertiesJSON[3].logo.white,
     navbarActiveLink: "home",
     featuredPropertyDetails: propertiesJSON[42],
+    galleryData: [],
+    galleryButtons: [],
+    galleryImage: [],
+    galleryDescription: "",
+    galleryTitle: "",
   };
 
-  handleSelectOption = (e) => {
-    // console.log(e);
-    // const navigate = useNavigate();
-    // navigate("/property");
+  galleryDefaultState = () => {
+    this.setState({
+      galleryData: [],
+      galleryButtons: [],
+      galleryImage: [],
+      galleryDescription: "",
+      galleryTitle: "",
+    });
+  };
+
+  getMainGalleryData = (data) => {
+    this.setState({ galleryData: data });
+    const amenity = data.singleItem.amenity;
+    const grandLobby = data.singleItem.grandLobby;
+    const unit = data.singleItem.unit;
+
+    let newButtons = [];
+    amenity.image.length > 0 ? newButtons.push("amenity") : null;
+    grandLobby.image.length > 0 ? newButtons.push("lobby") : null;
+    unit.image.length > 0 ? newButtons.push("unit") : null;
+
+    this.setState({ galleryButtons: newButtons });
+  };
+
+  handleGalleryButtonClick = (e) => {
+    const amenity = this.state.galleryData.singleItem.amenity;
+    const grandLobby = this.state.galleryData.singleItem.grandLobby;
+    const unit = this.state.galleryData.singleItem.unit;
+
+    this.setState({ galleryTitle: e.target.name });
+
+    e.target.name === "amenity"
+      ? this.setState({
+          galleryDescription: amenity.description,
+          galleryImage: amenity.image,
+        })
+      : e.target.name === "lobby"
+      ? this.setState({
+          galleryDescription: grandLobby.description,
+          galleryImage: grandLobby.image,
+        })
+      : e.target.name === "unit"
+      ? this.setState({
+          galleryDescription: unit.description,
+          galleryImage: unit.image,
+        })
+      : null;
   };
 
   unMountRenderSearchResult = () => {
@@ -89,8 +137,8 @@ class MyProvider extends Component {
         <Card
           id={item.id}
           name={item.name}
-          priceMax={item.priceMax}
-          priceMin={item.priceMin}
+          priceMax={parseInt(item.priceMax).toLocaleString()}
+          priceMin={parseInt(item.priceMin).toLocaleString()}
           cardImage={item.cardImage}
           shortAddress={item.shortAddress}
         />
@@ -139,7 +187,7 @@ class MyProvider extends Component {
     // console.log(e);
     const getBuildingType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
-      console.log(newObj);
+      // console.log(newObj);
       return newObj.map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
@@ -148,8 +196,8 @@ class MyProvider extends Component {
           <Card
             id={item.id}
             name={item.name}
-            priceMax={item.priceMax}
-            priceMin={item.priceMin}
+            priceMax={parseInt(item.priceMax).toLocaleString()}
+            priceMin={parseInt(item.priceMin).toLocaleString()}
             cardImage={item.cardImage}
             shortAddress={item.shortAddress}
           />
@@ -159,7 +207,7 @@ class MyProvider extends Component {
 
     const getPropertyType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.propertyType === e);
-      console.log(newObj);
+      // console.log(newObj);
       return newObj.map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
@@ -168,8 +216,8 @@ class MyProvider extends Component {
           <Card
             id={item.id}
             name={item.name}
-            priceMax={item.priceMax}
-            priceMin={item.priceMin}
+            priceMax={parseInt(item.priceMax).toLocaleString()}
+            priceMin={parseInt(item.priceMin).toLocaleString()}
             cardImage={item.cardImage}
             shortAddress={item.shortAddress}
           />
@@ -188,8 +236,8 @@ class MyProvider extends Component {
           <Card
             id={item.id}
             name={item.name}
-            priceMax={item.priceMax}
-            priceMin={item.priceMin}
+            priceMax={parseInt(item.priceMax).toLocaleString()}
+            priceMin={parseInt(item.priceMin).toLocaleString()}
             cardImage={item.cardImage}
             shortAddress={item.shortAddress}
           />
@@ -311,8 +359,8 @@ class MyProvider extends Component {
           <Card
             id={item.id}
             name={item.name}
-            priceMax={item.priceMax}
-            priceMin={item.priceMin}
+            priceMax={parseInt(item.priceMax).toLocaleString()}
+            priceMin={parseInt(item.priceMin).toLocaleString()}
             cardImage={item.cardImage}
             shortAddress={item.shortAddress}
           />
@@ -331,8 +379,8 @@ class MyProvider extends Component {
         <Card
           id={item.id}
           name={item.name}
-          cardPrice={item.cardPrice}
-          cardImage={item.cardImage}
+          priceMax={parseInt(item.priceMax).toLocaleString()}
+          priceMin={parseInt(item.priceMin).toLocaleString()}
           cardAddress={item.cardAddress}
           cardDescription={item.cardDescription}
         />
@@ -434,7 +482,9 @@ class MyProvider extends Component {
       unMountRenderSearchResult,
       modalEmailOnClick,
       scrollDocumentToTop,
-      handleSelectOption,
+      getMainGalleryData,
+      handleGalleryButtonClick,
+      galleryDefaultState,
     } = this;
 
     return (
@@ -461,7 +511,9 @@ class MyProvider extends Component {
           unMountRenderSearchResult,
           modalEmailOnClick,
           scrollDocumentToTop,
-          handleSelectOption,
+          getMainGalleryData,
+          handleGalleryButtonClick,
+          galleryDefaultState,
         }}
       >
         {this.props.children}

@@ -5,26 +5,24 @@ import { CustomLink } from "../buttons/Buttons";
 import bestSellerJSON from "../../best-sellers.json";
 import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
 import propertiesJSON from "../../properties.json";
-import StaticBanner from "../banner-carousel/StaticBanner";
 import AboutWidget from "./AboutWIdget";
 import ShowPropertyTypes from "../property/ShowPropertyTypes";
-import SMDCNoBG from "../../assets/SMDCNoGB.png";
 
 const About = () => {
   const context = useContext(MyContext);
-  const universalBanner = context.universalBanner;
+  // const universalBanner = context.universalBanner;
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "About Us | The SMDC";
   }, []);
 
-  const bannerImage = {
-    backgroundImage: `url(${bestSellerJSON[0].cardImage})`,
-    backgroundRepear: "no-repeat",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    height: "20vh",
-  };
+  // const bannerImage = {
+  //   backgroundImage: `url(${bestSellerJSON[0].cardImage})`,
+  //   backgroundRepear: "no-repeat",
+  //   backgroundPosition: "center",
+  //   backgroundSize: "cover",
+  //   height: "20vh",
+  // };
 
   const kts = {
     backgroundImage: `url(${bestSellerJSON[2].gallery[2]})`,
@@ -32,14 +30,6 @@ const About = () => {
     backgroundPosition: "center",
     backgroundSize: "cover",
   };
-
-  // const staycation = {
-  //   backgroundImage: `url(${bestSellerJSON[2].gallery[3]})`,
-  //   backgroundRepear: "no-repeat",
-  //   backgroundPosition: "center",
-  //   backgroundSize: "cover",
-  //   height: "22rem",
-  // };
 
   return (
     <>

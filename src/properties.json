@@ -518,14 +518,12 @@
       "grandLobby": {
         "title": "",
         "description": "",
-        "image": [""]
+        "image": []
       },
       "feature": {
         "title": "Made for the 5-star student",
         "description": "Blue Residences is a 4,235-square meter property built on the corner of Katipunan Avenue and Aurora Boulevard. This gives it excellent access to the nearby schools including the noteworthy Ateneo de Manila University, Miriam College, and University of the Philippines.",
-        "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/logoBlack.png"
-        ]
+        "image": []
       },
       "amenity": {
         "title": "Amenities",
@@ -540,9 +538,7 @@
           "Water Tank",
           "WiFi-ready Zones"
         ],
-        "image": [
-          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Blue/logoBlack.png"
-        ]
+        "image": []
       },
       "unit": {
         "title": "Units",
@@ -5313,23 +5309,7 @@
         "description": "Immerse yourself in the lush embrace of Parkville, where eight thoughtfully-crafted parks await exploration- offering residents spaces that not only invite outdoor enjoyment but also nurture genuine connection with the beauty of the surroundings.",
         "type": [
           {
-            "name": "",
-            "description": ""
-          },
-          {
-            "name": "",
-            "description": ""
-          },
-          {
-            "name": "",
-            "description": ""
-          },
-          {
-            "name": "",
-            "description": ""
-          },
-          {
-            "name": "",
+            "name": "120 - 221 sqm",
             "description": ""
           }
         ],

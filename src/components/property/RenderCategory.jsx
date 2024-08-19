@@ -1,5 +1,5 @@
+import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useContext } from "react";
 import { MyContext } from "../../context";
 import { CustomLink } from "../buttons/Buttons";
 
@@ -7,7 +7,12 @@ const RenderCategory = () => {
   const context = useContext(MyContext);
   const params = useParams();
   const propertyCategory = context.propertyCategory;
+  const scrollDocumentToTop = context.scrollDocumentToTop;
   const propertyType = params.selector.split("-").join(" ");
+
+  useEffect(() => {
+    scrollDocumentToTop();
+  }, []);
 
   return (
     <>
