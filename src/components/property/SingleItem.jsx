@@ -5,6 +5,7 @@ import { Buttons } from "../buttons/Buttons";
 
 import Slider from "react-slick";
 import GoogleMap from "../googleMap/GoogleMap";
+import LastComponent from "../home/LastComponent";
 
 const SingleItem = ({ data }) => {
   const context = useContext(MyContext);
@@ -95,16 +96,17 @@ const SingleItem = ({ data }) => {
         <div className="single-item-container">
           <div className="single-item-section">
             <div className="single-item-heading">
-              <img src={getBlackLogo()} alt="property logo" />
+              {/* <img src={getBlackLogo()} alt="property logo" /> */}
               <h1>{data.name}</h1>
               <p>{data.bannerAbout}</p>
+              <p>{data.cardAddress}</p>
             </div>
+          </div>
+          <div className="single-item-section-container">
             <div className="single-item-details">
               <div className="details-section">
                 <h5>LOCATION</h5>
                 <p>{data.cardPrice}</p>
-              </div>
-              <div className="details-section">
                 <h5>PRICE RANGE</h5>
                 <p>{`Php ${parseInt(
                   data.priceMin
@@ -112,6 +114,7 @@ const SingleItem = ({ data }) => {
                   data.priceMax
                 ).toLocaleString()}`}</p>
               </div>
+              {/* <div className="details-section"></div> */}
               <div className="details-section">
                 <h5>UNITS</h5>
                 {getUnits()}
@@ -122,6 +125,7 @@ const SingleItem = ({ data }) => {
               </div>
             </div>
           </div>
+
           <div className="single-item-section">
             <div className="gallery-container">
               <div className="gallery-button-container">
@@ -129,15 +133,10 @@ const SingleItem = ({ data }) => {
                 <Buttons
                   style=""
                   onclick={``}
-                  text="GRAND LOBBY"
+                  text="LOBBY"
                   name="grand-lobby"
                 />
-                <Buttons
-                  style=""
-                  onclick={``}
-                  text="MODEL UNIT"
-                  name="model-unit"
-                />
+                <Buttons style="" onclick={``} text="UNIT" name="model-unit" />
               </div>
               <div className="image-container">
                 <div className="slider-container">
@@ -150,19 +149,35 @@ const SingleItem = ({ data }) => {
               </div>
             </div>
           </div>
-          {/* <div className="map box-shadow">
-            <GoogleMap mapURL={data.mapURL} />
-          </div> */}
 
-          <div className="slider-container">
-            <Slider {...settings}>{showImages(grandLobby)}</Slider>
+          <div className="single-item-section-container">
+            <div className="map-container">
+              <div className="map-section">
+                <div className="map box-shadow">
+                  <GoogleMap mapURL={data.mapURL} />
+                </div>
+              </div>
+              <div className="map-description">
+                <img src={data.logo.white} alt="Logo-White" />
+                <h3>Property Map</h3>
+                <p>{`Explore Places Near ${data.name}`}</p>
+              </div>
+            </div>
           </div>
 
-          <CustomLink
-            style="button-call-to-action"
-            text="More Properties"
-            linkTo="/property"
-          />
+          <div className="single-item-section">
+            <div className="feature-container">
+              <div className="feature-description">
+                <h3>{feature.title}</h3>
+                <p>{feature.description}</p>
+              </div>
+              <div className="feature-image">
+                <img src={data.cardImage} alt="feature-banner" />
+              </div>
+            </div>
+          </div>
+
+          <LastComponent />
         </div>
       </>
     ) : null;
