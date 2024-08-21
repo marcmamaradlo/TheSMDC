@@ -13,12 +13,14 @@ const HeroImage = () => {
     autoplaySpeed: 1900,
     autoplay: true,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
     adaptiveHeight: true,
     draggable: true,
+    pauseOnHover: false,
+    pauseOnActive: false,
   };
 
   return (
