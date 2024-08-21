@@ -8,6 +8,8 @@ import CategoryBuildingType from "../property/CategoryBuildingType";
 import HeroImage from "./HeroImage";
 import FeaturedProperty from "../features/FeaturedProperty";
 import LastComponent from "./LastComponent";
+import Pagination from "../features/pagination/Pagination";
+import propertiesJSON from "../../properties.json";
 
 const Home = () => {
   useEffect(() => {
@@ -17,6 +19,7 @@ const Home = () => {
 
   return (
     <>
+      {/* <Pagination data={propertiesJSON} /> */}
       <HeroImage />
       <CategoryBuildingType />
       <ExploreLocation />

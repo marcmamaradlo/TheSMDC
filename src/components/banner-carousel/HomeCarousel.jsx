@@ -9,8 +9,6 @@ const HomeCarousel = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        // minHeight: "500px",
-        // minWidth: "393px",
       };
 
       return (
@@ -19,12 +17,7 @@ const HomeCarousel = () => {
           style={{ ...carouselBackground }}
           key={item.id}
         >
-          {/* <div data-aos="fade-up" data-aos-duration="1000"> */}
-          <div
-            className="carousel-card-body"
-            // data-aos="zoom-in"
-            // data-aos-duration="1000"
-          >
+          <div className="carousel-card-body">
             <img src={item.logo.white} alt={item.name} />
             <p>For as low as</p>
             <p>{item.cardPrice}</p>

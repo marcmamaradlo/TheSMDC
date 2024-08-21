@@ -1667,6 +1667,17 @@ h2 {
 }
 /* // MODAL END ///////////////////////////////////////// */
 
+/* // PAGINATION START ///////////////////////////////////////// */
+.pagination-container {
+  border: 1px solid red;
+  display: flex;
+}
+
+.pagination-container a {
+  border: 1px solid blue;
+}
+/* // PAGINATION END ///////////////////////////////////////// */
+
 /* // FOOTER START ////////////////////////////////////// */
 .footer {
   width: 100%;
@@ -2261,6 +2272,38 @@ h2 {
   .feature-description p {
     text-align: center;
   }
+
+  .modal-container > .component {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    padding: 0;
+  }
+
+  .modal-container > .component > i {
+    position: absolute;
+    top: 1rem;
+    left: 1.7rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  .modal-container > .component > .contact-us > .div1,
+  .modal-container > .component > .contact-us > .div2 {
+    padding: 1rem;
+  }
+
+  .modal-container > .component > .contact-us > .div1 {
+    border-right: 1px solid var(--lightGray);
+  }
+
+  .modal-container > .component > .contact-us {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    margin: 0;
+  }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
@@ -2396,15 +2439,6 @@ h2 {
   .single-item-heading {
     padding: 5rem 0;
   }
-
-  /* .content,
-  .map {
-    width: 100%;
-  } */
-
-  /* .map {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  } */
 }
 
 @media (min-width: 1440px) {

@@ -2,6 +2,7 @@ import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { MyContext } from "../../context";
 import { CustomLink } from "../buttons/Buttons";
+import Pagination from "../features/pagination/Pagination";
 
 const RenderCategory = () => {
   const context = useContext(MyContext);
@@ -22,6 +23,7 @@ const RenderCategory = () => {
         <div className="card-container">
           {propertyCategory(params.selector)}
         </div>
+        {/* <Pagination data={propertyCategory(params.selector)} /> */}
         <CustomLink
           text="More Properties"
           style="button-call-to-action"

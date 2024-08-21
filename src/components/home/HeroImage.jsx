@@ -10,7 +10,7 @@ const HeroImage = () => {
     dots: false,
     fade: true,
     arrows: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1900,
     autoplay: true,
     infinite: true,
     speed: 500,

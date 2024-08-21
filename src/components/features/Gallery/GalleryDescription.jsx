@@ -7,7 +7,6 @@ const GalleryDescription = () => {
   const galleryTitle = context.state.galleryTitle;
   const galleryButtons = context.state.galleryButtons;
   const galleryData = context.state.galleryData;
-  console.log("galletyDescription", galleryDescription);
 
   const capitalizeFirstLetter = (string) => {
     return string ? string.charAt(0).toUpperCase() + string.slice(1) : null;

@@ -75,6 +75,7 @@ class MyProvider extends Component {
     galleryImage: [],
     galleryDescription: "",
     galleryTitle: "",
+    paginationCurrentPage: 1,
   };
 
   handleHomeHero = () => {

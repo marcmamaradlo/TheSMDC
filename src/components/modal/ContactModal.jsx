@@ -1,6 +1,7 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { MyContext } from "../../context";
 import Contact from "../contact/Contact";
+import ContactInfo from "../contact/ContactInfo";
 
 const ContactModal = () => {
   const context = useContext(MyContext);
@@ -14,7 +15,14 @@ const ContactModal = () => {
             className="fa-solid fa-xmark"
             onClick={handleContactModalState}
           ></i>
-          <Contact />
+          <div className="contact-us">
+            <div className="div2">
+              <Contact />
+            </div>
+            <div className="div1">
+              <ContactInfo />
+            </div>
+          </div>
         </div>
       </div>
     </>
