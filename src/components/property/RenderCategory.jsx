@@ -20,10 +20,10 @@ const RenderCategory = () => {
       <div className="component">
         <h4>PROPERTY</h4>
         <h3>{propertyType.toUpperCase()}</h3>
+        {/* <Pagination data={propertyCategory(params.selector)} /> */}
         <div className="card-container">
           {propertyCategory(params.selector)}
         </div>
-        {/* <Pagination data={propertyCategory(params.selector)} /> */}
         <CustomLink
           text="More Properties"
           style="button-call-to-action"

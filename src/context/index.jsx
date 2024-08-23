@@ -76,6 +76,13 @@ class MyProvider extends Component {
     galleryDescription: "",
     galleryTitle: "",
     paginationCurrentPage: 1,
+    paginationData: [],
+    contactSpinnerActive: false,
+  };
+
+  handleContactSpinner = (e) => {
+    this.setState({ contactSpinnerActive: e });
+    console.log(this.state.contactSpinnerActive);
   };
 
   handleHomeHero = () => {
@@ -219,7 +226,7 @@ class MyProvider extends Component {
     const getBuildingType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
       // console.log(newObj);
-      return newObj.map((item) => (
+      return newObj.slice(0, 5).map((item) => (
         <Link
           to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
           key={item.id}
@@ -517,6 +524,7 @@ class MyProvider extends Component {
       handleGalleryButtonClick,
       galleryDefaultState,
       handleHomeHero,
+      handleContactSpinner,
     } = this;
 
     return (
@@ -547,6 +555,7 @@ class MyProvider extends Component {
           handleGalleryButtonClick,
           galleryDefaultState,
           handleHomeHero,
+          handleContactSpinner,
         }}
       >
         {this.props.children}
