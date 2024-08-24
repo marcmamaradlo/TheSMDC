@@ -13,7 +13,7 @@ const RenderCategory = () => {
 
   useEffect(() => {
     scrollDocumentToTop();
-  }, []);
+  }, [params.selector]);
 
   return (
     <>

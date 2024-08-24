@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MyContext } from "../../context";
 
 import Contact from "../contact/Contact";
 import ExploreLocation from "../property/ExploreLocation";
@@ -12,9 +13,13 @@ import Pagination from "../features/pagination/Pagination";
 import propertiesJSON from "../../properties.json";
 
 const Home = () => {
+  const context = useContext(MyContext);
+  const scrollDocumentToTop = context.scrollDocumentToTop;
+
   useEffect(() => {
     document.title = "The SMDC | Your Dream Home Awaits.";
-    console.log(localStorage);
+    scrollDocumentToTop();
+    // console.log(localStorage);
   }, []);
 
   return (

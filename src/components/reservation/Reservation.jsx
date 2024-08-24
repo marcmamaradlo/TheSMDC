@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { MyContext } from "../../context";
 
 import StaticBanner from "../banner-carousel/StaticBanner";
@@ -7,8 +7,13 @@ import HeadingTwo from "../contact/HeadingTwo";
 import HeadingOne from "../contact/HeadingOne";
 
 const Reservation = () => {
+  useEffect(() => {
+    scrollDocumentToTop();
+  }, []);
+
   const context = useContext(MyContext);
   const state = context.state;
+  const scrollDocumentToTop = context.scrollDocumentToTop;
   const allProperties = state.allProperties;
 
   const investorImage = {

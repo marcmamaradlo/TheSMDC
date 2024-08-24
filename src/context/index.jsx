@@ -41,7 +41,12 @@ class MyProvider extends Component {
       "tarlac",
       "cagayan de oro",
     ],
-    helpfulLinks: ["Home", "About Us", "How to Reserve", "Contact Us"],
+    helpfulLinks: [
+      { title: "Home", link: "/" },
+      { title: "About Us", link: "/about" },
+      { title: "How to Reserve", link: "/reservation" },
+      { title: "Contact Us", link: "/contact" },
+    ],
     navLinks: ["home", "about", "property", "reservation", "contact"],
     propertySortitems: [
       { linkTo: "featured", name: "Featured" },
@@ -77,7 +82,7 @@ class MyProvider extends Component {
     galleryTitle: "",
     paginationCurrentPage: 1,
     paginationData: [],
-    contactSpinnerActive: false,
+    contactSpinnerActive: false, // true, false
   };
 
   handleContactSpinner = (e) => {
@@ -458,12 +463,12 @@ class MyProvider extends Component {
 
   helpfulLinks = () => {
     // map over helpfulLinks to display in Footer
-    return this.state.helpfulLinks.map((link, index) => {
+    return this.state.helpfulLinks.map((item, index) => {
       return (
         <li key={index}>
-          <a href="/" key={link + index}>
-            {link}
-          </a>
+          <Link to={item.link} key={item.title + index}>
+            {item.title}
+          </Link>
         </li>
       );
     });
@@ -474,9 +479,17 @@ class MyProvider extends Component {
     return this.state.locations.map((location, index) => {
       return (
         <li key={index}>
-          <a href="/" key={location + index}>
-            {location}
-          </a>
+          <Link to={`/property/location/${location}`} key={location + index}>
+            {location === "quezon"
+              ? location
+                  .split(" ")
+                  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+                  .join(" ") + ` City`
+              : location
+                  .split(" ")
+                  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+                  .join(" ")}
+          </Link>
         </li>
       );
     });

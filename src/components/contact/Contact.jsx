@@ -16,33 +16,28 @@ const Contact = () => {
   const validate = (values) => {
     if (!values.name) {
       errors.name = "Required";
-    } else if (values.name.length < 3 || values.name.length === "") {
+    } else if (values.name.length < 3) {
       errors.name = "Must be 3 characters or more";
     }
 
     if (!values.email) {
       errors.email = "Required";
     } else if (
-      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email) ||
-      values.email === ""
+      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)
     ) {
       errors.email = "Invalid email address";
     }
 
     if (!values.mobile) {
       errors.mobile = "Required";
-    } else if (
-      values.mobile < 1000000000 ||
-      values.mobile > 9999999999 ||
-      values.mobile === ""
-    ) {
+    } else if (!/^[0-9]{10}$/.test(values.mobile)) {
       errors.mobile = "Example: 0966XXXXXXX";
     }
 
     if (!values.message) {
       errors.message = "Required";
-    } else if (values.message.length > 500 || values.message.length === "") {
-      errors.message = "Must be 500 characters or less";
+    } else if (values.message.length > 300) {
+      errors.message = "Must be 300 characters or less";
     }
     return errors;
   };
@@ -67,18 +62,19 @@ const Contact = () => {
         )
         .then(
           (result) => {
-            console.log(result.text);
+            // console.log(result.text);
             setStatus("sent");
             formik.values.name = "";
             formik.values.email = "";
             formik.values.mobile = "";
             formik.values.message = "";
             handleContactSpinner(false);
-            console.log(status);
+            alert("Message sent. Thank you!");
+            // console.log(status);
           },
           (error) => {
             console.log(error.text);
-            console.log(error);
+            // console.log(error);
             setStatus("error");
           }
         );
@@ -90,6 +86,9 @@ const Contact = () => {
       <form ref={form} onSubmit={formik.handleSubmit}>
         <div className="label-input">
           <label htmlFor="name">First Name</label>
+          {formik.errors.name && formik.touched.name ? (
+            <span>{formik.errors.name}</span>
+          ) : null}
           <input
             id="name"
             name="name"
@@ -103,13 +102,13 @@ const Contact = () => {
                 : "label-input-input"
             }
           />
-          {formik.errors.name && formik.touched.name ? (
-            <div>{formik.errors.name}</div>
-          ) : null}
         </div>
 
         <div className="label-input">
           <label htmlFor="email">Email Address</label>
+          {formik.errors.email && formik.touched.email ? (
+            <span>{formik.errors.email}</span>
+          ) : null}
           <input
             id="email"
             name="email"
@@ -123,13 +122,13 @@ const Contact = () => {
                 : "label-input-input"
             }
           />
-          {formik.errors.email && formik.touched.email ? (
-            <div>{formik.errors.email}</div>
-          ) : null}
         </div>
 
         <div className="label-input">
           <label htmlFor="mobile">Mobile Number</label>
+          {formik.errors.mobile && formik.touched.mobile ? (
+            <span>{formik.errors.mobile}</span>
+          ) : null}
           <input
             id="mobile"
             name="mobile"
@@ -143,14 +142,14 @@ const Contact = () => {
                 : "label-input-input no-spinner"
             }
           />
-          {formik.errors.mobile && formik.touched.mobile ? (
-            <div>{formik.errors.mobile}</div>
-          ) : null}
         </div>
 
         <div className="label-input">
           <label htmlFor="message">Message</label>
-          <input
+          {formik.errors.message && formik.touched.message ? (
+            <span>{formik.errors.message}</span>
+          ) : null}
+          <textarea
             id="message"
             name="message"
             type="text"
@@ -162,10 +161,10 @@ const Contact = () => {
                 ? "is-invalid-textarea"
                 : "label-input-textarea"
             }
+            minLength={20}
+            // maxLength={300}
+            wrap="hard"
           />
-          {formik.errors.message && formik.touched.message ? (
-            <div>{formik.errors.message}</div>
-          ) : null}
         </div>
         <div className="form-button">
           <button type="submit">Submit</button>
