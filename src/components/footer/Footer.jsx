@@ -13,13 +13,13 @@ const Footer = () => {
         <div className="footer-logo">
           <img src={SMDCLogo} alt="SMDC Logo" />
           <div className="footer-icons">
-            <a href="">
+            <a href="https://www.facebook.com/greatinvestmentph.geraldinegarcia">
               <i target="_blank" className="fa-brands fa-facebook-f"></i>
             </a>
-            <a href="">
+            <a href="viber://chat/?number=%2B639055795681">
               <i target="_blank" className="fa-brands fa-viber"></i>
             </a>
-            <a href="">
+            <a href="https://wa.me/639055795681">
               <i target="_blank" className="fa-brands fa-whatsapp"></i>
             </a>
           </div>
@@ -40,15 +40,15 @@ const Footer = () => {
           <h4>FOR QUOTATIONS, TRIPPINGS AND ONLINE PRESENTATIONS:</h4>
           <div className="footer-contact">
             <i className="fa-solid fa-phone"></i>
-            <p>(+63) 0905 579 5681</p>
+            <p>{`(+63) 905 579 5681`}</p>
           </div>
           <div className="footer-contact">
             <i className="fa-brands fa-viber"></i>
-            <p>(+63) 0905 579 5681</p>
+            <p>{`(+63) 905 579 5681`}</p>
           </div>
           <div className="footer-contact">
             <i className="fa-brands fa-whatsapp"></i>
-            <p>(+63) 0905 579 5681</p>
+            <p>{`(+63) 905 579 5681`}</p>
           </div>
           <div className="footer-contact">
             <i className="fa-regular fa-envelope"></i>
