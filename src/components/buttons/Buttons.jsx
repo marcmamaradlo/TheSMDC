@@ -11,7 +11,6 @@ const Buttons = ({ type, name, text, onclick, style }) => {
 };
 
 const CustomLink = ({ linkTo, text, style }) => {
-  console.log(linkTo);
   return (
     <>
       <Link className={style} to={linkTo}>

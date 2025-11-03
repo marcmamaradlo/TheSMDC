@@ -8,7 +8,6 @@ const DropDownMenu = () => {
   const context = useContext(MyContext);
   const navigate = useNavigate();
   const params = useParams();
-  console.log(params);
   // const propertySortitems = context.state.propertySortitems;
   // const handleSelectOption = context.handleSelectOption;
 

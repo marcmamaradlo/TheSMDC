@@ -38,10 +38,21 @@ export const MyProvider = ({ children }) => {
     helpfulLinks: [
       { title: "Home", link: "/" },
       { title: "About Us", link: "/about" },
+      { title: "Properties", link: "/property" },
+      { title: "RFO", link: "/property/type/rfo" },
+      { title: "Pre-Selling", link: "/property/type/pre-selling" },
       { title: "How to Reserve", link: "/reservation" },
       { title: "Contact Us", link: "/contact" },
     ],
-    navLinks: ["home", "about", "property", "reservation", "contact"],
+    navLinks: [
+      "home",
+      "about",
+      "property",
+      "rfo",
+      "pre-selling",
+      "reservation",
+      "contact",
+    ],
     propertySortitems: [
       { linkTo: "featured", name: "Featured" },
       { linkTo: "pre-selling", name: "Pre-Selling" },
@@ -444,16 +455,26 @@ export const MyProvider = ({ children }) => {
 
   const navbarLinks = () => {
     // map over navLinks to display in Navbar
-    const urlName = document.URL.split("/")[3];
+    const urlName = document.URL.split("/");
+    const newUrlName = urlName[urlName.length - 1];
     return state.navLinks.map((item, index) => {
       const newItem = item.charAt(0).toUpperCase() + item.slice(1);
+      const newLink = newItem.toLowerCase();
+      newLink === "rfo" ? "property/type/rfo" : newLink;
+      newLink === "pre-selling" ? "property/type/pre-selling" : newLink;
       return (
         <Link
-          to={`../${item}`}
+          to={`../${
+            newLink === "rfo"
+              ? "property/type/rfo"
+              : newLink && newLink === "pre-selling"
+              ? "property/type/pre-selling"
+              : newLink
+          }`}
           onClick={handleHamburgerIcon}
           key={item + index}
           name={item}
-          className={item === urlName ? "active-link" : "inActive-link"}
+          className={item === newUrlName ? "active-link" : "inActive-link"}
         >
           {newItem}
         </Link>

@@ -7,7 +7,7 @@ const Navbar = () => {
   const context = useContext(MyContext);
   const handleHamburgerIcon = context.handleHamburgerIcon;
   const navbarLinks = context.navbarLinks;
-  const state = context.state;
+  const hamburgerIsActive = context.state.hamburgerIsActive;
   return (
     <>
       <div className="navbar box-shadow">
@@ -21,7 +21,7 @@ const Navbar = () => {
           <i className="fa-solid fa-bars" onClick={handleHamburgerIcon}></i>
         </div>
       </div>
-      {state.hamburgerIsActive ? (
+      {hamburgerIsActive ? (
         <div className="navbar-links-mobile">{navbarLinks()}</div>
       ) : null}
     </>

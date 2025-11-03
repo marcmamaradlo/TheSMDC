@@ -6,7 +6,6 @@ import { MyContext } from "../../context";
 const CategoryBuildingType = () => {
   const context = useContext(MyContext);
   const allProperties = context.state.allProperties;
-  console.log(allProperties);
 
   const getPreSellingImageBackground = () => {
     const preSelling = allProperties[1];

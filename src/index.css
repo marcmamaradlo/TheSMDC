@@ -2293,6 +2293,7 @@ h2 {
 
   .navbar-links a {
     display: flex;
+    font-size: 1.4em;
   }
 
   .hero-overlay {
@@ -2309,7 +2310,7 @@ h2 {
     /* background-color: var(--lightGray); */
     padding: 0 1rem;
     height: 100%;
-    width: 12rem;
+    width: 14rem;
     /* border-bottom: 1px solid var(--black);
     border-top: 1px solid var(--black); */
   }
@@ -2330,7 +2331,7 @@ h2 {
     background-color: var(--blue);
     padding: 0 1rem;
     height: 100%;
-    width: 12rem;
+    width: 14rem;
     /* border-radius: var(--borderRadius); */
   }
 
@@ -2346,9 +2347,9 @@ h2 {
     width: 32.8%;
   }
 
-  .long-text {
-    /* column-count: 3; */
-  }
+  /* .long-text {
+    column-count: 3;
+  } */
 
   .long-text p:first-of-type {
     margin-top: 0;
@@ -2571,13 +2572,13 @@ h2 {
   }
 
   .navbar-logo {
-    padding-left: 20%;
-    width: 50%;
+    /* padding-left: 20%; */
+    width: 30%;
   }
 
   .navbar-links {
-    width: 50%;
-    padding-right: 20%;
+    width: 70%;
+    /* padding-right: 20%; */
   }
 
   .hero-header {
