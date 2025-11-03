@@ -2546,17 +2546,17 @@ h2 {
 @media (max-width: 1000px) {
   .modal-container > .component {
     /* border: 1px solid red; */
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: auto;
   }
 
   .contact-us {
     flex-direction: column;
   }
-  .div1 {
+  /* .div1 {
     display: block;
     padding: 0 1rem;
-  }
+  } */
 }
 
 /* Larger than Desktop HD */
