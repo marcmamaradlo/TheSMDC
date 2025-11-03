@@ -1,14 +1,18 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
-import propertiesJSON from "../../properties.json";
 import Card from "../card/Card";
+import { MyContext } from "../../context";
 
 const ShowPropertyTypes = ({ pType }) => {
+  const context = useContext(MyContext);
+  const propertiesJSON = context.state.allProperties;
+
   const showItem = () => {
     const newArr = propertiesJSON.filter((obj) => obj.propertyType === pType);
     return newArr.map((item) => (
       <Link
         key={item.id}
-        to={`/property/${item.name.toLowerCase().split(" ").join("-")}`}
+        to={`../property/${item.name.toLowerCase().split(" ").join("-")}`}
       >
         <Card
           id={item.id}

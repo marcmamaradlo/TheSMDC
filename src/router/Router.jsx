@@ -12,20 +12,36 @@ const Router = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/property" element={<Property />} />
-        <Route path="/property/:name" element={<RenderSingleItem />} />
-        <Route path="/property/search" element={<Search />} />
-        <Route path="/property/type/:selector" element={<RenderCategory />} />
-        <Route
-          path="/property/location/:selector"
-          element={<RenderCategory />}
-        />
-        <Route path="/reservation" element={<Reservation />} />
-        <Route path="/test" element={<TestComponentOne />} />
+        <Route path="*">
+          <Route path="*" element={<Home />} />
+        </Route>
+
+        <Route path="about">
+          <Route path="/about" element={<About />} />
+        </Route>
+
+        <Route path="contact">
+          <Route path="/contact" element={<ContactUs />} />
+        </Route>
+
+        <Route path="property">
+          {/* /property */}
+          <Route index element={<Property />} />
+          {/* /property/:name */}
+          <Route path=":name" element={<RenderSingleItem />} />
+          {/* /property/type/:selector */}
+          <Route path="type/:selector" element={<RenderCategory />} />
+          {/* /property/location/:selector */}
+          <Route path="location/:selector" element={<RenderCategory />} />
+        </Route>
+
+        <Route path="reservation">
+          <Route path="/reservation" element={<Reservation />} />
+        </Route>
+
+        <Route path="test">
+          <Route path="/test" element={<TestComponentOne />} />
+        </Route>
       </Routes>
     </>
   );

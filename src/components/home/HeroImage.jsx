@@ -19,7 +19,7 @@ const HeroImage = () => {
     waitForAnimate: false,
     adaptiveHeight: true,
     draggable: true,
-    pauseOnHover: false,
+    pauseOnHover: true,
     pauseOnActive: false,
   };
 

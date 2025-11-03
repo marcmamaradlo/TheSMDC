@@ -3,6 +3,7 @@
     "id": "prbloom03",
     "name": "Bloom Residences",
     "status": "PRE-SELLING",
+    "city": "paranaque",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/logoBlack.png"
@@ -10,7 +11,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Sucat Paranaque",
     "cardDiscount": "",
-    "cardPrice": "Php 18,000 / Monthly",
+    "cardPrice": "Php 14,000 / Month",
     "cardDescription": "Bloom Residences in Paranaque is home-sweet home that's luxuriously comfortable. Strategically located in Sucat, everything you'll ever need is right within your reach.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/card.png",
     "bannerAbout": "Have a glimpse of the life lived in glitz and glamour, with gold curtain walls that surround this luminescent development. Inspired by the entertainment industry's zest for recognition, Fame Residences stands proud as the crowning glory of Central EDSA. A trophy providing a true sense of prominence to its residents.",
@@ -49,205 +50,176 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image04.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image05.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image06.jpg"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Let our warmhearted staff tend our sprouting community so you can focus on flourishing. Expect a lush, grand welcome from Bloom Residences' luxurious hotel-like lobbies, while our generous staff will treat you like our own family.",
+        "image": false
+      },
+      "feature": {
+        "title": "Let life blossom in Parañaque",
+        "description": "With its safe environment and an inviting neighborhood, Bloom Residences makes for a great place to build your budding career or start a family and raise children of your own.",
+        "image": false
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Bloom Residences provides a haven for urbanities and young families who want to stay active and healthy through multitude of recreational amenities. Residents can enjoy a dynamic lifestyle all year round! To promote fitness and wellness to its residents, Bloom Residences provides various meditation and fitness activities through its amenities.",
+        "content": [
+          "Jogging Trail",
+          "Biking Trail",
+          "Open Space for Yoga",
+          "Basketball Court",
+          "Volleyball Court",
+          "Swimming Pools",
+          "Children's Playgrounds",
+          "Multipurpose Rooms",
+          "Clubhouse",
+          "Pocket Gardens",
+          "Landscape Areas"
+        ],
+        "image": false
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Recharge in the comfort of your home after a swim or your family jog. Bloom residences offers pleasant yet cosmopolitan units for your much-needed rest and relaxation.",
+        "type": [
+          {
+            "name": "2 Bedroom End Unit with Mezzanine and Balcony",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom End Unit with Mezzanine",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom Unit with Mezzanine and Balcony",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom Unit with Mezzanine",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image02.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image04.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image05.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Bloom/image06.jpg"
+        ]
+      }
+    }
   },
   {
-    "id": "prclamr06",
-    "name": "Calm Residences",
+    "id": "prcool12",
+    "name": "Cool Suites at Wind Residences",
     "status": "PRE-SELLING",
+    "city": "tagaytay",
     "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/logoBlack.png"
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/logoBlack.png"
     },
     "propertyType": "pre-selling",
-    "cardAddress": "Santa Rosa City, Laguna",
+    "cardAddress": "Brgy. Maharlika West, Tagaytay City, Cavite",
     "cardDiscount": "",
-    "cardPrice": "Php 16,000 / Monthly",
-    "cardDescription": "An exclusive, gated tranquil community in the midst of the highly progressive city of Sta. Rosa, Laguna. Calm Residences is a suburban walkable garden community with easy access to commercial spaces and transport hubs.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/card.png",
-    "bannerAbout": "An exclusive, gated tranquil community in the midst of the highly progressive city of Sta. Rosa, Laguna. Calm Residences is a suburban walkable garden community with easy access to commercial spaces and transport hubs. It features interconnected linear parks, complete resort styled amenities and sports facilities, hotel-like lobbies and lounges with strong Wi-Fi connections for families and working professionals who long to live in a safe, secure and tranquil home for him and his family.",
+    "cardPrice": "Php 14,000 / Month",
+    "cardDescription": "With SMDC's signature 5-star amenities, it is a perfect holiday home for those who enjoy the cool wind of Tagaytay.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/card.jpg",
+    "bannerAbout": "Cool Suites is the newest garden complex in the flourishing Wind Residences estate. Nestled inside the complex is an array of lush foliage and greenery that serve as a private retreat where you can relax and recover from the busy work week. With SMDC’s signature 5-star amenities, it is a perfect holiday home for those who enjoy the cool wind of Tagaytay",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
-      "Lap Pool",
-      "Grand Gateway",
-      "Covered Basketball Court",
-      "Serenity Garden",
-      "Piazza",
-      "Central Park"
+      "Commercial Strip at the Ground Floor (Tower A)",
+      "3 Elevators per Tower",
+      "Standby Generator Set for Common Areas & Select Unit Outlets",
+      "Automatic Fire Sprinkler System",
+      "Garbage Room on Every Floor"
     ],
     "bannerAmenities": [
-      "Kiddie Pool",
-      "Pavillion",
-      "Kiddie Yard",
-      "Resort Lounges",
-      "Linear Parks",
-      "Function Room"
+      "Pocket Gardens",
+      "Lawn",
+      "Pathway with Trellis",
+      "Jogging Path",
+      "Walking Trail",
+      "Gazebos"
     ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/banner.jpg",
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/banner.jpg",
     "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image09.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image10.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image11.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image12.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Calm/image13.png"
-    ]
-  },
-  {
-    "id": "prchamr07",
-    "name": "Charm Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/logoBlack.png"
-    },
-    "propertyType": "pre-selling",
-    "cardAddress": "Felix Ave, Cainta Rizal",
-    "cardDiscount": "",
-    "cardPrice": "Php 18,000 / Monthly",
-    "cardDescription": "Live the Charmed Life filled with the peace and comfort you and your family desesrve at Charm Residences!",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/card.png",
-    "bannerAbout": "n this condominium in Cainta, Rizal, convenience is key! Charm Residences serves to bring everything within your reach, and this includes 5-star amenities, garden-inspired grounds, and a built-in commercial area. With the help of our hardworking property management specialists, you’re sure to have your own treasured and well-maintained space",
-    "bannerFeaturesHeading": "Units",
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": [
-      "3 Bedroom Unit with Balcony",
-      "2 Bedroom Unit with Balcony",
-      "2 Bedroom Unit",
-      "1 Bedroom Unit with Balcony",
-      "1 Bedroom Unit",
-      "Studio Unit"
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image02.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image03.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image04.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image05.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image06.jpg"
     ],
-    "bannerAmenities": [
-      "Garden Pool",
-      "Lifestyle Pool",
-      "Lap Pool",
-      "Children's Pool",
-      "In-pool Lounge Area",
-      "Children's Playground",
-      "Open Nature Area",
-      "Pocket Garden",
-      "Jogging Trail",
-      "Outdoor Gym",
-      "Basketball Court",
-      "Commercial Strip"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image09.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image10.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image11.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Charm/image12.png"
-    ]
-  },
-  {
-    "id": "prfame13",
-    "name": "Fame Residences",
-    "status": "R.F.O / PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/logoBlack.png"
-    },
-    "propertyType": "premier",
-    "cardAddress": "EDSA and Mayflower Street, Barangay Highway Hills, Mandaluyong City",
-    "cardDiscount": "",
-    "cardPrice": "Php 24,000 / Monthly",
-    "cardDescription": "Inspired by the entertainment industry's zest for recognition, Fame Residences stands proud as the crowning glory of Central EDSA.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/card.jpg",
-    "bannerAbout": "Have a glimpse of the life lived in glitz and glamour, with gold curtain walls that surround this luminescent development. Inspired by the entertainment industry’s zest for recognition, Fame Residences stands proud as the crowning glory of Central EDSA. A trophy providing a true sense of prominence to its residents.",
-    "bannerFeaturesHeading": "Features",
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": [
-      "2Swimming Pool, Kiddie Pool",
-      "Walk of Fame",
-      "Sunken Gardene"
-    ],
-    "bannerAmenities": [
-      "Playground",
-      "Outdoor Fitness Area",
-      "Function Rooms",
-      "Amenity Lobbies"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image09.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Fame/image10.png"
-    ]
-  },
-  {
-    "id": "prfield14",
-    "name": "Field Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/logoBlack.png"
-    },
-    "propertyType": "best-seller",
-    "cardAddress": "Dr. A. Santos Ave. Barangay San Dionisio, Paranaque City",
-    "cardDiscount": "",
-    "cardPrice": "Php 25,000 / Monthly",
-    "cardDescription": "Designed for utmost relaxation and convenience in mind, Field Residences' strategic location, wide open spaces and generously sized amenities offers families spaces to thrive and grow.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/card.png",
-    "bannerAbout": "Field Residences offers five star sub urban living south of the metro. From young to growing families, Field Residences offers a wide array of living options suited for your needs and lifestyles. Relax and bond with your loved ones at the development’s host of excellent amenities. For convenience, SM Sucat is right in front of your home and international and local airports are right nearby. Dining and shopping options abound as the Entertainment City is a short drive away. Designed for utmost relaxation and convenience in mind, Field Residences’ strategic location, wide open spaces and generously sized amenities offers families spaces to thrive and grow.",
-    "bannerFeaturesHeading": "Features",
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": [
-      "Spacious Lobbies",
-      "24 Hour Security",
-      "Individual Mailboxes",
-      "2-3 Elevators per Building",
-      "Property Management Services",
-      "Standby Generator Set for Common Areas & Select Unit Outlets"
-    ],
-    "bannerAmenities": [
-      "Children's Play Area",
-      "Swimming Pools",
-      "Open Playfield",
-      "Function Rooms",
-      "Poolside Event Area",
-      "Picnic Area",
-      "Basketball Court",
-      "Badminton Courts",
-      "Jogging Trail"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image02.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image03.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image04.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image06.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image07.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image09.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image10.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Field/image11.png"
-    ]
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Fall in love with Cool Suites with its charming modern country home-inspired tower lobby. Using natural elements combined with a warm fire place, the ambiance become cozier and more romantic.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image04.jpg"
+        ]
+      },
+      "feature": {
+        "title": "A Volcano and Lake View",
+        "description": "Surrounded by gorgeous views of the mountains, Taal Lake, and Taal Volcano, Cool Suites in Tagaytay City lets you enjoy the beauty of nature alongside the cool breezes that sweep through.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image06.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "At Cool Suites, enjoy intimate getaways as you unwind surrounded by sprawling garden. Relish moments to recharge- a heart picnic, a peaceful stroll, a refreshing jog or a restful moment under a tree. Truly a place to replenish your soul.",
+        "content": [
+          "Recreational Area",
+          "Garden/ Lawn",
+          "Jogging Path",
+          "Indoor and Outdoor Swimming Pools",
+          "Indoor Badminton Court",
+          "Basketball Court",
+          "Tennis Court",
+          "Clubhouse",
+          "Function Rooms",
+          "Lounge and Main Lobby",
+          "Skylounge",
+          "Pathway with Trellis",
+          "Gazaebos",
+          "Pocket Gardens"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image05.jpg"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Your perfect getaway from the city. A cool sanctuary that makes every day feel like a five-star vacation.",
+        "type": [
+          {
+            "name": "1-Bedroom End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit with Balcony",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image02.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Cool/image03.jpg"
+        ]
+      }
+    }
   },
   {
     "id": "prgem15",
@@ -260,7 +232,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "C5, Pasig City",
     "cardDiscount": "",
-    "cardPrice": "Php 14,000 / Monthly",
+    "cardPrice": "Php 18,000 / Month",
     "cardDescription": "Discover this hidden gem along C5, one of Metro Manila's most important and strategic transportation corridors. It is located in the vicinity of multiple businesses and schools, and offers easy accessibility to the nearby commercial districts of Ortigas Center, Eastwood, and BGC, as well as the NLEX and SLEX.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gem/card.jpg",
     "bannerAbout": "Gem Residences perfectly captures your modern aspiration for work-life integration. Standing gorgeously along C-5 Pasig, the thriving center of economic activity east of Metro Manila, Gem Residences brings you world-class amenities that cater to your need for both productivity and leisure.",
@@ -298,54 +270,6 @@
     ]
   },
   {
-    "id": "prglade16",
-    "name": "Glade Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/logoBlack.png"
-    },
-    "propertyType": "pre-selling",
-    "cardAddress": "Jaro, Iloilo City, Iloilo",
-    "cardDiscount": "",
-    "cardPrice": "Php 12,000 / Monthly",
-    "cardDescription": "Nestled in the progressive district of Jaro, Iloilo— Glade Residences is the perfect home for successful and driven young families. Revel in verdant greens and unparalleled comfort in your own haven of relaxation.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/card.jpg",
-    "bannerAbout": "Nestled in the progressive district of Jaro, Iloilo— Glade Residences is the perfect home for successful and driven young families. Revel in verdant greens and unparalleled comfort in your own haven of relaxation.",
-    "bannerFeaturesHeading": "Features",
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": [
-      "Adult Pool",
-      "Kiddie Pool",
-      "Playground",
-      "Covered Basketball Court",
-      "Clubhouse",
-      "Pavilion"
-    ],
-    "bannerAmenities": [
-      "Linear Park",
-      "Green Link",
-      "Playground",
-      "Distance Markers",
-      "Grand Lobby",
-      "Grand Gateway"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image03.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image09.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image10.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glade/image11.png"
-    ]
-  },
-  {
     "id": "prglam17",
     "name": "Glam Residences",
     "status": "PRE-SELLING",
@@ -356,7 +280,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "GMA Kamuning Quezon City",
     "cardDiscount": "",
-    "cardPrice": "Php 16,000 / Monthly",
+    "cardPrice": "Php 23,000 / Month",
     "cardDescription": "A high-rise residential condominium project in GMA-Kamuning, Quezon City, carrying the SMDC brand. The development promises to deliver an exclusive and distinctive living experience.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Glam/card.jpg",
     "bannerAbout": "A high-rise residential condominium project in GMA-Kamuning, Quezon City, carrying the SMDC brand. The development promises to deliver an exclusive and distinctive living experience.",
@@ -399,14 +323,15 @@
     "id": "prgold18",
     "name": "Gold Residences",
     "status": "PRE-SELLING",
+    "city": "paranaque",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/logoBlack.png"
     },
-    "propertyType": "best-seller",
+    "propertyType": "pre-selling",
     "cardAddress": "Sucat, Paranaque City",
     "cardDiscount": "",
-    "cardPrice": "Php 23,000 / Monthly",
+    "cardPrice": "Php 25,000 / Month",
     "cardDescription": "Elevate your way of living and experience rare exclusivity with SMDC' newest iconic residential landmark in Parañaque City.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/card.jpg",
     "bannerAbout": "Find the perfect combination of homey comfort and modern in-city living in Gold Residences. Developed with the typical urban family in mind, Gold Residences offers a seamless blend of resort-like and luxury living.",
@@ -447,12 +372,79 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image14.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image15.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image16.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Anticipate a grand welcome and walk the hallways of sophistication at the property’s lobby area. The modern interior design is a distinctive taste of quality and class, accented by ornate details that complement the entire space, like the marble tiles, panoramic glass doors, and custom-designed sofas.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image09.png"
+        ]
+      },
+      "feature": {
+        "title": "Striking, Modern, Unparalleled",
+        "description": "Gold Residences is SMDC’s first township designed to be the gold standard in all aspects. Its 11.6-hectare master-planned community stands across Ninoy Aquino International Airport makes it easy for jetsetters to get to where they want to go. Inside, its sophisticated aesthetic, architecture, and premium amenities make it a joy to behold and live in.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/card.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Soak up in the beauty of what life has to offer as you take a dip in Gold Residences leisure pools. The flourishing landscaped lounge area allows you to do activities and have fun. Boost your mood and get energized as you utilize the top-tiered facilities at the Fitness Center.",
+        "content": [
+          "Swimming Pools",
+          "Fitness Center",
+          "Social Hall",
+          "Central Parks",
+          "Enclave Gardens",
+          "Jogging Paths",
+          "Social Lounges"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image01.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image06.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image07.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Make your place work for you and style it the way you want at Gold Residences. There’s an abundance of units that await you; you can either personalize the space according to your liking or let the luxurious design speak for itself.",
+        "type": [
+          {
+            "name": "2-Bedroom End Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom End Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image10.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image11.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image13.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image14.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image15.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold/image16.png"
+        ]
+      }
+    }
   },
   {
     "id": "prgoldoffice19",
     "name": "Gold Offices",
     "status": "PRE-SELLING",
+    "city": "paranaque",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/logoBlack.png"
@@ -460,7 +452,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Sucat, Paranaque City",
     "cardDiscount": "",
-    "cardPrice": "Php 23,000 / Monthly",
+    "cardPrice": "Php 21,000 / Month",
     "cardDescription": "GOLD OFFICES is the first and only office space development open to public for sale.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/card.jpg",
     "bannerAbout": "GOLD RESIDENCES & OFFICES belong to a 11.5 hectare master planned township located in front of Manila International Airport NAIA Terminal, in direct proximity to Manila Bay entertainment city. ",
@@ -500,12 +492,79 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image15.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image16.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image17.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Designed to awe and inspire. The lobbies' modern, yet opulent design reflects success and inspires residents and guests alike to reach greater heights.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image10.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image11.png"
+        ]
+      },
+      "feature": {
+        "title": "Soar to Golden Heights",
+        "description": "At Gold Towers Residential Offices, business meets leisure in a premium condominium development with features and amenities perfectly suited for entrepreneurs and business veterans alike. It is situated across Ninoy Aquino International Airport’s Terminal 1, making it extremely convenient when making business trips, and many establishments offer further variety.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image01.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "The perfect hub for thriving local business with global ambitions.",
+        "content": [
+          "Swimming Pool",
+          "Children's Pool",
+          "Poolside Deck",
+          "Central Pavilion with Coffee Kiosk",
+          "Lounge Terrace",
+          "Grand Lobbies",
+          "Fitness Hub",
+          "Sky Lounge",
+          "Function Halls",
+          "Commercial Hub"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image06.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image09.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Choose the workspace size and spectacular views that make for an environment that is conducive to productivity and creativity.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom End Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image13.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image14.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image15.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image16.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Gold-Office/image17.png"
+        ]
+      }
+    }
   },
   {
     "id": "prhill24",
     "name": "Hill Residences",
     "status": "PRE-SELLING",
+    "city": "quezon",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/logoBlack.png"
@@ -513,10 +572,10 @@
     "propertyType": "pre-selling",
     "cardAddress": "Quezon City",
     "cardDiscount": "",
-    "cardPrice": "Php 15,000 / Monthly",
+    "cardPrice": "Php 9,000 / Month",
     "cardDescription": "Hill Residences is the right balance of convenience and comfort. Everything you and your family need is within reach. Located near transportation hubs, restaurants, malls, and specialty stores, all you have to think about is where to go next.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/card.png",
-    "bannerAbout": "Hill Residences is the right balance of convenience and comfort. Everything you and your family need is within reach. Located near transportation hubs, restaurants, malls, and specialty stores, all you have to think about is where to go next.",
+    "bannerAbout": "For the right balance of comfort and convenience, look no further than Hill Residences in Novaliches, Quezon City. This elevated home gives you access to topnotch amenities and must-visit restaurants, retail zones, and entertainment spots.",
     "bannerFeaturesHeading": "Features",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
@@ -548,20 +607,88 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image09.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image10.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image11.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "At Hill Residences, success speaks for itself with the hotel-like ambience that will impress your guests with its elegant, luxurious design. The natural colors that will envelope the interior and the warm welcome of the staff will make you feet at home from the lobby up to the suites.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image06.png"
+        ]
+      },
+      "feature": {
+        "title": "Convenience meets comfort",
+        "description": "Located in Novaliches, Quezon City, Hill Residences gives you and your family everything you could ever need in a modern setting. Transportation hubs, restaurants, malls, specialty stores, and more abound, and Wi-Fi ready zones, jogging paths, a park, and a basketball court ensure that you’ll never want for things to do and see.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image01.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Hill Residences welcomes you with amenities that turn your home into your personal resort including an outdoor swimming pool that homeowners and guest can dive into.",
+        "content": [
+          "Jogging Paths",
+          "Swimming Pools",
+          "Wi-fi ready Zones",
+          "Gated Community",
+          "Basketball Court",
+          "Linear Park",
+          "Function Area"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image09.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image10.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "A Flexible Home Introducing, the Flexi Suite: an open-plan concept that gives you the freedom to design the unit the way you want it. It can be laid out as a studio unit or a two-bedroom floor plan depending on how you want to utilize your space. It is truly a home that grows with you.",
+        "type": [
+          {
+            "name": "Flexi Suite End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "Flexi Suite with Balcony",
+            "description": ""
+          },
+          {
+            "name": "Flexi Suite End Unit",
+            "description": ""
+          },
+          {
+            "name": "Flexi Suite",
+            "description": ""
+          },
+          {
+            "name": "Studio",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Hill/image03.png"
+        ]
+      }
+    }
   },
   {
     "id": "price26",
     "name": "Ice Residences",
     "status": "PRE-SELLING",
+    "city": "pasay",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/logoBlack.png"
     },
-    "propertyType": "best-seller",
+    "propertyType": "pre-selling",
     "cardAddress": "Edsa, Mall of Asia Complex",
     "cardDiscount": "",
-    "cardPrice": "Php 25,000 / Monthly",
+    "cardPrice": "",
     "cardDescription": "SMDC's ICE Tower, a modern residential-office development that provides the luxury and comforts of a premium condominium development suited for the entrepreneurial lifestyle.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/card.jpg",
     "bannerAbout": "SMDC's ICE Tower, a modern residential-office development that provides the luxury and comforts of a premium condominium development suited for the entrepreneurial lifestyle",
@@ -599,12 +726,223 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image11.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image12.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image13.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Designed to excite and inspire, the central lobby's corporate look is tempered with beautiful design details using natural materials, achieving an overwhelming yet welcoming entrance.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image13.png"
+        ]
+      },
+      "feature": {
+        "title": "Spaces for Success",
+        "description": "Integrated into the SM Mall of Asia complex, SMDC’s Ice Tower provides direct access to key places of interest to entrepreneurs, business leaders, managers, and employees. Aside from the luxury, comfort, and amenities of the residential tower, residents can also enjoy the shopping, dining, and views from the Sky Lounge.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/card.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Take a break from work. Chill and refresh the mind and body from the various amenities that Ice Tower has to offer.",
+        "content": [
+          "Commercial Hub",
+          "Business Hub",
+          "Central Lobby",
+          "Central Pool",
+          "Kiddie Pool",
+          "Terrace Deck",
+          "Function Hall",
+          "Fitness Hub",
+          "Social Hub",
+          "Sky Lounge"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image09.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image10.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image11.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "“Live at work” in this versatile space, designed for the accomplished entrepreneur aspiring for greater success.​",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom End Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom End Unit with Den",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image01.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image06.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Ice/image07.png"
+        ]
+      }
+    }
+  },
+  {
+    "id": "fjade65",
+    "name": "Jade Residences",
+    "status": "PRE-SELLING",
+    "city": "makati",
+    "priceMax": "",
+    "priceMin": "",
+    "buildingType": "condo",
+    "logo": {
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoWhite.webp",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/logoBlack.webp"
+    },
+    "propertyType": "pre-selling",
+    "cardAddress": "Chino Roces Avenue, Makati",
+    "cardDiscount": "",
+    "cardPrice": "Php 15,000 / Month",
+    "cardDescription": "SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image15.webp",
+    "bannerAbout": "SMDC Jade Residences epitomizes timeless beauty with its contemporary architecture, thoughtfully crafted interiors, and luxurious amenities, offering residents an effortlessly elegant lifestyle.",
+    "bannerFeaturesHeading": "Units",
+    "bannerAmenitiesHeading": "Amenities",
+    "bannerFeatures": [],
+    "bannerAmenities": [],
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/banner.webp",
+    "gallery": [
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image01.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image02.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image03.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image04.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image05.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image06.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image07.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image08.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image09.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image10.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image11.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image12.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image13.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image14.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image15.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image16.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image17.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image18.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image19.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image20.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image21.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image22.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image23.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image24.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image25.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image26.webp",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image27.webp"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Unwind and embrace tranquility at SMDC Jade Residences' Grand Lobby.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image22.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image20.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image17.webp"
+        ]
+      },
+      "feature": {
+        "title": "Make yourself at home at Makati Southwest Gateway— Chino Roces Avenue",
+        "description": "Explore eclectic designer shops and contemporary galleries. Immerse yourself in art and culture. All within Makati’s expanding business district. Welcome to Makati Southwest Gateway, the city's newest vibrant mixed-use district.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image27.webp"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Experience an extraordinary tapestry of lavish amenities that elevate your daily routine, creating a haven of harmony and serenity in our exquisite property.",
+        "content": [
+          "Adult Pool",
+          "Kiddie Pool",
+          "Pool Lounge",
+          "Amenity Lounge",
+          "Grand Lobby",
+          "Gaming Lounge",
+          "Music Lounge",
+          "Media Lounge",
+          "Tea Room",
+          "Kid's Play Area",
+          "Gym and Yoga Studio",
+          "Entertainment Hub",
+          "His and Hers Sauna",
+          "Sky Garden"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image06.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image07.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image08.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image10.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image11.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image12.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image13.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image16.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image19.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image24.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image26.webp"
+        ]
+      },
+      "unit": {
+        "title": "Model Unit",
+        "description": "Immerse yourself in a serene haven that complements your lock-and-go lifestyle.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image01.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image02.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image03.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image04.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image05.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image23.webp",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Jade/image25.webp"
+        ]
+      }
+    }
   },
   {
     "id": "prjoy28",
     "name": "Joy Residences",
     "status": "PRE-SELLING",
+    "city": "bulacan",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/logoBlack.png"
@@ -615,7 +953,7 @@
     "cardPrice": "Php 12,000 / Monthly",
     "cardDescription": "We welcome you and your family to the joy of life! Live within an integrated lifestyle district that combines SM City Baliwag, National University and SM City Central Terminal in one neighborhood.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/card.png",
-    "bannerAbout": "We welcome you and your family to the joy of life! Live within an integrated lifestyle district that combines SM City Baliwag, National University and SM City Central Terminal in one neighborhood.",
+    "bannerAbout": "Joy Residences is a condominium complex in Baliwag City built in an integrated lifestyle district, one where leisure and work meet thanks to SM City Baliwag, National University, and SM City Central Terminal being all in one neighborhood.",
     "bannerFeaturesHeading": "Units",
     "bannerFeatures": ["Studio Unit", "Studio End Unit", "1-Bedroom Unit"],
     "bannerAmenitiesHeading": "Amenities",
@@ -641,12 +979,72 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image09.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image10.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image11.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Open the doors to welcoming, well-lit ambiance of the lobby and smiles of the staff after a long day at work.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image05.png"
+        ]
+      },
+      "feature": {
+        "title": "Choose a life of joy",
+        "description": "A well-rounded lifestyle awaits at Joy Residences! Fun, new things are always par for the course thanks to an integrated lifestyle district that combines SM City Baliwag, National University, and the SM City Central Terminal in one neighborhood.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image01.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Equipped with strategically-placed amenities, you'll never run out of things to do!",
+        "content": [
+          "Lap Pool",
+          "Kiddie Pool",
+          "Kid's Play Area",
+          "Multi-purpose Covered Court",
+          "Pavillion",
+          "Linear Park",
+          "Greenway Park"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image03.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Enjoy peaceful and soothing days in your own space.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "Studio End Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image06.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image09.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Joy/image10.png"
+        ]
+      }
+    }
   },
   {
     "id": "prlane29",
     "name": "Lane Residences",
     "status": "PRE-SELLING",
+    "city": "davao",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/logoBlack.png"
@@ -654,9 +1052,9 @@
     "propertyType": "pre-selling",
     "cardAddress": "Lanang, Davao City",
     "cardDiscount": "",
-    "cardPrice": "",
+    "cardPrice": "Php 24,000 / Month",
     "cardDescription": "For those who find shopping irresistible, Light Residences has its very own Light Mall. Enjoy spur-of-the-moment movie dates in any of its digital cinemas, or do a quick stop at its own Savemore Market.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/card.png",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image04.png",
     "bannerAbout": "SMDC Lane Residences in Davao City, Philippines is a premier Condo project available for sale. If you're looking to rent or purchase Lane Residences, then check here first. We have full details of Lane Residences updated regularly as well as everything you need to know about the availing and booking process, broken down into stages that includes selecting a unit, choosing a payment plan and buying your dream home at the right price",
     "bannerFeaturesHeading": "Features",
     "bannerFeatures": [
@@ -686,126 +1084,178 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image04.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image05.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image07.png"
-    ]
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image08.png"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "A warm welcome awaits you when you enter any of our wondrous lobbies. The simple yet elegant ambiance is sure to be a delight for you and your visitors alike.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image06.png"
+        ]
+      },
+      "feature": {
+        "title": "Everything within Reach",
+        "description": "Lane Residences is located in San Antonio Agdao within the SM City Lanang Premier complex. This gives residents quick access to the Davao International Airport and Seaport should they need to travel to and from the city in a hurry, as well as the many offices and businesses in the area. Inside, open spaces offer families a safe place to enjoy recreational activities.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image01.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Lane Residences is designed with lush greenery and multiple open spaces to create a calming atmosphere, perfect for leisure. Have a picnic, play with your family at the playground, take a stroll, play a pick-up game of basketball, or lounge at the clubhouse.",
+        "content": [
+          "Clubhouse",
+          "Swimming Pools",
+          "Picnic Area",
+          "Jogging Paths",
+          "Basketball Court",
+          "Property Management",
+          "Wi-Fi Ready Zone",
+          "24-Hour Security",
+          "Frontdesk & Doorman Services",
+          "Mail Room"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/card.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image02.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Design your home to your heart's desire with our flexi units. Enjoy the freedom of combining units, allocating rooms, and maximizing space to fit your taste.",
+        "type": [
+          {
+            "name": "Flexi Unit",
+            "description": ""
+          },
+          {
+            "name": "Studio Unit with Balcony",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Lane/image08.png"
+        ]
+      }
+    }
   },
   {
-    "id": "prleaf30",
-    "name": "Leaf Residences",
-    "status": "PRE-SELLING",
+    "id": "prlight31",
+    "name": "Light Residences",
+    "status": "Ready for Occupancy",
+    "city": "mandaluyong",
     "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/logoBlack.png"
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/logoBlack.png"
     },
-    "propertyType": "pre-selling",
-    "cardAddress": "Susana Ave, Tunasan, Muntinlupa, Metro Manila",
+    "propertyType": "rfo",
+    "cardAddress": "EDSA corner Madison St., Mandaluyong City",
     "cardDiscount": "",
-    "cardPrice": "Php 18,000 / Monthly",
-    "cardDescription": "Let nature nurture your family at Leaf Residences. With its unique design reminiscent of a tropical rainforest getaway, it offers the first taste of condominium living surrounded by all the greenery sought after in the South.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/card.png",
-    "bannerAbout": "Let nature nurture your family at Leaf Residences. With its unique design reminiscent of a tropical rainforest getaway, it offers the first taste of condominium living surrounded by all the greenery sought after in the South. It's the perfect home for families looking to be one with nature.",
+    "cardPrice": "",
+    "cardDescription": "For those who find shopping irresistible, Light Residences has its very own Light Mall. Enjoy spur-of-the-moment movie dates in any of its digital cinemas, or do a quick stop at its own Savemore Market",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/card.jpg",
+    "bannerAbout": "For those who rejoice in a fast-paced lifestyle where convenience and ease are prized, Light Residences brings you to the center of the action. Located along EDSA and Madison Street, it sits at an advantageous location, linked to BONI-EDSA MRT where you can access any point of Manila. Decked out in urban conveniences, Light Residences is a joy to live in. For those who find shopping irresistible, Light Residences has its very own Light Mall. Enjoy spur-of-the-moment movie dates in any of its digital cinemas, or do a quick stop at its own Savemore Market",
     "bannerFeaturesHeading": "Features",
+    "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
-      "Fire Alarm System",
+      "4 Elevators per Tower",
+      "Automatic Fire Detection and Alarm System",
+      "Standby Generator Set for Common Areas & Select Unit Outlets",
+      "Overhead Water Tank",
+      "Garbage Disposal Area on Every Floor",
+      "Commercial Area at the 1st & 2nd Floor",
       "24 Hour Security",
-      "Mailroom",
-      "WiFi Zones",
-      "Pocket Parks",
-      "Front Desk/ Doorman Servicest",
-      "Professional Property Management",
-      "Transportation Hub"
+      "CCTV System"
     ],
-    "bannerAmenitiesHeading": "Amenities",
     "bannerAmenities": [
-      "Grand Lobbies",
-      "Swimming Pools",
-      "Clubhouse",
+      "Four (4) Swimming Pools (2 Adult Pools, 2 Kiddie Pools)",
+      "Gazebos",
+      "Three (3) Function Rooms",
       "Jogging Path",
-      "Lounge Deck",
-      "Playground",
-      "Lawn Area"
+      "Children's Play Area",
+      "Gyms"
     ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/banner.jpg",
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/banner.png",
     "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Leaf/image07.png"
-    ]
-  },
-  {
-    "id": "prLight232",
-    "name": "Light2 Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/logoBlack.png"
-    },
-    "propertyType": "best-seller",
-    "cardAddress": "EDSA Corner Madison Street Mandaluyong City",
-    "cardDiscount": "",
-    "cardPrice": "Php 18,000 / Monthly",
-    "cardDescription": "Located along the Mandaluyong stretch of EDSA, Light 2 Residences is sure to be an iconic landmark that shines brightly along this vital thoroughfare.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/card.png",
-    "bannerAbout": "Located along the Mandaluyong stretch of EDSA, Light 2 Residences is sure to be an iconic landmark that shines brightly along this vital thoroughfare.",
-    "bannerFeaturesHeading": "Features",
-    "bannerFeatures": [
-      "Swimming Pool",
-      "Excercise Zone",
-      "Basketball Practice Area",
-      "Covered Kids Adventure Zone",
-      "Function Lounges",
-      "Seating Lounges",
-      "Central Lawn",
-      "Seating Alcoves",
-      "The Light House",
-      "Train Connection",
-      "Commercial Center"
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image01.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image02.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image03.jpg",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image04.jpg"
     ],
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerAmenities": [
-      "Adult Pool",
-      "Kiddie Pools",
-      "Lobby",
-      "Amenities Lounge",
-      "Function Rooms",
-      "Fitness Gym",
-      "Childrens Play Area",
-      "Jogging Path"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image02.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image03.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image04.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image06.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image07.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image08.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image09.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image10.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image11.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image12.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image13.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image14.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image15.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image16.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image17.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image18.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image19.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image20.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image21.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light2/image22.png"
-    ]
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image02.jpg"
+        ]
+      },
+      "feature": {
+        "title": "Be at the center of the action",
+        "description": "Decked out in urban conveniences, Light Residences is a joy to live in! Located along EDSA and Madison Street, it rises in an advantageous location connected to the Boni MRT-3 Station and the EDSA highway which in turn leads to any point in Metro Manila. Here, shopping and entertainment come easy, thanks to built-in Light Mall.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image01.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Light Residences' amenities include a grand lobby, swimming pools, function rooms, fitness center, jogging path, cabanas, and landscaped gardens.",
+        "content": [
+          "Swimming Pools",
+          "Function Room",
+          "Fitness Center",
+          "Jogging Path",
+          "Cabanas",
+          "Landscaped Gardens"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Light/image04.jpg"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "",
+        "type": [
+          {
+            "name": "2-Bedroom with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Deluxe Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom End Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "Studio",
+            "description": ""
+          }
+        ],
+        "image": false
+      }
+    }
   },
   {
     "id": "prmint36",
     "name": "Mint Residences",
     "status": "PRE-SELLING",
+    "city": "makati",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/logoBlack.png"
@@ -813,7 +1263,7 @@
     "propertyType": "pre-selling",
     "cardAddress": " Chino Roces, Makati City",
     "cardDiscount": "",
-    "cardPrice": "Php 22,000 / Monthly",
+    "cardPrice": "Php 25,000 / Month",
     "cardDescription": "A nearby respite striking the perfect balance between modern city convenience and a natural environment. Situated within the progressive district of Makati giving you access to everything the city has to offer: commercial, recreational, and professional.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/card.png",
     "bannerAbout": "A nearby respite striking the perfect balance between modern city convenience and a natural environment. Situated within the progressive district of Makati giving you access to everything the city has to offer: commercial, recreational, and professional",
@@ -852,154 +1302,85 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image13.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image14.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image15.png"
-    ]
-  },
-  {
-    "id": "prnow38",
-    "name": "Now Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/logoBlack.png"
-    },
-    "propertyType": "pre-selling",
-    "cardAddress": "Angeles City, Pampanga",
-    "cardDiscount": "",
-    "cardPrice": "",
-    "cardDescription": "NOW RESIDENCES is a modern and dynamic residential complex located in Angeles City, Pampanga and will be part of the Aeropolis Metro of the Pampanga Megalopolis.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/card.png",
-    "bannerAbout": "NOW RESIDENCES is a modern and dynamic residential complex located in Angeles City, Pampanga and will be part of the Aeropolis Metro of the Pampanga Megalopolis. The Aeropolis Metro is envisioned to be the highest growth potential and investment area in Pampanga.",
-    "bannerFeaturesHeading": "Features",
-    "bannerFeatures": [
-      "Clubhouse",
-      "Kiddie Pool",
-      "Outdoor Gym",
-      "Adult Swimming Pool",
-      "Kids Zone",
-      "Basketball Court"
     ],
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerAmenities": [
-      "Pavilion",
-      "Linear Parks",
-      "Jogging Path",
-      "Distance Markers",
-      "Grand Lobby",
-      "Grand Gateway"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image02.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image03.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image04.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image06.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image07.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image08.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image09.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image10.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Now/image11.jpg"
-    ]
-  },
-  {
-    "id": "prpark39",
-    "name": "Park Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/logoBlack.png"
-    },
-    "propertyType": "pre-selling",
-    "cardAddress": "Santa Rosa, Laguna",
-    "cardDiscount": "",
-    "cardPrice": "Php 15,000 / Monthly",
-    "cardDescription": "Park Residences offers a space where you can enjoy a variety of amenities and establishments. It introduces a convenient way of living beside SM City Sta. Rosa, IT/ Industrial Parks, and amusement parks.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/card.png",
-    "bannerAbout": "Park Residences offers a space where you can enjoy a variety of amenities and establishments. It introduces a convenient way of living beside SM City Sta. Rosa, IT/ Industrial Parks, and amusement parks.",
-    "bannerFeaturesHeading": "Features",
-    "bannerFeatures": [
-      "Gate and Guardhouse",
-      "Basketball Court",
-      "Professional Property Management Service",
-      "Walking Trail",
-      "Meditation Lawn"
-    ],
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerAmenities": [
-      "Swimming pools",
-      "Grand Lobbies",
-      "Playground",
-      "Lounge Deck",
-      "Lawn Area",
-      "Gazebo"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residenceshttps://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/banner.png",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Park/image09.png"
-    ]
-  },
-  {
-    "id": "prred41",
-    "name": "Red Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/logoBlack.png"
-    },
-    "propertyType": "pre-selling",
-    "cardAddress": "2153 Chino Roces Ave, Legazpi Village, Makati, 1230 Metro",
-    "cardDiscount": "",
-    "cardPrice": "Php 29,000 / Monthly",
-    "cardDescription": "Located next to the thriving central business district of Makati City, its enviable position allows you to follow your dreams and still be within walking distance of your home.",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/card.jpg",
-    "bannerAbout": "Start something big at Red Residences, a premier residential development located in the up and coming Chino Roces of Makati Central Business District. Your new home's location allows you to be within walking distance from work or your latest business venture. Take strategic breaks in between gigs at an array of amenities and spaces designed to re-energize. Allowing you to do more and achieve more",
-    "bannerFeaturesHeading": "Features",
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": [
-      "Green Wall",
-      "5 Elevators",
-      "24 Hour Security",
-      "Semi-addressable Fire Protection and Alarm System",
-      "Generator Sets for Common Areas and Selected Residential Outlets",
-      "Centralized Cistern Tanks",
-      "Provision for telecom and cable lines",
-      "Intercom System"
-    ],
-    "bannerAmenities": [
-      "Gym area",
-      "Swimming Pool",
-      "Function Rooms",
-      "Lounge Areas",
-      "Landscape Areas",
-      "Jogging Path"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image09.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Red/image10.png"
-    ]
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "A refreshing welcome. Carefully thought-out design gives a calming backdrop for every resident and visitor.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image09.png"
+        ]
+      },
+      "feature": {
+        "title": "A Fresh Take on Urban Living",
+        "description": "Mint Residences strikes that delicate balance between modern city convenience and a natural environment. Nature-inspired architecture, calming amenities, and sustainable practices come together here to offer a healthy reprieve from the demands of the day while its location in Makati gives you access to the city’s commercial, recreational, and professional options.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image01.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Mint Residences' complete suite of amenities and comfortable living arrangements present a wealth of options to fully revitalize yourself to take on whatever comes your way.",
+        "content": [
+          "Lap Pool",
+          "Kiddie Pool",
+          "Fitness Gym",
+          "Lounge Area",
+          "Function Room",
+          "Commercial Strip",
+          "Kid's Play Area"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image06.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "A truly impressive room with size to spare, the extra space allows you to store more personal effects whilst getting an absolute restful slumber.",
+        "type": [
+          {
+            "name": "Studio",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom with Balconyt",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Deluxe with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom End Unit with Balcony",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image10.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image11.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image13.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image14.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Mint/image15.png"
+        ]
+      }
+    }
   },
   {
     "id": "prsail43",
     "name": "Sail Residences",
     "status": "PRE-SELLING",
+    "city": "pasay",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/logoBlack.png"
@@ -1007,7 +1388,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Pea Rd, Mall of Asia Complex, Pasay, 1300 Metro Manila",
     "cardDiscount": "",
-    "cardPrice": "Php 25,000 / Monthly",
+    "cardPrice": "Php 40,000 / Month",
     "cardDescription": "Nestled along Mall of Asia Complex, Pasay City, SMDC sets a new standard in luxury residential living with Sail Residences, which exudes and aura of bliss in a harmonious ensemble of high-rise residential condominium, chic retail areas and resort-style amenities.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/card.png",
     "bannerAbout": "Bringing modern lifestyle amenities within your reach, SMDC presents Sail Residences a high-rise residential condominium development in Mall of Asia Complex, Pasay City which transports residents to a modern asian paradise.",
@@ -1046,13 +1427,79 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image10.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image11.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image12.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image13.png"
-    ]
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image13.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image14.png"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "The expansive lobby is decorated with fixtures and furniture mimicking the soothing motion of waves. Spacious and charming. The lobby is a wonderful place to come greet visitors. spend time in, or simply pass by.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image09.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image10.png"
+        ]
+      },
+      "feature": {
+        "title": "Inspired by the seaside",
+        "description": "Inspired by international seaside resorts and luxurious waterfront homes, Sail Residences integrates the elements and colors of beaches and the sea into its architecture and design, making it a sight to behold. At home, you can enjoy the pool areas and ocean-themed furnishings, or venture to the different sites around MoA and Manila Bay.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image01.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Lounge at your pleasure at the relaxing pool areas, go for a swim after a long day, or take a leisurely stroll along the Pacific Park. Here, the ocean-themed furnishings and amenities aim to bring the luxury cruise atmosphere closer to home. Nearby, you'll find cabanas suited for more intimate celebrations and meetings.",
+        "content": [
+          "Serenity Pool",
+          "Tranquil Terrace",
+          "Kid's Play Port",
+          "Pacific Park",
+          "Deluxe Jacuzzi",
+          "Kiddie Lagoon",
+          "Cabanas",
+          "Tropical Clubhouse"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image06.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Make the most out of your luxurious living space by designing it however your heart desires.",
+        "type": [
+          {
+            "name": "3 Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit with Balcony",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image11.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image13.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sail/image14.png"
+        ]
+      }
+    }
   },
   {
     "id": "prsands44",
     "name": "Sands Residences",
     "status": "PRE-SELLING",
+    "city": "manila",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/logoBlack.png"
@@ -1060,7 +1507,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "M.H. Del Pilar St., Malate, Manila",
     "cardDiscount": "",
-    "cardPrice": "Php 18,000 / Monthly",
+    "cardPrice": "Php 26,000 / Month",
     "cardDescription": "Luxury living by the bay. Live where the city's gateway, entertainment, culture, and the Manila Bay sunset is just a heartbeat away.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/card.jpg",
     "bannerAbout": "Experience top-notch resort living in your own bayside home in the city.Luxury living by the bay. Live where the city's gateway, entertainment, culture, and the Manila Bay sunset is just a heartbeat away.",
@@ -1104,12 +1551,95 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image16.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image17.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image18.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Inspired by the colors of sunset on a bay, delight in the grandeur of a Grand Lobby enveloped in the colors of immaculate white and shimmering gold.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image08.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image09.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image10.png"
+        ]
+      },
+      "feature": {
+        "title": "Your very own bayside home",
+        "description": "Sands Residences is 51-floor master-planned community where the sea and sun are always at your side. Here, you can enjoy a breathtaking view of Manila Bay and the coconut tree-lined promenade. Beyond that, the convenience of its Roxas Boulevard location lets you quickly reach spots like the MoA complex, nearby cultural hubs, entertainment halls, parks, and more.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image01.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Lounge in class in the cozy couches and experience first-class luxury every single day. The Sunset Lounge overlooking Manila Bay is meticulously-designed with resort-inspired interiors, providing a unique 5-star experience",
+        "content": [
+          "Lap Pool",
+          "Kiddie Pool",
+          "Sunset Lounge",
+          "Fitness Gym",
+          "Grand Lobby",
+          "Sunset Lanai",
+          "Celebration Hall"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image06.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image07.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Zoom into corporate business meetings by day and immerse in the modern, stylish comfort of your personal sanctuary by the bay at night.",
+        "type": [
+          {
+            "name": "Studio",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom End Unit",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom Unit",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom End Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image11.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image13.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image14.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image15.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image16.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Sands/image17.png"
+        ]
+      }
+    }
   },
   {
     "id": "prsmile51",
     "name": "Smile Residences",
     "status": "PRE-SELLING",
+    "city": "bacolod",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/logoBlack.png"
@@ -1117,7 +1647,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Bacolod City",
     "cardDiscount": "",
-    "cardPrice": "Php 9,000 / Monthly",
+    "cardPrice": "Php 18,000 / Month",
     "cardDescription": "Bringing modern lifestyle amenities within your reach, SMDC presents Smile Residences a high-rise residential condominium development along the major thoroughfare of Bacolod City which transports residents to a modern asian paradise.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/card.png",
     "bannerAbout": "Bringing modern lifestyle amenities within your reach, SMDC presents Smile Residences a high-rise residential condominium development along the major thoroughfare of Bacolod City which transports residents to a modern asian paradise",
@@ -1149,105 +1679,189 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image05.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image06.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image07.png"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Cozy and charming. Our lobbies give an inviting sight, with friendly staff to greet you every time you pass.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image06.png"
+        ]
+      },
+      "feature": {
+        "title": "Always a reason to smile",
+        "description": "Set beside a bay in Bacolod, Smile Residences gives you paints a spectacular scene that you can walk to and watch every day. You can reach the city just as easily and enjoy a whole host of shopping, dining, and entertainment choices, as well as SM City Bacolod which sits right next door.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image07.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Lush gardens and open areas give you the space to take relaxing walks or simply enjoy the outdoors. Fill your days with excitement with our generous selection of modern amenities! The swimming pools, basketball court and children’s playground are free to use to your heart’s content.",
+        "content": [
+          "Grand Lobby",
+          "Clubhouse",
+          "Children's Play Area",
+          "Fitness Gym",
+          "Landscaped Area",
+          "Swimming Pools",
+          "Function Rooms",
+          "Entertainment Room"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image05.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "",
+        "type": [
+          {
+            "name": "Flexi Suite with Balcony",
+            "description": ""
+          },
+          {
+            "name": "Flexi Suite End Unit",
+            "description": ""
+          },
+          {
+            "name": "Flexi Suite",
+            "description": ""
+          },
+          {
+            "name": "Studio End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "Studio Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "Studio",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Smile/image02.png"
+        ]
+      }
+    }
   },
   {
-    "id": "prstyle55",
-    "name": "Style Residences",
+    "id": "prsouth52",
+    "name": "South Residences",
     "status": "Ready for Occupancy",
+    "city": "las pinas",
     "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/logoBlack.png"
+      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/logoWhite.png",
+      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/logoBlack.png"
     },
     "propertyType": "rfo",
-    "cardAddress": "SM City Iloilo",
+    "cardAddress": "Alabang-Zapote Road, Brgy. Almanza Uno, Las Pinas City",
     "cardDiscount": "",
-    "cardPrice": "",
-    "cardDescription": "Style Residences is built within the complex of SM City Iloilo, considered the city's rapidly growing lifestyle and business district. It is the first SMDC property in the area to provide luxurious amenities and services, and its location gives you access to a collection of shopping, dining, and entertainment options and Iloilo International Airport and Seaport",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/card.png",
-    "bannerAbout": "Within the complex of SM City Iloilo, the city's vibrant lifestyle and progressive business district, you can find Style Residences. It offers quick access to many shopping, dining, and entertainment options as well as transportation hubs",
+    "cardPrice": "Php 145,000 to Move-in",
+    "cardDescription": "Situated in Southmall complex, South 2 Residences has everything you need within reach. It is just a few steps away from the array of shopping, dining, and entertainment choices at SM Southmall, and a few minutes away from busy transport terminals and vibrant work hubs.",
+    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/card.jpg",
+    "bannerAbout": "Situated in Southmall complex, South 2 Residences has everything you need within reach. It is just a few steps away from the array of shopping, dining, and entertainment choices at SM Southmall, and a few minutes away from busy transport terminals and vibrant work hubs",
     "bannerFeaturesHeading": "Units",
     "bannerAmenitiesHeading": "Amenities",
     "bannerFeatures": [
-      "Flexi Suite End Unit with Balcony",
-      "Flexi Suite with Balcony",
-      "Flexi Suite with End Unit",
-      "Flexi Suite",
-      "Flexi Unit",
-      "Studio End Unit with Balcony",
-      "Studio with Balcony",
-      "Studio"
+      "1-Bedroom Unit",
+      "1-Bedroom Unit with Balcony",
+      "1-Bedroom End Unit with Balcony",
+      "2-Bedroom Unit",
+      "2-Bedroom End Unit with Balcony"
     ],
     "bannerAmenities": [
-      "Wading Pool",
-      "Fab Pool",
-      "Kiddie Pool",
-      "Oasis Pool",
-      "Covered Basketball Court",
-      "Central Lounge",
-      "Lobby Lounge",
-      "Garden Square"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image05.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image07.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image08.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image09.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Style/image10.png"
-    ]
-  },
-  {
-    "id": "prtrees57",
-    "name": "Trees Residences",
-    "status": "R.F.O / PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoBlack.png"
-    },
-    "propertyType": "rfo",
-    "cardAddress": "Brgy. Pasong Putik, Novaliches, Quezon City",
-    "cardDiscount": "",
-    "cardPrice": "",
-    "cardDescription": "Trees Residences offers the indulgence of a hushed, quiet neighborhood in the heart of Novaliches, Quezon City",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/card.jpg",
-    "bannerAbout": "Trees Residences offers the indulgence of a hushed, quiet neighborhood in the heart of Novaliches, Quezon City. With its very own retail area within the complex, you never have to leave home for the basics, giving you more time with the family to enjoy its exclusive amenities",
-    "bannerFeaturesHeading": "Features",
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": [
-      "1 Elevator per Tower",
-      "Automatic Fire Detection and Alarm System",
-      "Standby Generator Set for Common Areas & Select Unit Outlets",
-      "Sewerage Treatment Plant",
-      "Centralized Cistern Tank",
-      "Garbage Disposal Area for Every Floor",
-      "24 Hour Security",
-      "CCTV System on Select Areas"
-    ],
-    "bannerAmenities": [
+      "Adult and Kiddie Swimming Pools",
+      "Gated Community",
+      "Grand Lobby at Tower 1",
+      "Landscape Garden",
       "Function Rooms",
-      "Swimming Pools",
-      "Multi-Purpose Court",
-      "Covered Walkways"
+      "Playground"
     ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/banner.jpg",
+    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/banner.jpg",
     "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image01.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image02.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image03.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image04.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image05.png"
-    ]
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image01.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image02.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image03.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image04.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image05.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image06.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image07.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image08.png",
+      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image09.png"
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Experience a wonderful arrival each time you walk through the doors of the elegant grand lobby. A theme of tasteful modern contemporary opulence runs throughout, with custom-built marble, wood, and glass details, and furnishings that speak of style and sophistication.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image02.png"
+        ]
+      },
+      "feature": {
+        "title": "The power to customize",
+        "description": "One of South Residences’ most interesting features is the option to combine entire bedroom units to create a more spacious home that perfectly fits your needs. For more items to configure your home to your liking and shopping, dining, and entertainment choices besides, you can always drop by SM Southmall which is just a few steps away.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image09.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "At the heart of the development are spectacular amenities that define the art of leisure, with majestic blue pools, cozy gazebos, and luxe lounge areas. Nestled within the property is a garden sitting area, landscaped with the tropical foliage to complement the resort-like atmosphere of South Residences.",
+        "content": [
+          "Adult and Kiddie Swimming Pools",
+          "Gated Community",
+          "Grand Lobby at Tower 1",
+          "Landscape Garden",
+          "Function Rooms",
+          "Playground"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image01.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image05.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "",
+        "type": [
+          {
+            "name": "2-Bedroom End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2-Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1-Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image06.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image07.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/South/image08.png"
+        ]
+      }
+    }
   },
   {
     "id": "prturf63",
     "name": "Turf Residences",
     "status": "PRE-SELLING",
+    "city": "laguna",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/logoBlack.png"
@@ -1255,7 +1869,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Biñan Laguna",
     "cardDiscount": "",
-    "cardPrice": "Php 11,000 / Monthly",
+    "cardPrice": "Php 14,000 / Month",
     "cardDescription": "Relish the luxury and privacy of residing within the sophisticated suburban enclave in the South of the Metro",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/card.jpg",
     "bannerAbout": "Embark on a new chapter of suburban living at SMDC Turf Residences! Nestled in the prime south metro neighborhood in Binan, Laguna, this vibrant garden community connects you to the best of life – from top-notch schools, family shopping and entertainment to bustling business districts. Your perfect blend of convenience and comfort begins here!",
@@ -1294,12 +1908,79 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image14.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image15.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image16.jpg"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Feel the warmth of a gracious welcome that revitalizes your senses each time you step into our lobby, setting the tone for your day ahead.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image09.jpg"
+        ]
+      },
+      "feature": {
+        "title": "My home, my turf",
+        "description": "Embark on a new chapter of suburban living at SMDC Turf Residences! Nestled in the prime south metro neighborhood in Binan, Laguna, this vibrant garden community connects you to the best of life – from top-notch schools, family shopping and entertainment to bustling business districts. Your perfect blend of convenience and comfort begins here!",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image02.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Discover the perfect blend of leisure and wellness through our array of amenities.",
+        "content": [
+          "Gate and Guardhouse",
+          "Adult Pool",
+          "Kiddie Pool",
+          "Convenience Store",
+          "Outdoor Gym",
+          "Kid's Play Area",
+          "Linear Parks",
+          "Greenery Park",
+          "Pavillion",
+          "Co-working Space",
+          "Jogging Path",
+          "Covered Basketball Court"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image04.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image05.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image06.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image07.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image08.jpg"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "As the ideal modern home, Twin Residences' lush property is paired with a sleek and stylish interior design.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image10.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image11.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image12.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image13.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image14.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image15.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Turf/image16.jpg"
+        ]
+      }
+    }
   },
   {
     "id": "prtwin58",
     "name": "Twin Residences",
     "status": "PRE-SELLING",
+    "city": "las pinas",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/logoBlack.png"
@@ -1307,7 +1988,7 @@
     "propertyType": "pre-selling",
     "cardAddress": "Alabang Zapote, Lasi Piñas City",
     "cardDiscount": "",
-    "cardPrice": "Php 12,000 / Monthly",
+    "cardPrice": "Php 14,000 / Month",
     "cardDescription": "Sophisticated, elegant, and metropolitan, you'll find everything perfectly tailored to your lifestyle. Enjoy everything you need within easy reach having a home nestled between malls, supermarkets, major roads, and more!",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/card.jpg",
     "bannerAbout": "Nothing says you've made it quite like a Makati Address. Air Residences gives you a privileged lifestyle combining a convenient location with the luxurious comfort of its signature amenities. Located within the Philippines’ premier business and financial district, Air Residences brings you to the doorstep of success",
@@ -1352,75 +2033,108 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image15.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image16.png",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image17.png"
-    ]
-  },
-  {
-    "id": "prvail59",
-    "name": "Vail Residences",
-    "status": "PRE-SELLING",
-    "logo": {
-      "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/logoWhite.png",
-      "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/logoBlack.png"
-    },
-    "propertyType": "pre-selling",
-    "cardAddress": "Cagayan De Oro City",
-    "cardDiscount": "",
-    "cardPrice": "",
-    "cardDescription": "Welcome a new way of life with Vail Residences located in Mindanao's finest neighborhood: Uptown, Cagayan de Oro City!",
-    "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/card.jpg",
-    "bannerAbout": "Welcome a new way of life with Vail Residences located in Mindanao's finest neighborhood: Uptown, Cagayan de Oro City!",
-    "bannerFeaturesHeading": "Amenities",
-    "bannerFeatures": [
-      "Adult Pool",
-      "Kiddie Pool",
-      "Playground",
-      "Covered Basketball Court",
-      "Clubhouse",
-      "Pavilion"
     ],
-    "bannerAmenitiesHeading": "Amenities",
-    "bannerAmenities": [
-      "Linear Park",
-      "Green Link",
-      "Playground",
-      "Distance Markers",
-      "Grand Lobby",
-      "Grand Gateway"
-    ],
-    "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/banner.jpg",
-    "gallery": [
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image01.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image02.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image03.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image04.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image06.png",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image07.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image08.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image09.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image10.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image11.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Vail/image12.jpg"
-    ]
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Harmonize your life with the lush interiors of the lobby inspired by the serene balance of Yin and Yang.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image07.png"
+        ]
+      },
+      "feature": {
+        "title": "A balance of style and comfort",
+        "description": "Malls, supermarkets, major roads, dining destinations, you can find them all within reach of Twin Residences! In this sophisticated, elegant, and metropolitan condominium complex in Las Piñas, your tastes and your lifestyle are yours to shape in creating your personal haven, one perfectly tailored to you.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image01.png"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "Savor the complete comfort and convenience Twin Residences has to offer.",
+        "content": [
+          "Reflective Pool",
+          "Function Terrace",
+          "Seating Alcoves",
+          "Pool Table / Billiards Table",
+          "Table Tennis",
+          "Game Alley",
+          "Children's Play Area",
+          "Sports / Yoga Terrace"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image02.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image03.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image04.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image05.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image06.png"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "As the ideal modern home, Twin Residences' lush property is paired with a sleek and stylish interior design.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom with Balcony",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom End Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom End Unit with Balcony",
+            "description": ""
+          },
+          {
+            "name": "2 Bedroom End Unit with Balcony",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image11.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image12.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image14.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image15.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image16.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image17.png",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Twin/image13.png"
+        ]
+      }
+    }
   },
   {
     "id": "przeal62",
     "name": "Zeal Residences",
-    "status": "Ready for Occupancy",
+    "status": "PRE-SELLING",
+    "city": "cavite",
     "logo": {
       "white": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoWhite.png",
       "black": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/logoBlack.png"
     },
-    "propertyType": "rfo",
+    "propertyType": "pre-selling",
     "cardAddress": "General Trias, Cavite",
     "cardDiscount": "",
-    "cardPrice": "Php 12,000 / Monthly",
+    "cardPrice": "",
     "cardDescription": "Rising within the progressive city of General Trias is a modern garden-themed community situated right across a major mall providing future residents a seamless fusion of urban and provincial lifestyle.",
     "cardImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/card.jpg",
-    "bannerAbout": "",
-    "bannerFeaturesHeading": "Units",
+    "bannerAbout": "Rising within the progressive city of General Trias is a modern garden-themed community situated right across a major mall providing future residents a seamless fusion of urban and provincial lifestyle. With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences.",
+    "bannerGrandLobbyImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
+    "bannerFeaturesHeading": "Features",
+    "bannerFeatures": [
+      "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences."
+    ],
+    "bannerFeaturesImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
     "bannerAmenitiesHeading": "Amenities",
-    "bannerFeatures": ["Studio Unit", "Studio End Unit", "1 Bedroom Unit"],
+    "bannerAmenitiesDescription": "Experience the pleasure that comes with a complete collection of modern amenities all thoughtfully-designed to encourage activity and neighborly engagements!",
     "bannerAmenities": [
       "Lap Pool",
       "Kiddie Pool",
@@ -1432,18 +2146,20 @@
       "Commercial Strip",
       "Gate and Guardhouse"
     ],
+    "bannerAmenitiesImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg",
     "bannerImage": "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/banner.jpg",
+    "bannerUnitHeading": "Unit",
+    "bannerUnitDescription": "Wake up to joyful mornings in your own space surrounded by lush greenery, an inviting atmosphere, and a warm, peaceful community.",
+    "bannerUnit": ["Studio Unit", "Studio End Unit", "1 Bedroom Unit"],
+    "bannerUnitImage": "",
     "gallery": [
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image01.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image02.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image03.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image04.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image08.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg",
-      "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
@@ -1452,6 +2168,74 @@
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image16.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image17.jpg",
       "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image18.jpg"
-    ]
+    ],
+    "singleItem": {
+      "grandLobby": {
+        "title": "Grand Lobby",
+        "description": "Start conversations and make new friends or catch up with your existing ones at Zeal Residences’ welcoming lobby lounge.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image10.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image11.jpg"
+        ]
+      },
+      "feature": {
+        "title": "Live your life with zest!",
+        "description": "With an integrated retail strip and an array of recreational amenities, you can embrace a life full of glee at Zeal Residences.",
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg"
+        ]
+      },
+      "amenity": {
+        "title": "Amenities",
+        "description": "",
+        "content": [
+          "Lap Pool",
+          "Kiddie Pool",
+          "Playground",
+          "Linear Park",
+          "Central Amenity Area",
+          "Clubhouse",
+          "Covered Basketball Court",
+          "Commercial Strip",
+          "Gate and Guardhouse"
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image01.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image02.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image03.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image04.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image05.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image06.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image07.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image09.jpg"
+        ]
+      },
+      "unit": {
+        "title": "Units",
+        "description": "Wake up to joyful mornings in your own space surrounded by lush greenery, an inviting atmosphere, and a warm, peaceful community.",
+        "type": [
+          {
+            "name": "Studio Unit",
+            "description": ""
+          },
+          {
+            "name": "Studio End Unit",
+            "description": ""
+          },
+          {
+            "name": "1 Bedroom Unit",
+            "description": ""
+          }
+        ],
+        "image": [
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image16.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image17.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image18.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image12.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image13.jpg",
+          "https://sm-residences.s3.ap-southeast-1.amazonaws.com/sm-residences/Images/Zeal/image14.jpg"
+        ]
+      }
+    }
   }
 ]

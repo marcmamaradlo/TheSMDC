@@ -1,11 +1,14 @@
+import { useContext } from "react";
 import { useParams } from "react-router-dom";
-import propertiesJSON from "../../properties.json";
+import { MyContext } from "../../context";
 import SingleItem from "./SingleItem";
 
 const RenderSingleItem = () => {
+  const context = useContext(MyContext);
+  const allProperties = context.state.allProperties;
   const params = useParams();
   const propertyName = params.name.toLowerCase().split("-").join(" ");
-  const property = propertiesJSON.filter(
+  const property = allProperties.filter(
     (item) => item.name.toLowerCase() === propertyName
   );
 

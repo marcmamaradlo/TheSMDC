@@ -10,7 +10,7 @@ const RenderCategory = () => {
   const propertyCategory = context.propertyCategory;
   const scrollDocumentToTop = context.scrollDocumentToTop;
   const propertyType = params.selector.split("-").join(" ");
-
+  console.log(propertyType);
   useEffect(() => {
     scrollDocumentToTop();
   }, [params.selector]);

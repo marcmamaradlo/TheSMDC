@@ -46,16 +46,21 @@ const SingleItem = ({ data }) => {
       return feature.image ? feature.image[0] : null;
     };
 
-    const getPriceRange = () => {
-      const newPriceMax = parseInt(data.priceMax).toLocaleString();
-      const newPriceMin = parseInt(data.priceMin).toLocaleString();
-      return newPriceMin && newPriceMax === "NaN" ? null : (
-        <>
-          <h5>PRICE RANGE</h5>
-          <p>{`Php ${newPriceMin} - Php ${newPriceMax}`}</p>
-        </>
-      );
+    const getPrice = () => {
+      const newPrice = data.cardPrice;
+      return newPrice.map((item) => <p>{item}</p>);
     };
+
+    // const getPriceRange = () => {
+    //   const newPriceMax = parseInt(data.priceMax).toLocaleString();
+    //   const newPriceMin = parseInt(data.priceMin).toLocaleString();
+    //   return newPriceMin && newPriceMax === "NaN" ? null : (
+    //     <>
+    //       <h5>PRICE RANGE</h5>
+    //       <p>{`Php ${newPriceMin} - Php ${newPriceMax}`}</p>
+    //     </>
+    //   );
+    // };
 
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -86,7 +91,9 @@ const SingleItem = ({ data }) => {
                 <h5>LOCATION</h5>
                 <p>{data.cardAddress}</p>
 
-                {getPriceRange()}
+                {/* {getPriceRange()} */}
+                <h5>UNIT PRICE</h5>
+                {getPrice()}
               </div>
               <div className="details-section">
                 <h5>UNITS</h5>

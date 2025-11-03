@@ -53,7 +53,7 @@ const PropertyType = () => {
         <CustomLink
           text="view all properties"
           style="view-all-properties"
-          linkTo={`/property/view-all`}
+          linkTo={`../property/view-all`}
         />
       </div>
     </>

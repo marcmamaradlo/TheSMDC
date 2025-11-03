@@ -23,15 +23,15 @@ const FeaturedProperty = () => {
   return (
     <>
       <div className="featured-property" style={bgImg}>
-        {/* <div className="featured-image">
-          <img src={background} alt="Featured Background" />
-        </div> */}
         <div className="featured-content">
           <p>THE LATEST IN SMDC</p>
           <p>{name}</p>
           <h3>{title}</h3>
           <p>{headerTwo}</p>
-          <CustomLink linkTo="/property/parkville" text="Explore More" />
+          <CustomLink
+            linkTo="/property/gold-residences"
+            text="VISIT PROPERTY"
+          />
         </div>
       </div>
     </>

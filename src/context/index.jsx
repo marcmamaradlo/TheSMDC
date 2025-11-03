@@ -1,45 +1,39 @@
-import React, { Component } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { CustomLink } from "../components/buttons/Buttons";
 import Slider from "react-slick";
 
+import featuredJSON from "../featured.json";
 import premierJSON from "../premier.json";
 import bestSellingJSON from "../best-sellers.json";
 import rfoJSON from "../rfo.json";
 import preSellingJSON from "../pre-selling.json";
-import propertiesJSON from "../properties.json";
+import propertiesJSON from "../property.json";
 import Card from "../components/card/Card";
 
-const MyContext = React.createContext();
+export const MyContext = React.createContext();
 
-class MyProvider extends Component {
-  state = {
+export const MyProvider = ({ children }) => {
+  const [state, setState] = useState({
     test: true, // true, false
     contactModalIsActive: false, // true, false
     activeModal: false, //contactModal, homeModal, null
     locations: [
-      "quezon",
-      "manila",
-      "mandaluyong",
-      "cavite",
-      "makati",
-      "paranaque",
-      "muntinlupa",
-      "pasay",
-      "pasig",
-      "batangas",
+      "bacolod",
       "bulacan",
+      "cavite",
       "davao",
       "laguna",
-      "rizal",
-      "pampanga",
-      "tagaytay",
-      "iloilo",
-      "taguig",
-      "bacolod",
       "las pinas",
-      "tarlac",
-      "cagayan de oro",
+      "makati",
+      "manila",
+      "mandaluyong",
+      "muntinlupa",
+      "paranaque",
+      "pasay",
+      "pasig",
+      "quezon",
+      "tagaytay",
     ],
     helpfulLinks: [
       { title: "Home", link: "/" },
@@ -51,20 +45,20 @@ class MyProvider extends Component {
     propertySortitems: [
       { linkTo: "featured", name: "Featured" },
       { linkTo: "pre-selling", name: "Pre-Selling" },
-      { linkTo: "best-seller", name: "Best-Selling" },
-      { linkTo: "premier", name: "Premier" },
+      // { linkTo: "best-seller", name: "Best-Selling" },
+      // { linkTo: "premier", name: "Premier" },
       { linkTo: "rfo", name: "Ready for Occupancy" },
       { linkTo: "all-properties", name: "All Properties" },
-      { linkTo: "condominium", name: "Condominium" },
-      { linkTo: "house-and-lot", name: "House and Lot" },
-      { linkTo: "residential-office", name: "Residential-Office" },
-      { linkTo: "lot", name: "Lot" },
+      // { linkTo: "condominium", name: "Condominium" },
+      // { linkTo: "house-and-lot", name: "House and Lot" },
+      // { linkTo: "residential-office", name: "Residential-Office" },
+      // { linkTo: "lot", name: "Lot" },
     ],
 
     sortItemActive: "featured",
     hamburgerIsActive: false,
-    premier: premierJSON,
-    bestSelling: bestSellingJSON,
+    premier: featuredJSON,
+    bestSelling: featuredJSON,
     rfo: rfoJSON,
     preSelling: preSellingJSON,
     allProperties: propertiesJSON,
@@ -74,7 +68,7 @@ class MyProvider extends Component {
     heroImage: propertiesJSON[3].cardImage,
     heroIcon: propertiesJSON[3].logo.white,
     navbarActiveLink: "home",
-    featuredPropertyDetails: propertiesJSON[42],
+    featuredPropertyDetails: propertiesJSON[10],
     galleryData: [],
     galleryButtons: [],
     galleryImage: [],
@@ -83,14 +77,14 @@ class MyProvider extends Component {
     paginationCurrentPage: 1,
     paginationData: [],
     contactSpinnerActive: false, // true, false
+  });
+
+  const handleContactSpinner = (e) => {
+    setState((prev) => ({ ...prev, contactSpinnerActive: e }));
+    console.log(e);
   };
 
-  handleContactSpinner = (e) => {
-    this.setState({ contactSpinnerActive: e });
-    console.log(this.state.contactSpinnerActive);
-  };
-
-  handleHomeHero = () => {
+  const handleHomeHero = () => {
     return propertiesJSON.map((item, index) => {
       const heroBG = {
         backgroundImage: `url('${item.cardImage}')`,
@@ -107,7 +101,10 @@ class MyProvider extends Component {
               <img src={heroIcon} alt="Property Icon" />
               <CustomLink
                 text="EXPLORE PROPERTIES"
-                linkTo="/property"
+                linkTo={`/property/${item.name
+                  .toLocaleLowerCase()
+                  .split(" ")
+                  .join("-")}`}
                 style="hero-button"
               />
             </div>
@@ -118,18 +115,19 @@ class MyProvider extends Component {
     });
   };
 
-  galleryDefaultState = () => {
-    this.setState({
+  const galleryDefaultState = () => {
+    setState((prev) => ({
+      ...prev,
       galleryData: [],
       galleryButtons: [],
       galleryImage: [],
       galleryDescription: "",
       galleryTitle: "",
-    });
+    }));
   };
 
-  getMainGalleryData = (data) => {
-    this.setState({ galleryData: data });
+  const getMainGalleryData = (data) => {
+    setState((prev) => ({ ...prev, galleryData: data }));
     const amenity = data.singleItem.amenity;
     const grandLobby = data.singleItem.grandLobby;
     const unit = data.singleItem.unit;
@@ -139,44 +137,46 @@ class MyProvider extends Component {
     grandLobby.image.length > 0 ? newButtons.push("lobby") : null;
     unit.image.length > 0 ? newButtons.push("unit") : null;
 
-    this.setState({ galleryButtons: newButtons });
+    setState((prev) => ({ ...prev, galleryButtons: newButtons }));
   };
 
-  handleGalleryButtonClick = (e) => {
-    const amenity = this.state.galleryData.singleItem.amenity;
-    const grandLobby = this.state.galleryData.singleItem.grandLobby;
-    const unit = this.state.galleryData.singleItem.unit;
+  const handleGalleryButtonClick = (e) => {
+    const amenity = state.galleryData.singleItem.amenity;
+    const grandLobby = state.galleryData.singleItem.grandLobby;
+    const unit = state.galleryData.singleItem.unit;
 
-    this.setState({ galleryTitle: e.target.name });
+    setState((prev) => ({ ...prev, galleryTitle: e.target.name }));
 
-    e.target.name === "amenity"
-      ? this.setState({
-          galleryDescription: amenity.description,
-          galleryImage: amenity.image,
-        })
-      : e.target.name === "lobby"
-      ? this.setState({
-          galleryDescription: grandLobby.description,
-          galleryImage: grandLobby.image,
-        })
-      : e.target.name === "unit"
-      ? this.setState({
-          galleryDescription: unit.description,
-          galleryImage: unit.image,
-        })
-      : null;
+    if (e.target.name === "amenity") {
+      setState((prev) => ({
+        ...prev,
+        galleryDescription: amenity.description,
+        galleryImage: amenity.image,
+      }));
+    } else if (e.target.name === "lobby") {
+      setState((prev) => ({
+        ...prev,
+        galleryDescription: grandLobby.description,
+        galleryImage: grandLobby.image,
+      }));
+    } else if (e.target.name === "unit") {
+      setState((prev) => ({
+        ...prev,
+        galleryDescription: unit.description,
+        galleryImage: unit.image,
+      }));
+    }
   };
 
-  unMountRenderSearchResult = () => {
-    this.setState({ searchResult: "" });
+  const unMountRenderSearchResult = () => {
+    setState((prev) => ({ ...prev, searchResult: "" }));
   };
 
-  renderSearchResult = () => {
-    const item = this.state.searchResult;
-    // console.log(item);
+  const renderSearchResult = () => {
+    const item = state.searchResult;
     const newName = item ? item.name.split(" ").join("-") : null;
     return item ? (
-      <Link to={`/property/${newName.toLowerCase()}`} key={item.id}>
+      <Link to={`../property/${newName.toLowerCase()}`} key={item.id}>
         <Card
           id={item.id}
           name={item.name}
@@ -189,51 +189,48 @@ class MyProvider extends Component {
     ) : null;
   };
 
-  handleClearInput = (e) => {
+  const handleClearInput = (e) => {
     e.target.value = "";
   };
 
-  handlePropertySearchInput = (e) => {
-    this.setState({ propertySearchInput: e.target.value });
+  const handlePropertySearchInput = (e) => {
+    setState((prev) => ({ ...prev, propertySearchInput: e.target.value }));
   };
 
-  handlePropertySearch = (e) => {
+  const handlePropertySearch = (e) => {
     e.preventDefault();
-    const propertySearchInput = this.state.propertySearchInput;
+    const propertySearchInput = state.propertySearchInput;
     const newName = propertySearchInput.split(" ")[0];
     console.log(newName);
     const newObj = propertiesJSON.filter(
       (item) =>
         item.name.toLowerCase() === `${newName.toLowerCase()} residences`
     );
-    this.setState({ searchResult: newObj[0] });
+    setState((prev) => ({ ...prev, searchResult: newObj[0] }));
   };
 
-  renderPropertySearchResult = () => {};
+  const renderPropertySearchResult = () => {};
 
-  handleSortByItems = () => {
-    const propertySortitems = this.state.propertySortitems;
-    const sortItemActive = this.state.sortItemActive;
+  const handleSortByItems = () => {
+    const propertySortitems = state.propertySortitems;
     return propertySortitems.map((item, index) => (
       <Link
         key={item.linkTo + index}
         name={item.linkTo}
         className="notActive"
-        to={`/property/type/${item.linkTo}`}
+        to={`../property/type/${item.linkTo}`}
       >
         {item.name}
       </Link>
     ));
   };
 
-  propertyCategory = (e) => {
-    // console.log(e);
+  const propertyCategory = (e) => {
     const getBuildingType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.buildingType === e);
-      // console.log(newObj);
       return newObj.slice(0, 5).map((item) => (
         <Link
-          to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
+          to={`../${item.name.split(" ").join("-").toLowerCase()}`}
           key={item.id}
         >
           <Card
@@ -250,10 +247,9 @@ class MyProvider extends Component {
 
     const getPropertyType = () => {
       const newObj = propertiesJSON.filter((obj) => obj.propertyType === e);
-      // console.log(newObj);
       return newObj.map((item) => (
         <Link
-          to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
+          to={`../${item.name.split(" ").join("-").toLowerCase()}`}
           key={item.id}
         >
           <Card
@@ -270,10 +266,9 @@ class MyProvider extends Component {
 
     const getPropertyLocation = () => {
       const newObj = propertiesJSON.filter((obj) => obj.city === e);
-      // console.log(newObj);
       return newObj.map((item) => (
         <Link
-          to={`/property/${item.name.split(" ").join("-").toLowerCase()}`}
+          to={`../${item.name.split(" ").join("-").toLowerCase()}`}
           key={item.id}
         >
           <Card
@@ -306,35 +301,54 @@ class MyProvider extends Component {
     ) {
       // console.log(e);
       return getPropertyType();
+    }
+
+    if (e === "all-properties") {
+      const newObj = propertiesJSON;
+      return newObj.map((item) => (
+        <Link
+          to={`../${item.name.split(" ").join("-").toLowerCase()}`}
+          key={item.id}
+        >
+          <Card
+            id={item.id}
+            name={item.name}
+            priceMax={parseInt(item.priceMax).toLocaleString()}
+            priceMin={parseInt(item.priceMin).toLocaleString()}
+            cardImage={item.cardImage}
+            shortAddress={item.shortAddress}
+          />
+        </Link>
+      ));
     } else {
       // console.log(e);
       return getPropertyLocation();
     }
   };
 
-  handlePropertySort = () => {
+  const handlePropertySort = () => {
     console.log("Property Sort Function");
   };
 
-  handlePropertyTypes = () => {
+  const handlePropertyTypes = () => {
     const newObj = [
       {
-        url: this.state.premier[0].cardImage,
+        url: state.premier[0].cardImage,
         title: "Premier",
         name: "premier",
       },
       {
-        url: this.state.bestSelling[0].cardImage,
+        url: state.bestSelling[0].cardImage,
         title: "Best Selling",
         name: "best-seller",
       },
       {
-        url: this.state.rfo[0].cardImage,
+        url: state.rfo[0].cardImage,
         title: "Ready for Occupancy",
         name: "rfo",
       },
       {
-        url: this.state.preSelling[0].cardImage,
+        url: state.preSelling[0].cardImage,
         title: "Pre-Selling",
         name: "pre-selling",
       },
@@ -343,15 +357,13 @@ class MyProvider extends Component {
     return newObj.map((item, index) => {
       const bg = {
         backgroundImage: `url(${item.url})`,
-        backgroundRepear: "no-repeat",
+        backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        // height: "20rem",
-        // width: "49%",
       };
 
       return (
-        <Link to={`/property/type/${item.name}`} key={item.title + index}>
+        <Link to={`../property/type/${item.name}`} key={item.title + index}>
           <div style={bg}>
             <div className="property-icon-image">
               <p>{item.title}</p>
@@ -362,11 +374,11 @@ class MyProvider extends Component {
     });
   };
 
-  handleLocationLinks = () => {
-    const locations = this.state.locations;
+  const handleLocationLinks = () => {
+    const locations = state.locations;
     return locations.map((item, index) => (
       <Link
-        to={`/property/type/${item.split(" ").join("-")}`}
+        to={`../property/type/${item.split(" ").join("-")}`}
         key={item + index}
       >
         {item === "quezon" ? "QUEZON CITY" : item.toUpperCase()}
@@ -374,28 +386,27 @@ class MyProvider extends Component {
     ));
   };
 
-  resetShowMoreButtonIndex = () => {
-    this.setState({ showMoreButtonIndex: 4 });
+  const resetShowMoreButtonIndex = () => {
+    setState((prev) => ({ ...prev, showMoreButtonIndex: 4 }));
   };
 
-  handleShowMoreButton = (e) => {
-    this.setState({ showMoreButtonIndex: e });
+  const handleShowMoreButton = (e) => {
+    setState((prev) => ({ ...prev, showMoreButtonIndex: e }));
   };
 
-  handleContactModalState = () => {
-    const contactModalIsActive = this.state.contactModalIsActive;
-    const activeModal = this.state.activeModal;
-    this.setState({
-      contactModalIsActive: !contactModalIsActive,
-      activeModal: !activeModal,
-    });
+  const handleContactModalState = () => {
+    setState((prev) => ({
+      ...prev,
+      contactModalIsActive: !prev.contactModalIsActive,
+      activeModal: !prev.activeModal,
+    }));
   };
 
-  handlePremierProperties = () => {
+  const handlePremierProperties = () => {
     ///////////////////////////////////////////////////////////
     // DO NOT USE THIS FUNCTION ///////////////////////////////
     ///////////////////////////////////////////////////////////
-    const premierProperties = this.state.premier;
+    const premierProperties = state.premier;
     return premierProperties.map((item) => {
       return (
         <Link key={item.id}>
@@ -412,11 +423,11 @@ class MyProvider extends Component {
     });
   };
 
-  handleBestSellingProperties = () => {
+  const handleBestSellingProperties = () => {
     ///////////////////////////////////////////////////////////
     // DO NOT USE THIS FUNCTION ///////////////////////////////
     ///////////////////////////////////////////////////////////
-    const bestSellingProperties = this.state.bestSelling;
+    const bestSellingProperties = state.bestSelling;
     return bestSellingProperties.map((item) => {
       return (
         <Card
@@ -431,16 +442,14 @@ class MyProvider extends Component {
     });
   };
 
-  navbarLinks = () => {
+  const navbarLinks = () => {
     // map over navLinks to display in Navbar
-    const handleHamburgerIcon = this.handleHamburgerIcon;
-    const navbarActiveLink = this.state.navbarActiveLink;
     const urlName = document.URL.split("/")[3];
-    return this.state.navLinks.map((item, index) => {
+    return state.navLinks.map((item, index) => {
       const newItem = item.charAt(0).toUpperCase() + item.slice(1);
       return (
         <Link
-          to={`/${item}`}
+          to={`../${item}`}
           onClick={handleHamburgerIcon}
           key={item + index}
           name={item}
@@ -452,18 +461,18 @@ class MyProvider extends Component {
     });
   };
 
-  handleHamburgerIcon = (e) => {
+  const handleHamburgerIcon = (e) => {
     // toggle hamburger icon
-    const hamburgerIsActive = this.state.hamburgerIsActive;
-    this.setState({
-      hamburgerIsActive: !hamburgerIsActive,
+    setState((prev) => ({
+      ...prev,
+      hamburgerIsActive: !prev.hamburgerIsActive,
       navbarActiveLink: e.target.name,
-    });
+    }));
   };
 
-  helpfulLinks = () => {
+  const helpfulLinks = () => {
     // map over helpfulLinks to display in Footer
-    return this.state.helpfulLinks.map((item, index) => {
+    return state.helpfulLinks.map((item, index) => {
       return (
         <li key={index}>
           <Link to={item.link} key={item.title + index}>
@@ -474,12 +483,12 @@ class MyProvider extends Component {
     });
   };
 
-  locationLinks = () => {
+  const locationLinks = () => {
     // map over locations to display in Footer
-    return this.state.locations.map((location, index) => {
+    return state.locations.map((location, index) => {
       return (
         <li key={index}>
-          <Link to={`/property/location/${location}`} key={location + index}>
+          <Link to={`../property/location/${location}`} key={location + index}>
             {location === "quezon"
               ? location
                   .split(" ")
@@ -495,14 +504,16 @@ class MyProvider extends Component {
     });
   };
 
-  modalEmailOnClick = () => {
-    this.setState({
-      contactModalIsActive: !this.state.contactModalIsActive,
-      activeModal: !this.state.activeModal,
-    });
+  const modalEmailOnClick = () => {
+    setState((prev) => ({
+      ...prev,
+      contactModalIsActive: !prev.contactModalIsActive,
+      activeModal: !prev.activeModal,
+      hamburgerIsActive: false,
+    }));
   };
 
-  scrollDocumentToTop = () => {
+  const scrollDocumentToTop = () => {
     window.scrollTo({
       top: 0,
       left: 0,
@@ -510,71 +521,38 @@ class MyProvider extends Component {
     });
   };
 
-  render() {
-    const {
-      state,
-      helpfulLinks,
-      locationLinks,
-      handleHamburgerIcon,
-      navbarLinks,
-      handleBestSellingProperties,
-      handleContactModalState,
-      handleShowMoreButton,
-      resetShowMoreButtonIndex,
-      handleLocationLinks,
-      propertyCategory,
-      handlePropertyTypes,
-      handlePropertySort,
-      handleSortByItems,
-      handlePropertySearch,
-      handlePropertySearchInput,
-      handleClearInput,
-      renderSearchResult,
-      unMountRenderSearchResult,
-      modalEmailOnClick,
-      scrollDocumentToTop,
-      getMainGalleryData,
-      handleGalleryButtonClick,
-      galleryDefaultState,
-      handleHomeHero,
-      handleContactSpinner,
-    } = this;
-
-    return (
-      <MyContext.Provider
-        value={{
-          state,
-          helpfulLinks,
-          locationLinks,
-          handleHamburgerIcon,
-          navbarLinks,
-          handleBestSellingProperties,
-          handleContactModalState,
-          handleShowMoreButton,
-          resetShowMoreButtonIndex,
-          handleLocationLinks,
-          propertyCategory,
-          handlePropertyTypes,
-          handlePropertySort,
-          handleSortByItems,
-          handlePropertySearch,
-          handlePropertySearchInput,
-          handleClearInput,
-          renderSearchResult,
-          unMountRenderSearchResult,
-          modalEmailOnClick,
-          scrollDocumentToTop,
-          getMainGalleryData,
-          handleGalleryButtonClick,
-          galleryDefaultState,
-          handleHomeHero,
-          handleContactSpinner,
-        }}
-      >
-        {this.props.children}
-      </MyContext.Provider>
-    );
-  }
-}
-
-export { MyContext, MyProvider };
+  return (
+    <MyContext.Provider
+      value={{
+        state,
+        helpfulLinks,
+        locationLinks,
+        handleHamburgerIcon,
+        navbarLinks,
+        handleBestSellingProperties,
+        handleContactModalState,
+        handleShowMoreButton,
+        resetShowMoreButtonIndex,
+        handleLocationLinks,
+        propertyCategory,
+        handlePropertyTypes,
+        handlePropertySort,
+        handleSortByItems,
+        handlePropertySearch,
+        handlePropertySearchInput,
+        handleClearInput,
+        renderSearchResult,
+        unMountRenderSearchResult,
+        modalEmailOnClick,
+        scrollDocumentToTop,
+        getMainGalleryData,
+        handleGalleryButtonClick,
+        galleryDefaultState,
+        handleHomeHero,
+        handleContactSpinner,
+      }}
+    >
+      {children}
+    </MyContext.Provider>
+  );
+};

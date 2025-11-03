@@ -26,30 +26,6 @@ const Category = () => {
 
   return (
     <>
-      {/* <h3>Refine your search</h3>
-        <h4>It's now your time to have your own property! </h4> */}
-      {/* <div className="category">
-          <Link to="/property/type/condominium">
-            <span className="material-symbols-outlined">apartment</span>
-            <p>Condo</p>
-          </Link>
-
-          <Link to="/property/type/house-and-lot">
-            <span className="material-symbols-outlined">home</span>
-            House and Lot
-          </Link>
-
-          <Link to="/property/type/lot">
-            <span className="material-symbols-outlined">variable_add</span>
-            Lot
-          </Link>
-
-          <Link to="/property/type/residential-office">
-            <span className="material-symbols-outlined">home_work</span>
-            Residential Office
-          </Link>
-        </div> */}
-
       <h4>Don’t wait to buy real estate. Buy real estate and wait.</h4>
       <p>
         Embrace the power of real estate investment and seize the opportunity to
@@ -57,8 +33,6 @@ const Category = () => {
         estate now, knowing that time will enhance its value and reward your
         patience.
       </p>
-      {/* <div className="property-type">{handlePropertyTypes()}</div> */}
-      {/* <h5>SEARCH</h5> */}
       <div className="property-sort-container">
         <div className="property-sort">
           <form onSubmit={handlePropertySearch}>

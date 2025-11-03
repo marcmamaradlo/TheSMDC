@@ -1,6 +1,10 @@
-import premierJSON from "../../premier.json";
+import { useContext } from "react";
+import { MyContext } from "../../context";
+
 const StaticBanner = ({ style, text, page }) => {
-  console.log();
+  const context = useContext(MyContext);
+  const premierJSON = context.premierJSON;
+
   const bannerImage = {
     backgroundImage: `url(${premierJSON[0].bannerImage})`,
     backgroundRepear: "no-repeat",

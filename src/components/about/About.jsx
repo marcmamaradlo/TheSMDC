@@ -1,20 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
 import { CustomLink } from "../buttons/Buttons";
 
-import bestSellerJSON from "../../best-sellers.json";
+import { MyContext } from "../../context";
 import SMDCWhiteBG from "../../assets/SMDCWhiteBG.png";
-import propertiesJSON from "../../properties.json";
 import AboutWidget from "./AboutWIdget";
 import ShowPropertyTypes from "../property/ShowPropertyTypes";
 
 const About = () => {
+  const context = useContext(MyContext);
+  const allProperties = context.state.allProperties;
+  const bestSellingJSON = context.state.bestSelling;
+
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "About Us | The SMDC";
   }, []);
 
   const kts = {
-    backgroundImage: `url(${bestSellerJSON[2].gallery[2]})`,
+    backgroundImage: `url(${bestSellingJSON[2].gallery[2]})`,
     backgroundRepear: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -43,7 +46,7 @@ const About = () => {
       </div>
       <AboutWidget />
       <div className="airport-container">
-        <img src={bestSellerJSON[2].gallery[3]} alt="airport-img" />
+        <img src={bestSellingJSON[2].gallery[3]} alt="airport-img" />
         <div className="airport-text">
           <p>STAYCATION </p>
           <p>NEAR THE</p>
@@ -64,9 +67,9 @@ const About = () => {
           </div>
         </div>
         <div className="dyn-img">
-          <img src={bestSellerJSON[1].gallery[1]} alt="dyn-img01" />
-          <img src={bestSellerJSON[1].gallery[5]} alt="dyn-img02" />
-          <img src={bestSellerJSON[1].gallery[2]} alt="dyn-img03" />
+          <img src={bestSellingJSON[1].gallery[1]} alt="dyn-img01" />
+          <img src={bestSellingJSON[1].gallery[5]} alt="dyn-img02" />
+          <img src={bestSellingJSON[1].gallery[2]} alt="dyn-img03" />
         </div>
       </div>
       <div className="SMDC-Referrer component">
@@ -86,7 +89,7 @@ const About = () => {
           <div className="SMDC-Referrer-img">
             <div className="referrer-body">
               <div className="referrer-logo">
-                <img src={propertiesJSON[50].logo.white} alt="Shore 3 Logo" />
+                <img src={allProperties[31].logo.white} alt="Shore 3 Logo" />
                 <div className="referrer-price">
                   <p>EARN UP TO</p>
                   <p>PHP 194,000</p>
@@ -110,7 +113,7 @@ const About = () => {
           <div className="SMDC-Referrer-img">
             <div className="referrer-body">
               <div className="referrer-logo">
-                <img src={propertiesJSON[35].logo.white} alt="Mint Logo" />
+                <img src={allProperties[24].logo.white} alt="Mint Logo" />
                 <div className="referrer-price">
                   <p>EARN UP TO</p>
                   <p>PHP 174,000</p>
@@ -133,7 +136,7 @@ const About = () => {
           <div className="SMDC-Referrer-img">
             <div className="referrer-body">
               <div className="referrer-logo">
-                <img src={propertiesJSON[31].logo.white} alt="Light 2 Logo" />
+                <img src={allProperties[22].logo.white} alt="Light 2 Logo" />
                 <div className="referrer-price">
                   <p>EARN UP TO</p>
                   <p>PHP 144,000</p>
@@ -157,7 +160,7 @@ const About = () => {
           <div className="SMDC-Referrer-img">
             <div className="referrer-body">
               <div className="referrer-logo">
-                <img src={propertiesJSON[16].logo.white} alt="Glam Logo" />
+                <img src={allProperties[9].logo.white} alt="Glam Logo" />
                 <div className="referrer-price">
                   <p>EARN UP TO</p>
                   <p>PHP 196,000</p>
@@ -237,7 +240,7 @@ const About = () => {
         <CustomLink
           text="view all properties"
           style="button-call-to-action"
-          linkTo={`/properties`}
+          linkTo={`/property`}
         />
       </div>
     </>

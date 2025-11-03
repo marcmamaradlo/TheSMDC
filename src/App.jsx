@@ -12,7 +12,11 @@ const App = () => {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter
+        future={{
+          v7_startTransition: true,
+        }}
+      >
         <Navbar />
         <Router />
         <Footer />

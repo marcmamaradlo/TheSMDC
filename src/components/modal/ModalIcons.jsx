@@ -14,17 +14,20 @@ const ModalIcons = () => {
             <i className="fa-solid fa-envelope"></i>
           </div>
           <div className="modal-icon-container">
-            <a href="viber://chat/?number=%2B639665839308" target="_blank">
+            <a href="viber://chat/?number=%2B639055795681" target="_blank">
               <i className="fa-brands fa-viber"></i>
             </a>
           </div>
           <div className="modal-icon-container">
-            <a href="https://wa.me/639665839308" target="_blank">
+            <a href="https://wa.me/639055795681" target="_blank">
               <i className="fa-brands fa-whatsapp whatsapp-icon"></i>
             </a>
           </div>
           <div className="modal-icon-container">
-            <a href="https://fb.me/marc.mamaradlo.3" target="_blank">
+            <a
+              href="https://www.facebook.com/greatinvestmentph.geraldinegarcia"
+              target="_blank"
+            >
               <i className="fa-brands fa-facebook-messenger"></i>
             </a>
           </div>

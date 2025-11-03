@@ -28,14 +28,16 @@ const Properties = () => {
 
   return (
     <>
-      <div className="banner-hero" style={bgImg}></div>
+      <div className="banner-hero" style={bgImg}>
+        <ExploreLocation />
+      </div>
       <div className="component">
         {/* <h4>Here at SMDC</h4> */}
         <h3>We Have the Makings of Your Next Dream Home</h3>
         <h5></h5>
         <Category />
       </div>
-      <ExploreLocation />
+
       <div className="component">
         <HeadingOne />
         <Contact />

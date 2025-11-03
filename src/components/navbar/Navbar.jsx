@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
       <div className="navbar box-shadow">
         <div className="navbar-logo">
-          <Link to="/">
+          <Link to="../home">
             <img src={SMDCWhiteBG} alt="SMDC Logo" />
           </Link>
         </div>

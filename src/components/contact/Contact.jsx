@@ -55,8 +55,8 @@ const Contact = () => {
       // console.log(JSON.stringify(values, null, 2));
       emailjs
         .sendForm(
-          "service_1elk157",
-          "template_06bfi2p",
+          "service_tfeid5o",
+          "template_9hj2q1h",
           form.current,
           "e04CtcKkAAwLfi5Wv"
         )

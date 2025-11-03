@@ -26,17 +26,17 @@ const Home = () => {
     <>
       {/* <Pagination data={propertiesJSON} /> */}
       <HeroImage />
+      {/* <ExploreLocation /> */}
       <CategoryBuildingType />
-      <ExploreLocation />
       <FeaturedProperty />
       <div className="component">
         <HeadingOne />
         <Contact />
       </div>
       <div className="component">
-        <h3>Best Selling Properties</h3>
-        <h4>CHECK OUT OUR BEST-SELLING PROPERTIES</h4>
-        <ShowPropertyTypes pType={`best-seller`} />
+        <h3>Featured Properties</h3>
+        <h4>CHECK OUT OUR FEATURED PROPERTIES</h4>
+        <ShowPropertyTypes pType={`featured`} />
       </div>
       <LastComponent />
     </>

@@ -1,7 +1,14 @@
+import { useContext } from "react";
+
 import { Carousel } from "nuka-carousel";
 import premier from "../../premier.json";
 
+import { MyContext } from "../../context";
+
 const HomeCarousel = () => {
+  const context = useContext(MyContext);
+  const premier = context.premierJSON;
+
   const images = () => {
     return premier.map((item) => {
       const carouselBackground = {

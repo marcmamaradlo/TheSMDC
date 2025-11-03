@@ -63,8 +63,8 @@ const Featured = ({ data }) => {
             <p>{item.cardDescription}</p>
           </div>
           <div className="featured-links">
-            <Link to="/property">VIEW ALL PROPERTY</Link>
-            <Link to={`/property/${itemName.toLowerCase()}`}>
+            <Link to="../property">VIEW ALL PROPERTY</Link>
+            <Link to={`../property/${itemName.toLowerCase()}`}>
               VIEW PROPERTY
             </Link>
           </div>

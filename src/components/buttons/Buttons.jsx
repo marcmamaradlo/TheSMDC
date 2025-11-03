@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const Buttons = ({ type, name, text, onclick, style }) => {
   return (
@@ -11,9 +11,10 @@ const Buttons = ({ type, name, text, onclick, style }) => {
 };
 
 const CustomLink = ({ linkTo, text, style }) => {
+  console.log(linkTo);
   return (
     <>
-      <Link className={style} to={`${linkTo}`}>
+      <Link className={style} to={linkTo}>
         {text}
       </Link>
     </>
