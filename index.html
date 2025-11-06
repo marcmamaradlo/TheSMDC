@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/NewSMDCLogo.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Elevate your lifestyle with our exquisite condo developments, offering choicest amenities and features. Find your dream home today and invest in the future of your living experience."
+    />
+    <meta
+      name="keywords"
+      content="smdc preselling,smdc corp,sail residences,sands residences,gold residences, smdc"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -37,7 +45,7 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
     />
-    <title>The SMDC</title>
+    <title>SMDC Property</title>
   </head>
   <body>
     <div id="root"></div>
@@ -47,5 +55,33 @@
       AOS.init();
     </script>
     <script src="/env-config.js"></script>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "369871809797339");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v16.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <!-- Event snippet for Sign Up conversion page -->
   </body>
 </html>
