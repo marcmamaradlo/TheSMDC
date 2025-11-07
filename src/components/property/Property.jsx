@@ -24,6 +24,13 @@ const Properties = () => {
 
   useEffect(() => {
     scrollDocumentToTop();
+    document.title =
+      "Luxury Living at its Finest: Explore SMDC Properties Premium Features";
+    let descMeta = document.querySelector("meta[name='description']");
+    descMeta.setAttribute(
+      "content",
+      "Discover the epitome of luxury and sophistication with SMDC's premier properties.From exquisite design and high - end amenities to prime locations and enhanced security, our premiere developments offer indulgence, exclusivity, and unparalleled living experiences."
+    );
   }, []);
 
   return (

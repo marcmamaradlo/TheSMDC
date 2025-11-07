@@ -9,6 +9,12 @@ import HeadingOne from "../contact/HeadingOne";
 const Reservation = () => {
   useEffect(() => {
     scrollDocumentToTop();
+    document.title = "SMDC Condominium Reservations";
+    let descMeta = document.querySelector("meta[name='description']");
+    descMeta.setAttribute(
+      "content",
+      "Ready to reserve your dream SMDC condominium? Follow these simple steps to secure your unit and start living your best life!"
+    );
   }, []);
 
   const context = useContext(MyContext);

@@ -13,7 +13,7 @@ const About = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "About Us | The SMDC";
+    document.title = "SMDC About Us ";
   }, []);
 
   const kts = {

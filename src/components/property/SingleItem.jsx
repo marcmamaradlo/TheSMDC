@@ -48,7 +48,9 @@ const SingleItem = ({ data }) => {
 
     const getPrice = () => {
       const newPrice = data.cardPrice;
-      return newPrice.map((item) => <p>{item}</p>);
+      return newPrice.map((item, index) => (
+        <p key={`${data.name}${index}${data.id}`}>{item}</p>
+      ));
     };
 
     // const getPriceRange = () => {
@@ -90,8 +92,6 @@ const SingleItem = ({ data }) => {
               <div className="details-section">
                 <h5>LOCATION</h5>
                 <p>{data.cardAddress}</p>
-
-                {/* {getPriceRange()} */}
                 <h5>UNIT PRICE</h5>
                 {getPrice()}
               </div>

@@ -3,13 +3,17 @@ import { useContext, useState, useEffect } from "react";
 
 const RenderProperties = () => {
   const params = useParams();
-  console.log(params);
   const propertyName =
     params.property.charAt(0).toUpperCase() + params.property.slice(1);
-  console.log(propertyName);
+
   useEffect(() => {
-    document.title = `${propertyName} Properties | SMDC`;
-  });
+    document.title =
+      propertyName === "rfo"
+        ? "SMDC Ready for Occupancy Properties"
+        : propertyName === "pre-selling"
+        ? "SMDC Pre-Selling Properties"
+        : "SMDC Property";
+  }, [params.property]);
 
   return (
     <>

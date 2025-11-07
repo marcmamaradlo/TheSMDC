@@ -9,8 +9,6 @@ const RenderSingleItem = () => {
   const allProperties = context.state.allProperties;
   const params = useParams();
   const propertyName = params.name.toLowerCase().split("-").join(" ");
-  console.log(propertyName);
-  console.log(params);
   const propertyIndex = allProperties.findIndex(
     (item) => item.name.toLowerCase() === propertyName
   );

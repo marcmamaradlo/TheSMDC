@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Card from "../card/Card";
 import { MyContext } from "../../context";
@@ -6,6 +6,10 @@ import { MyContext } from "../../context";
 const ShowPropertyTypes = ({ pType }) => {
   const context = useContext(MyContext);
   const propertiesJSON = context.state.allProperties;
+
+  useEffect(() => {
+    document.title = `SMDC ${pType} Properties`;
+  }, [pType]);
 
   const showItem = () => {
     const newArr = propertiesJSON.filter((obj) => obj.propertyType === pType);

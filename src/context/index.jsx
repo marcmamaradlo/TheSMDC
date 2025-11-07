@@ -542,6 +542,10 @@ export const MyProvider = ({ children }) => {
     });
   };
 
+  const makeFirstLetterUppercase = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
   return (
     <MyContext.Provider
       value={{
@@ -571,6 +575,7 @@ export const MyProvider = ({ children }) => {
         galleryDefaultState,
         handleHomeHero,
         handleContactSpinner,
+        makeFirstLetterUppercase,
       }}
     >
       {children}

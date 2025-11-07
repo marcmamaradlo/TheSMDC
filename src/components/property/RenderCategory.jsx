@@ -6,12 +6,19 @@ import Pagination from "../features/pagination/Pagination";
 
 const RenderCategory = () => {
   const context = useContext(MyContext);
+  const makeFirstLetterUppercase = context.makeFirstLetterUppercase;
   const params = useParams();
   const propertyCategory = context.propertyCategory;
   const scrollDocumentToTop = context.scrollDocumentToTop;
   const propertyType = params.selector.split("-").join(" ");
   useEffect(() => {
     scrollDocumentToTop();
+    document.title =
+      propertyType === "rfo"
+        ? "SMDC Ready for Occupancy Properties"
+        : propertyType === "pre selling"
+        ? "SMDC Pre-Selling Properties"
+        : "SMDC Property";
   }, [params.selector]);
 
   return (

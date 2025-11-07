@@ -10,6 +10,12 @@ import Spinner from "../features/spinner/Spinner";
 const ContactUs = () => {
   useEffect(() => {
     scrollDocumentToTop();
+    document.title = "SMDC Contact Us | Get in touch with our agents now.";
+    let descMeta = document.querySelector("meta[name='description']");
+    descMeta.setAttribute(
+      "content",
+      "Need to get in touch with SMDC? Contact us through email, Facebook chat, or other channels. We are here to help with any questions or concerns you may have."
+    );
   }, []);
 
   const context = useContext(MyContext);
