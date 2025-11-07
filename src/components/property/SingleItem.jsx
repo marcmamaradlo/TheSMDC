@@ -53,20 +53,12 @@ const SingleItem = ({ data }) => {
       ));
     };
 
-    // const getPriceRange = () => {
-    //   const newPriceMax = parseInt(data.priceMax).toLocaleString();
-    //   const newPriceMin = parseInt(data.priceMin).toLocaleString();
-    //   return newPriceMin && newPriceMax === "NaN" ? null : (
-    //     <>
-    //       <h5>PRICE RANGE</h5>
-    //       <p>{`Php ${newPriceMin} - Php ${newPriceMax}`}</p>
-    //     </>
-    //   );
-    // };
-
     useEffect(() => {
       window.scrollTo(0, 0);
       document.title = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+      let descMeta = document.querySelector("meta[name='description']");
+      descMeta.setAttribute("content", data.bannerAbout);
+
       return () => {
         resetShowMoreButtonIndex();
       };
@@ -92,8 +84,8 @@ const SingleItem = ({ data }) => {
               <div className="details-section">
                 <h5>LOCATION</h5>
                 <p>{data.cardAddress}</p>
-                <h5>UNIT PRICE</h5>
-                {getPrice()}
+                {data.cardPrice ? <h5>UNIT PRICE</h5> : null}
+                {data.cardPrice ? getPrice() : null}
               </div>
               <div className="details-section">
                 <h5>UNITS</h5>
