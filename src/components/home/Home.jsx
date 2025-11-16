@@ -8,7 +8,7 @@ import CategoryBuildingType from "../property/CategoryBuildingType";
 import HeroImage from "./HeroImage";
 import FeaturedProperty from "../features/FeaturedProperty";
 import LastComponent from "./LastComponent";
-import RenderMessengerChat from "../features/facebookChat/RenderMessengerChat";
+// import RenderMessengerChat from "../features/facebookChat/RenderMessengerChat";
 
 const Home = () => {
   const context = useContext(MyContext);
@@ -34,7 +34,7 @@ const Home = () => {
         <ShowPropertyTypes pType={`featured`} />
       </div>
       <LastComponent />
-      <RenderMessengerChat />
+      {/* <RenderMessengerChat /> */}
     </>
   );
 };
